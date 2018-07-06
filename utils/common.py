@@ -14,6 +14,7 @@ def require_logined(fun):
     """
     @functools.wraps(fun)
     def wapper(request_handler_obj, *args, **kwargs):
+        # print(request_handler_obj.)
         if request_handler_obj.current_user:
             fun(request_handler_obj, *args, **kwargs)
         else:

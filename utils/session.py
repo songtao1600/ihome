@@ -45,3 +45,9 @@ class Session(object):
             raise Exception("save redis error")
         self.request_handler.set_secure_cookie("session_id", self.session_id)
 
+    def clear(self):
+        try:
+            aa = self.request_handler.redis.delete(self.session_id)
+        except Exception as e:
+            logging.error(e)
+        self.request_handler.clear_cookie("session_id")

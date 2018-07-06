@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author  :songtao
+# @File    :server.py
 
 import tornado.web
 import tornado.ioloop
@@ -12,7 +13,7 @@ from config import *
 from tornado.options import options, define
 from urls import handlers
 
-define('port', default=8020, type=int)
+define('port', default=8000, type=int)
 
 class Application(tornado.web.Application):
     def __init__(self, *args, **kwargs):

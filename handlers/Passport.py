@@ -11,6 +11,7 @@ from utils.session import Session
 from config import *
 from utils.response_code import RET
 from .BaseHandler import BaseHandler
+from utils.common import require_logined
 
 class IndexHandler(BaseHandler):
     def get(self, *args, **kwargs):
@@ -108,7 +109,6 @@ class LoginHandler(BaseHandler):
             return self.write(dict(errcode=RET.DATAERR, errmsg="登录失败"))
 
         sql = "select up_user_id,up_name,up_passwd from ih_user_profile where up_mobile = %s;" % mobile
-        print(sql)
         try:
             cur.execute(sql)
             req = cur.fetchone()
@@ -143,6 +143,16 @@ class CheckLoginHandler(BaseHandler):
             self.write({"errcode": RET.OK, "errmsg": "true", "data": {"name": name}})
         else:
             self.write({"errcode": RET.SESSIONERR, "errmsg": "false"})
+
+class LogoutHandler(BaseHandler):
+    '''
+    退出
+    '''
+    @require_logined
+    def get(self, *args, **kwargs):
+        session = Session(self)
+        session.clear()
+        self.write(dict(errcode=RET.OK, errmsg="退出成功"))
 
 
 

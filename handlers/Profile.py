@@ -125,3 +125,57 @@ class NameHandler(BaseHandler):
 
         self.write({"errcode": RET.OK, "errmsg": "OK"})
 
+class AuthHandler(BaseHandler):
+    '''
+    实名认证
+    '''
+    @require_logined
+    def get(self, *args, **kwargs):
+        '''获取信息'''
+        user_id = self.session['user_id']
+
+        sql = "select up_real_name,up_id_card from ih_user_profile where up_user_id=%s"
+        try:
+            cur = self.db.cursor()
+            cur.execute(sql, (user_id,))
+            auth = cur.fetchone()
+            # print(auth)
+            cur.close()
+            if auth:
+                self.write({"errcode": RET.OK, "errmsg": "OK",
+                        "data": {"real_name": auth.get("up_real_name", ""), "id_card": auth.get("up_id_card", "")}})
+            else:
+                return self.write({"errcode": RET.NODATA, "errmsg": "no data"})
+        except Exception as e:
+            logging.error(e)
+            return self.write({"errcode": RET.DBERR, "errmsg": "get data failed"})
+
+    @require_logined
+    def post(self, *args, **kwargs):
+        '''
+        更新实名信息
+        :param args:
+        :param kwargs:
+        :return:
+        '''
+        real_name = self.json_args.get('real_name')
+        id_card = self.json_args.get('id_card')
+        user_id = self.session['user_id']
+        if real_name in(None,"") or id_card in(None,""):
+            return self.write({"errcode": RET.PARAMERR, "errmsg": "params error"})
+
+        #判断身份证格式 --略
+
+        sql = "update ih_user_profile set up_real_name=%s,up_id_card=%s where up_user_id=%s"
+        try:
+            cur = self.db.cursor()
+            cur.execute(sql,(real_name, id_card, user_id))
+            self.db.commit()
+        except Exception as e:
+            logging.error(e)
+            return self.write({"errcode": RET.DBERR, "errmsg": "update failed"})
+
+        self.write({"errcode": RET.OK, "errmsg": "OK"})
+
+
+
