@@ -6,11 +6,15 @@ function getCookie(name) {
 $(document).ready(function(){
     $.get("/api/house/area", function (data) {
         if ("0" == data.errcode) {
+            // console.log(data)
+
             // html = template("area-tmpl", {areas: data.data});
             // $("#area-id").html(html);
             // console.log(html);
             for (var i=0; i<data.data.length; i++) {
-                $("#area-id").append('<option value="'+data.data[i].area_id+'">'+data.data[i].name+'</option>');
+                console.log(data.data[i].ai_name, data.data[i].ai_area_id)
+                // $("#area-id").append('<option value="'+data.data[i].ai_area_id+'">'+data.data[i].name+'</option>');
+                $("#area-id").append('<option value=data.data[i].ai_area_id>'+data.data[i].ai_name+'</option>');
             }
         }
     }, "json")

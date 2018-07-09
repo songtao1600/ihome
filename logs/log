@@ -1,829 +1,238 @@
-[I 180703 11:28:23 web:2106] 304 GET /api/check_login (127.0.0.1) 1.00ms
-[W 180703 11:28:23 web:2106] 404 GET /api/house/index (127.0.0.1) 2.50ms
-[I 180703 11:28:24 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.50ms
-[E 180703 11:28:25 Profile:33] Bad message (TypeError('not all arguments converted during string formatting',)): {'levelname': 'ERROR', 'processName': 'MainProcess', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'levelno': 40, 'stack_info': None, 'filename': 'Profile.py', 'process': 8608, 'args': (InterfaceError("(0, '')",),), 'name': 'root', 'msg': '≤È—Ø ˝æ›ø‚¥ÌŒÛ', 'exc_info': None, 'color': '', 'thread': 6872, 'threadName': 'MainThread', 'end_color': '', 'msecs': 146.50249481201172, 'relativeCreated': 87783.43749046326, 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'levelname\': \'ERROR\', \'processName\': \'MainProcess\', \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'levelno\': 40, \'stack_info\': None, \'filename\': \'Profile.py\', \'process\': 8608, \'args\': (InterfaceError("(0, \'\')",),), \'name\': \'root\', \'msg\': \'≤È—Ø ˝æ›ø‚¥ÌŒÛ\', \'exc_info\': None, \'thread\': 6872, \'threadName\': \'MainThread\', \'msecs\': 146.50249481201172, \'relativeCreated\': 87783.43749046326, \'module\': \'Profile\', \'created\': 1530588505.1465025, \'lineno\': 33, \'funcName\': \'get\', \'exc_text\': None}', 'module': 'Profile', 'created': 1530588505.1465025, 'lineno': 33, 'asctime': '180703 11:28:25', 'funcName': 'get', 'exc_text': None}
-[E 180703 11:28:25 web:1621] Uncaught exception GET /api/profile (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8020', method='GET', uri='/api/profile', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "E:\pytproject\code\handlers\Profile.py", line 30, in get
-        cur.execute(sql)
-      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 165, in execute
-        result = self._query(query)
-      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 321, in _query
-        conn.query(q)
-      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 859, in query
-        self._execute_command(COMMAND.COM_QUERY, sql)
-      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 1075, in _execute_command
-        raise err.InterfaceError("(0, '')")
-    pymysql.err.InterfaceError: (0, '')
-    
-    During handling of the above exception, another exception occurred:
-    
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\code\utils\common.py", line 18, in wapper
-        fun(request_handler_obj, *args, **kwargs)
-      File "E:\pytproject\code\handlers\Profile.py", line 35, in get
-        self.db.close()
-      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 721, in close
-        raise err.Error("Already closed")
-    pymysql.err.Error: Already closed
-[E 180703 11:28:25 web:2106] 500 GET /api/profile (127.0.0.1) 4.00ms
-[I 180703 11:28:25 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 7.00ms
-[D 180703 11:29:47 selector_events:53] Using selector: SelectSelector
-[I 180703 11:29:49 web:2106] 200 GET /api/check_login (127.0.0.1) 4.50ms
-[W 180703 11:29:49 web:2106] 404 GET /api/house/index (127.0.0.1) 5.00ms
-[I 180703 11:29:50 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 333.51ms
-[I 180703 11:29:51 web:2106] 200 GET /api/profile (127.0.0.1) 14.00ms
-[I 180703 11:29:52 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.50ms
-[I 180703 11:29:57 web:2106] 304 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180703 11:29:57 web:2106] 404 GET /api/house/index (127.0.0.1) 1.00ms
-[I 180703 11:29:58 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.50ms
-[D 180703 14:07:39 selector_events:53] Using selector: SelectSelector
-[I 180703 14:07:42 web:2106] 200 GET /api/profile (127.0.0.1) 6.00ms
-[I 180703 14:07:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 412.01ms
-[I 180703 14:07:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.00ms
-[I 180703 14:07:50 web:2106] 200 POST /api/login (127.0.0.1) 11.00ms
-[I 180703 14:07:51 web:2106] 200 GET /api/check_login (127.0.0.1) 2.50ms
-[W 180703 14:07:51 web:2106] 404 GET /api/house/index (127.0.0.1) 7.50ms
-[I 180703 14:07:51 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 1.00ms
-[I 180703 14:07:52 web:2106] 200 GET /api/profile (127.0.0.1) 9.00ms
-[I 180703 14:07:53 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.00ms
-[I 180703 14:07:57 web:2106] 304 GET /api/profile (127.0.0.1) 2.00ms
-[I 180703 14:07:57 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[I 180703 14:09:59 autoreload:196] E:\pytproject\code\urls.py modified; restarting server
-[D 180703 14:19:17 selector_events:53] Using selector: SelectSelector
-[I 180703 14:19:28 web:2106] 200 GET /api/profile (127.0.0.1) 7.00ms
-[I 180703 14:19:28 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 287.51ms
-[E 180703 14:19:29 web:1621] Uncaught exception GET /api/check_login (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8020', method='GET', uri='/api/check_login', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\code\handlers\Passport.py", line 140, in get
-        name = (json.loads(self.current_user.decode()).get("name"))
-    AttributeError: 'dict' object has no attribute 'decode'
-[E 180703 14:19:29 web:2106] 500 GET /api/check_login (127.0.0.1) 33.00ms
-[W 180703 14:19:29 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
-[I 180703 14:19:29 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.50ms
-[D 180703 14:21:00 selector_events:53] Using selector: SelectSelector
-[E 180703 14:21:03 web:1621] Uncaught exception GET /api/check_login (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8020', method='GET', uri='/api/check_login', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\code\handlers\Passport.py", line 139, in get
-        if self.current_user:
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1184, in current_user
-        self._current_user = self.get_current_user()
-      File "E:\pytproject\code\handlers\BaseHandler.py", line 40, in get_current_user
-        return json.loads(self.session.get_session().decode())
-    AttributeError: 'NoneType' object has no attribute 'decode'
-[E 180703 14:21:03 web:2106] 500 GET /api/check_login (127.0.0.1) 7.50ms
-[W 180703 14:21:03 web:2106] 404 GET /api/house/index (127.0.0.1) 1.00ms
-[I 180703 14:21:03 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 284.01ms
-[D 180703 14:22:23 selector_events:53] Using selector: SelectSelector
-[E 180703 14:22:28 web:1621] Uncaught exception GET /api/check_login (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8020', method='GET', uri='/api/check_login', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\code\handlers\Passport.py", line 139, in get
-        if self.current_user:
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1184, in current_user
-        self._current_user = self.get_current_user()
-      File "E:\pytproject\code\handlers\BaseHandler.py", line 40, in get_current_user
-        return json.loads(self.session.get_session())
-      File "D:\Program Files\Python35\lib\json\__init__.py", line 312, in loads
-        s.__class__.__name__))
-    TypeError: the JSON object must be str, not 'NoneType'
-[E 180703 14:22:28 web:2106] 500 GET /api/check_login (127.0.0.1) 21.50ms
-[W 180703 14:22:28 web:2106] 404 GET /api/house/index (127.0.0.1) 3.00ms
-[I 180703 14:22:29 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 253.01ms
-[D 180703 14:24:21 selector_events:53] Using selector: SelectSelector
-[I 180703 14:24:22 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180703 14:24:22 web:2106] 404 GET /api/house/index (127.0.0.1) 5.50ms
-[I 180703 14:24:22 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 321.01ms
-[I 180703 14:24:24 web:2106] 304 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180703 14:24:24 web:2106] 404 GET /api/house/index (127.0.0.1) 2.50ms
-[I 180703 14:24:25 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[D 180703 14:26:33 selector_events:53] Using selector: SelectSelector
-[D 180703 14:27:15 selector_events:53] Using selector: SelectSelector
-[E 180703 14:27:18 web:1621] Uncaught exception GET /api/check_login (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8020', method='GET', uri='/api/check_login', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\code\handlers\Passport.py", line 139, in get
-        if self.current_user:
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1184, in current_user
-        self._current_user = self.get_current_user()
-      File "E:\pytproject\code\handlers\BaseHandler.py", line 45, in get_current_user
-        return self.session
-    AttributeError: 'CheckLoginHandler' object has no attribute 'session'
-[E 180703 14:27:18 web:2106] 500 GET /api/check_login (127.0.0.1) 9.00ms
-[W 180703 14:27:18 web:2106] 404 GET /api/house/index (127.0.0.1) 3.00ms
-[I 180703 14:27:19 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 297.01ms
-[D 180703 14:29:28 selector_events:53] Using selector: SelectSelector
-[I 180703 14:29:32 web:2106] 200 GET /api/check_login (127.0.0.1) 17.00ms
-[W 180703 14:29:32 web:2106] 404 GET /api/house/index (127.0.0.1) 5.50ms
-[I 180703 14:29:32 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 309.51ms
-[I 180703 14:29:35 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.50ms
-[I 180703 14:29:42 web:2106] 200 POST /api/login (127.0.0.1) 9.50ms
-[E 180703 14:29:43 web:1621] Uncaught exception GET /api/check_login (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8020', method='GET', uri='/api/check_login', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\code\handlers\Passport.py", line 139, in get
-        if self.current_user:
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1184, in current_user
-        self._current_user = self.get_current_user()
-      File "E:\pytproject\code\handlers\BaseHandler.py", line 42, in get_current_user
-        self.session = json.loads(self.session.get_session().decode())
-    AttributeError: 'CheckLoginHandler' object has no attribute 'session'
-[E 180703 14:29:43 web:2106] 500 GET /api/check_login (127.0.0.1) 3.00ms
-[W 180703 14:29:43 web:2106] 404 GET /api/house/index (127.0.0.1) 3.00ms
-[I 180703 14:29:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[D 180703 14:30:44 selector_events:53] Using selector: SelectSelector
-[E 180703 14:30:47 web:1621] Uncaught exception GET /api/check_login (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8020', method='GET', uri='/api/check_login', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\code\handlers\Passport.py", line 139, in get
-        if self.current_user:
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1184, in current_user
-        self._current_user = self.get_current_user()
-      File "E:\pytproject\code\handlers\BaseHandler.py", line 42, in get_current_user
-        self.session = json.loads(session_data.get_session().decode())
-    AttributeError: 'bytes' object has no attribute 'get_session'
-[E 180703 14:30:47 web:2106] 500 GET /api/check_login (127.0.0.1) 8.00ms
-[W 180703 14:30:47 web:2106] 404 GET /api/house/index (127.0.0.1) 5.50ms
-[I 180703 14:30:48 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 308.51ms
-[D 180703 14:31:23 selector_events:53] Using selector: SelectSelector
-[I 180703 14:31:25 web:2106] 200 GET /api/check_login (127.0.0.1) 10.00ms
-[W 180703 14:31:25 web:2106] 404 GET /api/house/index (127.0.0.1) 5.00ms
-[I 180703 14:31:26 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 300.01ms
-[I 180703 14:31:28 web:2106] 200 GET /api/profile (127.0.0.1) 2.50ms
-[I 180703 14:31:28 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.50ms
-[D 180703 14:45:25 selector_events:53] Using selector: SelectSelector
-[I 180703 14:45:37 web:2106] 200 GET /api/profile (127.0.0.1) 6.50ms
-[I 180703 14:45:38 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 417.52ms
-[I 180703 14:45:38 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180703 14:45:45 web:2106] 200 POST /api/login (127.0.0.1) 7.50ms
-[I 180703 14:45:46 web:2106] 200 GET /api/check_login (127.0.0.1) 2.50ms
-[W 180703 14:45:46 web:2106] 404 GET /api/house/index (127.0.0.1) 4.00ms
-[I 180703 14:45:46 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.50ms
-[I 180703 14:45:49 web:2106] 200 GET /api/profile (127.0.0.1) 7.50ms
-[I 180703 14:45:49 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.50ms
-[I 180703 14:45:51 web:2106] 304 GET /api/profile (127.0.0.1) 2.50ms
-[I 180703 14:45:51 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.00ms
-[E 180703 14:45:57 web:1621] Uncaught exception POST /api/profile/name (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8020', method='POST', uri='/api/profile/name', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "E:\pytproject\code\handlers\Profile.py", line 110, in post
-        fet = cur.execute(sql)
-      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 165, in execute
-        result = self._query(query)
-      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 321, in _query
-        conn.query(q)
-      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 858, in query
-        sql = sql.encode(self.encoding, 'surrogateescape')
-    UnicodeEncodeError: 'latin-1' codec can't encode characters in position 47-48: ordinal not in range(256)
-    
-    During handling of the above exception, another exception occurred:
-    
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\code\utils\common.py", line 18, in wapper
-        fun(request_handler_obj, *args, **kwargs)
-      File "E:\pytproject\code\handlers\Profile.py", line 117, in post
-        logging('≤È—Ø ˝æ›ø‚ ß∞‹', e)
-    TypeError: 'module' object is not callable
-[E 180703 14:45:58 web:2106] 500 POST /api/profile/name (127.0.0.1) 214.51ms
-[D 180703 14:48:23 selector_events:53] Using selector: SelectSelector
-[E 180703 14:48:30 Profile:117] Bad message (TypeError('not all arguments converted during string formatting',)): {'asctime': '180703 14:48:30', 'name': 'root', 'processName': 'MainProcess', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'name\': \'root\', \'processName\': \'MainProcess\', \'filename\': \'Profile.py\', \'msecs\': 237.5812530517578, \'thread\': 9212, \'levelname\': \'ERROR\', \'relativeCreated\': 7353.387355804443, \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'process\': 8412, \'args\': (UnicodeEncodeError(\'latin-1\', \'select * from ih_user_profile where up_name = "ÀŒÃŒ" ;\', 47, 49, \'ordinal not in range(256)\'),), \'funcName\': \'post\', \'created\': 1530600510.2375813, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'threadName\': \'MainThread\', \'module\': \'Profile\', \'exc_info\': None, \'lineno\': 117, \'exc_text\': None, \'levelno\': 40, \'stack_info\': None}', 'filename': 'Profile.py', 'msecs': 237.5812530517578, 'color': '', 'thread': 9212, 'levelname': 'ERROR', 'relativeCreated': 7353.387355804443, 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'process': 8412, 'args': (UnicodeEncodeError('latin-1', 'select * from ih_user_profile where up_name = "ÀŒÃŒ" ;', 47, 49, 'ordinal not in range(256)'),), 'end_color': '', 'funcName': 'post', 'created': 1530600510.2375813, 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'threadName': 'MainThread', 'module': 'Profile', 'exc_info': None, 'lineno': 117, 'exc_text': None, 'levelno': 40, 'stack_info': None}
-[I 180703 14:48:30 web:2106] 200 POST /api/profile/name (127.0.0.1) 154.01ms
-[I 180703 14:48:48 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 450.52ms
-[I 180703 14:48:50 web:2106] 200 GET /api/profile (127.0.0.1) 3.00ms
-[I 180703 14:48:50 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.50ms
-[E 180703 14:48:56 Profile:117] Bad message (TypeError('not all arguments converted during string formatting',)): {'asctime': '180703 14:48:56', 'name': 'root', 'processName': 'MainProcess', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'name\': \'root\', \'processName\': \'MainProcess\', \'filename\': \'Profile.py\', \'msecs\': 474.6217727661133, \'thread\': 9212, \'levelname\': \'ERROR\', \'relativeCreated\': 33590.4278755188, \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'process\': 8412, \'args\': (UnicodeEncodeError(\'latin-1\', \'select * from ih_user_profile where up_name = "ÀŒÃŒ" ;\', 47, 49, \'ordinal not in range(256)\'),), \'funcName\': \'post\', \'created\': 1530600536.4746218, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'threadName\': \'MainThread\', \'module\': \'Profile\', \'exc_info\': None, \'lineno\': 117, \'exc_text\': None, \'levelno\': 40, \'stack_info\': None}', 'filename': 'Profile.py', 'msecs': 474.6217727661133, 'color': '', 'thread': 9212, 'levelname': 'ERROR', 'relativeCreated': 33590.4278755188, 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'process': 8412, 'args': (UnicodeEncodeError('latin-1', 'select * from ih_user_profile where up_name = "ÀŒÃŒ" ;', 47, 49, 'ordinal not in range(256)'),), 'end_color': '', 'funcName': 'post', 'created': 1530600536.4746218, 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'threadName': 'MainThread', 'module': 'Profile', 'exc_info': None, 'lineno': 117, 'exc_text': None, 'levelno': 40, 'stack_info': None}
-[I 180703 14:48:56 web:2106] 200 POST /api/profile/name (127.0.0.1) 2.50ms
-[I 180703 14:49:20 web:2106] 304 GET /api/profile (127.0.0.1) 7.50ms
-[I 180703 14:49:21 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.50ms
-[I 180703 14:49:22 web:2106] 200 GET /api/check_login (127.0.0.1) 0.00ms
-[W 180703 14:49:22 web:2106] 404 GET /api/house/index (127.0.0.1) 0.00ms
-[I 180703 14:49:22 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 0.00ms
-[I 180703 14:49:42 web:2106] 304 GET /api/profile (127.0.0.1) 5.00ms
-[I 180703 14:49:42 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.50ms
-[D 180703 14:51:15 selector_events:53] Using selector: SelectSelector
-[I 180703 14:51:21 web:2106] 200 GET /api/profile (127.0.0.1) 23.00ms
-[I 180703 14:51:21 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 267.01ms
-[I 180703 14:51:22 web:2106] 200 GET /static/css/ihome/profile.css (127.0.0.1) 27.50ms
-[I 180703 14:51:22 web:2106] 304 GET /api/profile (127.0.0.1) 10.00ms
-[I 180703 14:51:22 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[E 180703 14:51:25 Profile:117] Bad message (TypeError('not all arguments converted during string formatting',)): {'levelname': 'ERROR', 'exc_info': None, 'processName': 'MainProcess', 'relativeCreated': 10920.545101165771, 'asctime': '180703 14:51:25', 'levelno': 40, 'created': 1530600685.3098054, 'stack_info': None, 'color': '', 'exc_text': None, 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'levelname\': \'ERROR\', \'exc_info\': None, \'processName\': \'MainProcess\', \'relativeCreated\': 10920.545101165771, \'levelno\': 40, \'created\': 1530600685.3098054, \'stack_info\': None, \'exc_text\': None, \'filename\': \'Profile.py\', \'lineno\': 117, \'args\': (AttributeError("\'int\' object has no attribute \'feactone\'",),), \'module\': \'Profile\', \'funcName\': \'post\', \'name\': \'root\', \'threadName\': \'MainThread\', \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'thread\': 9676, \'process\': 8620, \'msecs\': 309.80539321899414}', 'filename': 'Profile.py', 'lineno': 117, 'args': (AttributeError("'int' object has no attribute 'feactone'",),), 'module': 'Profile', 'funcName': 'post', 'end_color': '', 'name': 'root', 'threadName': 'MainThread', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'thread': 9676, 'process': 8620, 'msecs': 309.80539321899414}
-[I 180703 14:51:25 web:2106] 200 POST /api/profile/name (127.0.0.1) 9.00ms
-[D 180703 14:52:46 selector_events:53] Using selector: SelectSelector
-[E 180703 14:52:55 Profile:117] Bad message (TypeError('not all arguments converted during string formatting',)): {'processName': 'MainProcess', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'relativeCreated': 8971.977472305298, 'funcName': 'post', 'levelname': 'ERROR', 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'color': '', 'created': 1530600775.1799634, 'module': 'Profile', 'end_color': '', 'args': (AttributeError("'int' object has no attribute 'feactone'",),), 'name': 'root', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'processName\': \'MainProcess\', \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'relativeCreated\': 8971.977472305298, \'funcName\': \'post\', \'levelname\': \'ERROR\', \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'created\': 1530600775.1799634, \'module\': \'Profile\', \'args\': (AttributeError("\'int\' object has no attribute \'feactone\'",),), \'name\': \'root\', \'filename\': \'Profile.py\', \'process\': 9764, \'msecs\': 179.9633502960205, \'stack_info\': None, \'levelno\': 40, \'thread\': 9252, \'exc_info\': None, \'exc_text\': None, \'lineno\': 117, \'threadName\': \'MainThread\'}', 'filename': 'Profile.py', 'process': 9764, 'msecs': 179.9633502960205, 'stack_info': None, 'asctime': '180703 14:52:55', 'levelno': 40, 'thread': 9252, 'exc_info': None, 'exc_text': None, 'lineno': 117, 'threadName': 'MainThread'}
-[I 180703 14:52:55 web:2106] 200 POST /api/profile/name (127.0.0.1) 91.00ms
-[D 180703 14:54:21 selector_events:53] Using selector: SelectSelector
-[E 180703 14:54:24 Profile:117] Bad message (TypeError('not all arguments converted during string formatting',)): {'relativeCreated': 4007.709741592407, 'exc_info': None, 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'filename': 'Profile.py', 'name': 'root', 'args': (AttributeError("'int' object has no attribute 'feactone'",),), 'asctime': '180703 14:54:24', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'color': '', 'lineno': 117, 'levelno': 40, 'module': 'Profile', 'funcName': 'post', 'msecs': 422.0387935638428, 'exc_text': None, 'end_color': '', 'process': 3328, 'created': 1530600864.4220388, 'processName': 'MainProcess', 'threadName': 'MainThread', 'thread': 10128, 'stack_info': None, 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'relativeCreated\': 4007.709741592407, \'exc_info\': None, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'filename\': \'Profile.py\', \'name\': \'root\', \'args\': (AttributeError("\'int\' object has no attribute \'feactone\'",),), \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'lineno\': 117, \'levelno\': 40, \'module\': \'Profile\', \'funcName\': \'post\', \'msecs\': 422.0387935638428, \'exc_text\': None, \'process\': 3328, \'created\': 1530600864.4220388, \'processName\': \'MainProcess\', \'threadName\': \'MainThread\', \'thread\': 10128, \'stack_info\': None, \'levelname\': \'ERROR\'}', 'levelname': 'ERROR'}
-[I 180703 14:54:24 web:2106] 200 POST /api/profile/name (127.0.0.1) 7.50ms
-[E 180703 14:54:28 Profile:117] Bad message (TypeError('not all arguments converted during string formatting',)): {'relativeCreated': 8240.431308746338, 'exc_info': None, 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'filename': 'Profile.py', 'name': 'root', 'args': (AttributeError("'int' object has no attribute 'feactone'",),), 'asctime': '180703 14:54:28', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'color': '', 'lineno': 117, 'levelno': 40, 'module': 'Profile', 'funcName': 'post', 'msecs': 654.7603607177734, 'exc_text': None, 'end_color': '', 'process': 3328, 'created': 1530600868.6547604, 'processName': 'MainProcess', 'threadName': 'MainThread', 'thread': 10128, 'stack_info': None, 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'relativeCreated\': 8240.431308746338, \'exc_info\': None, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'filename\': \'Profile.py\', \'name\': \'root\', \'args\': (AttributeError("\'int\' object has no attribute \'feactone\'",),), \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'lineno\': 117, \'levelno\': 40, \'module\': \'Profile\', \'funcName\': \'post\', \'msecs\': 654.7603607177734, \'exc_text\': None, \'process\': 3328, \'created\': 1530600868.6547604, \'processName\': \'MainProcess\', \'threadName\': \'MainThread\', \'thread\': 10128, \'stack_info\': None, \'levelname\': \'ERROR\'}', 'levelname': 'ERROR'}
-[I 180703 14:54:28 web:2106] 200 POST /api/profile/name (127.0.0.1) 3.00ms
-[D 180703 14:55:01 selector_events:53] Using selector: SelectSelector
-[E 180703 14:55:03 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'filename\': \'Profile.py\', \'threadName\': \'MainThread\', \'stack_info\': None, \'funcName\': \'post\', \'name\': \'root\', \'thread\': 9696, \'lineno\': 120, \'processName\': \'MainProcess\', \'exc_info\': None, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'levelname\': \'ERROR\', \'created\': 1530600903.446036, \'msecs\': 446.03610038757324, \'args\': (AttributeError("\'int\' object has no attribute \'feactone\'",),), \'exc_text\': None, \'process\': 9360, \'levelno\': 40, \'relativeCreated\': 2265.122175216675, \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'module\': \'Profile\'}', 'filename': 'Profile.py', 'threadName': 'MainThread', 'stack_info': None, 'end_color': '', 'funcName': 'post', 'name': 'root', 'thread': 9696, 'color': '', 'lineno': 120, 'processName': 'MainProcess', 'exc_info': None, 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'asctime': '180703 14:55:03', 'levelname': 'ERROR', 'created': 1530600903.446036, 'msecs': 446.03610038757324, 'args': (AttributeError("'int' object has no attribute 'feactone'",),), 'exc_text': None, 'process': 9360, 'levelno': 40, 'relativeCreated': 2265.122175216675, 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'module': 'Profile'}
-[I 180703 14:55:03 web:2106] 200 POST /api/profile/name (127.0.0.1) 5.00ms
-[D 180703 14:55:24 selector_events:53] Using selector: SelectSelector
-[E 180703 14:55:25 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'relativeCreated': 1694.5908069610596, 'lineno': 120, 'name': 'root', 'exc_info': None, 'asctime': '180703 14:55:25', 'filename': 'Profile.py', 'color': '', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'relativeCreated\': 1694.5908069610596, \'lineno\': 120, \'name\': \'root\', \'exc_info\': None, \'filename\': \'Profile.py\', \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'threadName\': \'MainThread\', \'stack_info\': None, \'exc_text\': None, \'levelname\': \'ERROR\', \'processName\': \'MainProcess\', \'funcName\': \'post\', \'args\': (AttributeError("\'int\' object has no attribute \'fetchone\'",),), \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'levelno\': 40, \'module\': \'Profile\', \'created\': 1530600925.766721, \'process\': 8988, \'msecs\': 766.7210102081299, \'thread\': 8736}', 'threadName': 'MainThread', 'stack_info': None, 'exc_text': None, 'levelname': 'ERROR', 'processName': 'MainProcess', 'funcName': 'post', 'args': (AttributeError("'int' object has no attribute 'fetchone'",),), 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'levelno': 40, 'module': 'Profile', 'created': 1530600925.766721, 'end_color': '', 'process': 8988, 'msecs': 766.7210102081299, 'thread': 8736}
-[I 180703 14:55:25 web:2106] 200 POST /api/profile/name (127.0.0.1) 14.00ms
-[D 180703 14:56:20 selector_events:53] Using selector: SelectSelector
-[E 180703 14:56:22 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'module': 'Profile', 'msecs': 512.7172470092773, 'stack_info': None, 'funcName': 'post', 'exc_text': None, 'levelno': 40, 'filename': 'Profile.py', 'asctime': '180703 14:56:22', 'process': 7764, 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'args': (AttributeError("'int' object has no attribute 'fetchone'",),), 'relativeCreated': 2480.6318283081055, 'processName': 'MainProcess', 'exc_info': None, 'color': '', 'levelname': 'ERROR', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'module\': \'Profile\', \'msecs\': 512.7172470092773, \'stack_info\': None, \'funcName\': \'post\', \'exc_text\': None, \'levelno\': 40, \'filename\': \'Profile.py\', \'process\': 7764, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'args\': (AttributeError("\'int\' object has no attribute \'fetchone\'",),), \'relativeCreated\': 2480.6318283081055, \'processName\': \'MainProcess\', \'exc_info\': None, \'levelname\': \'ERROR\', \'threadName\': \'MainThread\', \'created\': 1530600982.5127172, \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'lineno\': 120, \'name\': \'root\', \'thread\': 9300}', 'end_color': '', 'threadName': 'MainThread', 'created': 1530600982.5127172, 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'lineno': 120, 'name': 'root', 'thread': 9300}
-[I 180703 14:56:22 web:2106] 200 POST /api/profile/name (127.0.0.1) 49.50ms
-[D 180703 14:56:43 selector_events:53] Using selector: SelectSelector
-[I 180703 14:56:48 web:2106] 200 GET /api/profile (127.0.0.1) 13.00ms
-[I 180703 14:56:48 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 266.51ms
-[E 180703 14:56:52 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'filename': 'Profile.py', 'name': 'root', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'thread': 8876, 'processName': 'MainProcess', 'color': '', 'exc_text': None, 'msecs': 480.3047180175781, 'relativeCreated': 9906.018495559692, 'threadName': 'MainThread', 'args': (AttributeError("'int' object has no attribute 'fetchone'",),), 'created': 1530601012.4803047, 'asctime': '180703 14:56:52', 'end_color': '', 'exc_info': None, 'process': 9120, 'module': 'Profile', 'levelname': 'ERROR', 'lineno': 120, 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'filename\': \'Profile.py\', \'name\': \'root\', \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'thread\': 8876, \'processName\': \'MainProcess\', \'exc_text\': None, \'msecs\': 480.3047180175781, \'relativeCreated\': 9906.018495559692, \'threadName\': \'MainThread\', \'args\': (AttributeError("\'int\' object has no attribute \'fetchone\'",),), \'created\': 1530601012.4803047, \'exc_info\': None, \'process\': 9120, \'module\': \'Profile\', \'levelname\': \'ERROR\', \'lineno\': 120, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'stack_info\': None, \'levelno\': 40, \'funcName\': \'post\'}', 'stack_info': None, 'levelno': 40, 'funcName': 'post'}
-[I 180703 14:56:52 web:2106] 200 POST /api/profile/name (127.0.0.1) 5.50ms
-[D 180703 14:57:32 selector_events:53] Using selector: SelectSelector
-[E 180703 14:57:37 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'stack_info': None, 'created': 1530601057.9197054, 'exc_text': None, 'msecs': 919.7053909301758, 'levelname': 'ERROR', 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'exc_info': None, 'module': 'Profile', 'relativeCreated': 6524.35040473938, 'name': 'root', 'process': 10060, 'lineno': 120, 'thread': 7188, 'filename': 'Profile.py', 'asctime': '180703 14:57:37', 'end_color': '', 'processName': 'MainProcess', 'args': (UnicodeEncodeError('latin-1', "select * from ih_user_profile where up_name = 'ÀŒÃŒ' ", 47, 49, 'ordinal not in range(256)'),), 'funcName': 'post', 'threadName': 'MainThread', 'color': '', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'stack_info\': None, \'created\': 1530601057.9197054, \'exc_text\': None, \'msecs\': 919.7053909301758, \'levelname\': \'ERROR\', \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'exc_info\': None, \'module\': \'Profile\', \'relativeCreated\': 6524.35040473938, \'name\': \'root\', \'process\': 10060, \'lineno\': 120, \'thread\': 7188, \'filename\': \'Profile.py\', \'processName\': \'MainProcess\', \'args\': (UnicodeEncodeError(\'latin-1\', "select * from ih_user_profile where up_name = \'ÀŒÃŒ\' ", 47, 49, \'ordinal not in range(256)\'),), \'funcName\': \'post\', \'threadName\': \'MainThread\', \'levelno\': 40}', 'levelno': 40}
-[I 180703 14:57:37 web:2106] 200 POST /api/profile/name (127.0.0.1) 11.00ms
-[D 180703 14:58:35 selector_events:53] Using selector: SelectSelector
-[I 180703 14:58:37 web:2106] 200 GET /api/profile (127.0.0.1) 5.00ms
-[I 180703 14:58:37 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 513.52ms
-[I 180703 14:58:38 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 7.00ms
-[I 180703 14:58:43 web:2106] 200 POST /api/login (127.0.0.1) 9.50ms
-[I 180703 14:58:43 web:2106] 200 GET /api/check_login (127.0.0.1) 5.50ms
-[W 180703 14:58:43 web:2106] 404 GET /api/house/index (127.0.0.1) 5.00ms
-[I 180703 14:58:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 1.00ms
-[I 180703 14:58:45 web:2106] 200 GET /api/profile (127.0.0.1) 8.00ms
-[I 180703 14:58:45 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.00ms
-[I 180703 14:58:47 web:2106] 304 GET /api/profile (127.0.0.1) 23.50ms
-[I 180703 14:58:47 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.50ms
-[I 180703 14:58:49 web:2106] 200 POST /api/profile/name (127.0.0.1) 9.00ms
-[I 180703 14:58:57 web:2106] 200 GET /api/profile (127.0.0.1) 2.50ms
-[I 180703 14:58:58 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[I 180703 14:59:00 web:2106] 304 GET /api/profile (127.0.0.1) 4.50ms
-[I 180703 14:59:00 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.50ms
-[I 180703 14:59:02 web:2106] 304 GET /api/profile (127.0.0.1) 11.50ms
-[I 180703 14:59:02 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 7.50ms
-[E 180703 14:59:06 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'levelname': 'ERROR', 'asctime': '180703 14:59:06', 'lineno': 120, 'stack_info': None, 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'funcName': 'post', 'filename': 'Profile.py', 'name': 'root', 'process': 9192, 'threadName': 'MainThread', 'exc_text': None, 'msecs': 474.8799800872803, 'processName': 'MainProcess', 'args': (UnicodeEncodeError('latin-1', "select * from ih_user_profile where up_name = 'ÀŒÃŒ' ", 47, 49, 'ordinal not in range(256)'),), 'module': 'Profile', 'end_color': '', 'color': '', 'levelno': 40, 'exc_info': None, 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'levelname\': \'ERROR\', \'lineno\': 120, \'stack_info\': None, \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'funcName\': \'post\', \'filename\': \'Profile.py\', \'name\': \'root\', \'process\': 9192, \'threadName\': \'MainThread\', \'exc_text\': None, \'msecs\': 474.8799800872803, \'processName\': \'MainProcess\', \'args\': (UnicodeEncodeError(\'latin-1\', "select * from ih_user_profile where up_name = \'ÀŒÃŒ\' ", 47, 49, \'ordinal not in range(256)\'),), \'module\': \'Profile\', \'levelno\': 40, \'exc_info\': None, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'thread\': 9356, \'created\': 1530601146.47488, \'relativeCreated\': 31276.586294174194}', 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'thread': 9356, 'created': 1530601146.47488, 'relativeCreated': 31276.586294174194}
-[I 180703 14:59:06 web:2106] 200 POST /api/profile/name (127.0.0.1) 6.50ms
-[D 180703 15:00:34 selector_events:53] Using selector: SelectSelector
-[I 180703 15:00:40 web:2106] 200 GET /api/profile (127.0.0.1) 24.00ms
-[I 180703 15:00:40 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[I 180703 15:00:40 web:2106] 200 GET /static/css/ihome/profile.css (127.0.0.1) 496.52ms
-[E 180703 15:00:44 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'name': 'root', 'msecs': 793.7021255493164, 'threadName': 'MainThread', 'levelname': 'ERROR', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'exc_info': None, 'thread': 4580, 'processName': 'MainProcess', 'message': "Bad message (TypeError('not all arguments converted during string formatting',)): {'name': 'root', 'msecs': 793.7021255493164, 'threadName': 'MainThread', 'levelname': 'ERROR', 'pathname': 'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py', 'exc_info': None, 'thread': 4580, 'processName': 'MainProcess', 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'process': 9520, 'stack_info': None, 'funcName': 'post', 'lineno': 120, 'module': 'Profile', 'exc_text': None, 'filename': 'Profile.py', 'created': 1530601244.7937021, 'args': (UnicodeEncodeError('latin-1', 'select * from ih_user_profile where up_name = ÀŒÃŒ ', 46, 48, 'ordinal not in range(256)'),), 'levelno': 40, 'relativeCreated': 11236.57488822937}", 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'process': 9520, 'stack_info': None, 'funcName': 'post', 'lineno': 120, 'module': 'Profile', 'exc_text': None, 'filename': 'Profile.py', 'created': 1530601244.7937021, 'asctime': '180703 15:00:44', 'args': (UnicodeEncodeError('latin-1', 'select * from ih_user_profile where up_name = ÀŒÃŒ ', 46, 48, 'ordinal not in range(256)'),), 'levelno': 40, 'end_color': '', 'color': '', 'relativeCreated': 11236.57488822937}
-[I 180703 15:00:44 web:2106] 200 POST /api/profile/name (127.0.0.1) 4.00ms
-[D 180703 15:02:44 selector_events:53] Using selector: SelectSelector
-[E 180703 15:02:47 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'msecs': 419.3615913391113, 'relativeCreated': 3786.2014770507812, 'created': 1530601367.4193616, 'thread': 8528, 'asctime': '180703 15:02:47', 'color': '', 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'args': (UnicodeEncodeError('latin-1', "select * from ih_user_profile where up_name = 'ÀŒÃŒ' ", 47, 49, 'ordinal not in range(256)'),), 'levelno': 40, 'exc_info': None, 'end_color': '', 'name': 'root', 'module': 'Profile', 'processName': 'MainProcess', 'exc_text': None, 'filename': 'Profile.py', 'funcName': 'post', 'lineno': 120, 'stack_info': None, 'process': 10232, 'threadName': 'MainThread', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'msecs\': 419.3615913391113, \'relativeCreated\': 3786.2014770507812, \'created\': 1530601367.4193616, \'thread\': 8528, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'args\': (UnicodeEncodeError(\'latin-1\', "select * from ih_user_profile where up_name = \'ÀŒÃŒ\' ", 47, 49, \'ordinal not in range(256)\'),), \'levelno\': 40, \'exc_info\': None, \'name\': \'root\', \'module\': \'Profile\', \'processName\': \'MainProcess\', \'exc_text\': None, \'filename\': \'Profile.py\', \'funcName\': \'post\', \'lineno\': 120, \'stack_info\': None, \'process\': 10232, \'threadName\': \'MainThread\', \'levelname\': \'ERROR\', \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\'}', 'levelname': 'ERROR', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py'}
-[I 180703 15:02:47 web:2106] 200 POST /api/profile/name (127.0.0.1) 4.00ms
-[D 180703 15:03:10 selector_events:53] Using selector: SelectSelector
-[E 180703 15:03:11 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'levelname': 'ERROR', 'asctime': '180703 15:03:11', 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'lineno': 120, 'msecs': 958.141565322876, 'thread': 2712, 'process': 9880, 'exc_info': None, 'funcName': 'post', 'args': (UnicodeEncodeError('latin-1', "select * from ih_user_profile where up_name = ''ÀŒÃŒ''", 48, 50, 'ordinal not in range(256)'),), 'module': 'Profile', 'threadName': 'MainThread', 'end_color': '', 'name': 'root', 'processName': 'MainProcess', 'levelno': 40, 'created': 1530601391.9581416, 'filename': 'Profile.py', 'color': '', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'levelname\': \'ERROR\', \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'lineno\': 120, \'msecs\': 958.141565322876, \'thread\': 2712, \'process\': 9880, \'exc_info\': None, \'funcName\': \'post\', \'args\': (UnicodeEncodeError(\'latin-1\', "select * from ih_user_profile where up_name = \'\'ÀŒÃŒ\'\'", 48, 50, \'ordinal not in range(256)\'),), \'module\': \'Profile\', \'threadName\': \'MainThread\', \'name\': \'root\', \'processName\': \'MainProcess\', \'levelno\': 40, \'created\': 1530601391.9581416, \'filename\': \'Profile.py\', \'exc_text\': None, \'stack_info\': None, \'relativeCreated\': 1822.6003646850586}', 'exc_text': None, 'stack_info': None, 'relativeCreated': 1822.6003646850586}
-[I 180703 15:03:11 web:2106] 200 POST /api/profile/name (127.0.0.1) 2.50ms
-[D 180703 15:03:22 selector_events:53] Using selector: SelectSelector
-[E 180703 15:03:23 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'levelname': 'ERROR', 'filename': 'Profile.py', 'end_color': '', 'module': 'Profile', 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'asctime': '180703 15:03:23', 'levelno': 40, 'name': 'root', 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'funcName': 'post', 'lineno': 120, 'thread': 9572, 'args': (UnicodeEncodeError('latin-1', "select * from ih_user_profile where up_name = ''ÀŒÃŒ''", 48, 50, 'ordinal not in range(256)'),), 'exc_text': None, 'color': '', 'process': 9308, 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'levelname\': \'ERROR\', \'filename\': \'Profile.py\', \'module\': \'Profile\', \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'levelno\': 40, \'name\': \'root\', \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'funcName\': \'post\', \'lineno\': 120, \'thread\': 9572, \'args\': (UnicodeEncodeError(\'latin-1\', "select * from ih_user_profile where up_name = \'\'ÀŒÃŒ\'\'", 48, 50, \'ordinal not in range(256)\'),), \'exc_text\': None, \'process\': 9308, \'threadName\': \'MainThread\', \'processName\': \'MainProcess\', \'exc_info\': None, \'stack_info\': None, \'created\': 1530601403.3792315, \'msecs\': 379.23145294189453, \'relativeCreated\': 1480.5800914764404}', 'threadName': 'MainThread', 'processName': 'MainProcess', 'exc_info': None, 'stack_info': None, 'created': 1530601403.3792315, 'msecs': 379.23145294189453, 'relativeCreated': 1480.5800914764404}
-[I 180703 15:03:23 web:2106] 200 POST /api/profile/name (127.0.0.1) 5.00ms
-[D 180703 15:06:27 selector_events:53] Using selector: SelectSelector
-[E 180703 15:06:29 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'color': '', 'module': 'Profile', 'end_color': '', 'process': 9980, 'processName': 'MainProcess', 'stack_info': None, 'msecs': 247.84350395202637, 'lineno': 120, 'threadName': 'MainThread', 'thread': 1324, 'name': 'root', 'created': 1530601589.2478435, 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'levelname': 'ERROR', 'exc_text': None, 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'exc_info': None, 'asctime': '180703 15:06:29', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'module\': \'Profile\', \'process\': 9980, \'processName\': \'MainProcess\', \'stack_info\': None, \'msecs\': 247.84350395202637, \'lineno\': 120, \'threadName\': \'MainThread\', \'thread\': 1324, \'name\': \'root\', \'created\': 1530601589.2478435, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'levelname\': \'ERROR\', \'exc_text\': None, \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'exc_info\': None, \'levelno\': 40, \'args\': (UnicodeEncodeError(\'latin-1\', "select * from ih_user_profile where up_name = \'\'ÀŒÃŒ\'\'", 48, 50, \'ordinal not in range(256)\'),), \'funcName\': \'post\', \'filename\': \'Profile.py\', \'relativeCreated\': 2681.626081466675}', 'levelno': 40, 'args': (UnicodeEncodeError('latin-1', "select * from ih_user_profile where up_name = ''ÀŒÃŒ''", 48, 50, 'ordinal not in range(256)'),), 'funcName': 'post', 'filename': 'Profile.py', 'relativeCreated': 2681.626081466675}
-[I 180703 15:06:29 web:2106] 200 POST /api/profile/name (127.0.0.1) 5.00ms
-[D 180703 15:12:30 selector_events:53] Using selector: SelectSelector
-[I 180703 15:12:33 web:2106] 200 POST /api/profile/name (127.0.0.1) 3.50ms
-[I 180703 15:12:35 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 309.52ms
-[I 180703 15:12:36 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 6.00ms
-[I 180703 15:12:40 web:2106] 200 POST /api/login (127.0.0.1) 8.00ms
-[I 180703 15:12:40 web:2106] 304 GET /api/check_login (127.0.0.1) 33.50ms
-[W 180703 15:12:40 web:2106] 404 GET /api/house/index (127.0.0.1) 7.50ms
-[I 180703 15:12:41 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.00ms
-[I 180703 15:12:43 web:2106] 200 GET /api/profile (127.0.0.1) 8.00ms
-[I 180703 15:12:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[I 180703 15:12:44 web:2106] 304 GET /api/profile (127.0.0.1) 2.50ms
-[I 180703 15:12:45 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[E 180703 15:12:51 Profile:120] Bad message (TypeError('not all arguments converted during string formatting',)): {'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'threadName': 'MainThread', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'threadName\': \'MainThread\', \'created\': 1530601971.1163094, \'exc_text\': None, \'process\': 8508, \'lineno\': 120, \'relativeCreated\': 21213.958501815796, \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'processName\': \'MainProcess\', \'levelno\': 40, \'thread\': 9360, \'funcName\': \'post\', \'exc_info\': None, \'name\': \'root\', \'filename\': \'Profile.py\', \'module\': \'Profile\', \'msecs\': 116.30940437316895, \'args\': (ProgrammingError(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'À…ÃŒ\'\'\' at line 1"),), \'stack_info\': None, \'levelname\': \'ERROR\'}', 'created': 1530601971.1163094, 'asctime': '180703 15:12:51', 'exc_text': None, 'process': 8508, 'lineno': 120, 'relativeCreated': 21213.958501815796, 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'processName': 'MainProcess', 'levelno': 40, 'thread': 9360, 'end_color': '', 'funcName': 'post', 'exc_info': None, 'name': 'root', 'filename': 'Profile.py', 'module': 'Profile', 'color': '', 'msecs': 116.30940437316895, 'args': (ProgrammingError(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'À…ÃŒ''' at line 1"),), 'stack_info': None, 'levelname': 'ERROR'}
-[I 180703 15:12:51 web:2106] 200 POST /api/profile/name (127.0.0.1) 5.00ms
-[D 180703 15:16:09 selector_events:53] Using selector: SelectSelector
-[I 180703 15:16:17 web:2106] 200 POST /api/profile/name (127.0.0.1) 7.50ms
-[I 180703 15:16:17 web:2106] 200 POST /api/profile/name (127.0.0.1) 12.00ms
-[D 180703 15:16:48 selector_events:53] Using selector: SelectSelector
-[I 180703 15:16:53 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 291.52ms
-[I 180703 15:16:54 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.00ms
-[I 180703 15:16:56 web:2106] 200 GET /api/profile (127.0.0.1) 4.00ms
-[I 180703 15:17:02 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 32.00ms
-[I 180703 15:17:02 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
-[I 180703 15:17:04 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 6.00ms
-[I 180703 15:17:07 web:2106] 304 GET /api/profile (127.0.0.1) 2.50ms
-[I 180703 15:17:07 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.50ms
-[E 180703 15:17:23 Profile:126] Bad message (TypeError('not all arguments converted during string formatting',)): {'threadName': 'MainThread', 'funcName': 'post', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'threadName\': \'MainThread\', \'funcName\': \'post\', \'filename\': \'Profile.py\', \'processName\': \'MainProcess\', \'levelno\': 40, \'relativeCreated\': 36632.87401199341, \'stack_info\': None, \'args\': (UnicodeEncodeError(\'latin-1\', \'update ih_user_profile set up_name = "ÀŒÃŒ" where up_user_id = 14\', 38, 40, \'ordinal not in range(256)\'),), \'exc_info\': None, \'lineno\': 126, \'msg\': \'≤È—Ø ˝æ›ø‚ ß∞‹\', \'module\': \'Profile\', \'levelname\': \'ERROR\', \'created\': 1530602243.997133, \'process\': 9468, \'pathname\': \'E:\\\\pytproject\\\\code\\\\handlers\\\\Profile.py\', \'name\': \'root\', \'exc_text\': None, \'thread\': 8528, \'msecs\': 997.1330165863037}', 'asctime': '180703 15:17:23', 'filename': 'Profile.py', 'processName': 'MainProcess', 'levelno': 40, 'relativeCreated': 36632.87401199341, 'stack_info': None, 'args': (UnicodeEncodeError('latin-1', 'update ih_user_profile set up_name = "ÀŒÃŒ" where up_user_id = 14', 38, 40, 'ordinal not in range(256)'),), 'exc_info': None, 'end_color': '', 'lineno': 126, 'msg': '≤È—Ø ˝æ›ø‚ ß∞‹', 'module': 'Profile', 'levelname': 'ERROR', 'created': 1530602243.997133, 'process': 9468, 'pathname': 'E:\\pytproject\\code\\handlers\\Profile.py', 'name': 'root', 'exc_text': None, 'thread': 8528, 'msecs': 997.1330165863037, 'color': ''}
-[I 180703 15:17:23 web:2106] 200 POST /api/profile/name (127.0.0.1) 6.00ms
-[I 180703 15:17:57 web:2106] 304 GET /api/profile (127.0.0.1) 15.00ms
-[I 180703 15:17:58 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.00ms
-[D 180703 15:18:44 selector_events:53] Using selector: SelectSelector
-[D 180703 15:19:30 selector_events:53] Using selector: SelectSelector
-[D 180703 15:19:36 selector_events:53] Using selector: SelectSelector
-[I 180703 15:19:43 web:2106] 200 GET /api/profile (127.0.0.1) 5.00ms
-[I 180703 15:19:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 360.01ms
-[I 180703 15:19:47 web:2106] 200 POST /api/profile/name (127.0.0.1) 5.00ms
-[D 180703 15:20:22 selector_events:53] Using selector: SelectSelector
-[I 180703 15:20:24 web:2106] 200 POST /api/profile/name (127.0.0.1) 106.51ms
-[I 180703 15:20:28 web:2106] 200 GET /api/profile (127.0.0.1) 5.00ms
-[I 180703 15:20:29 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 311.01ms
-[D 180703 15:59:12 selector_events:53] Using selector: SelectSelector
-[I 180703 15:59:14 web:2106] 200 GET /api/check_login (127.0.0.1) 62.00ms
-[W 180703 15:59:16 web:2106] 404 GET /api/house/index (127.0.0.1) 98.50ms
-[I 180703 15:59:16 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 293.02ms
-[I 180703 15:59:19 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 18.50ms
-[I 180703 15:59:20 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[I 180703 15:59:28 web:2106] 200 POST /api/login (127.0.0.1) 6.00ms
-[I 180703 15:59:29 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180703 15:59:29 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
-[I 180703 15:59:30 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.00ms
-[I 180703 15:59:31 web:2106] 200 GET /api/profile (127.0.0.1) 5.00ms
-[I 180703 15:59:31 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[I 180703 15:59:34 web:2106] 200 GET /orders.html (127.0.0.1) 108.00ms
-[I 180703 15:59:34 web:2106] 200 GET /static/css/ihome/orders.css (127.0.0.1) 73.50ms
-[I 180703 15:59:34 web:2106] 200 GET /static/js/ihome/orders.js (127.0.0.1) 15.50ms
-[W 180703 15:59:34 web:2106] 404 GET /api/order/my?role=custom (127.0.0.1) 2.50ms
-[I 180703 15:59:35 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.50ms
-[I 180703 15:59:36 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
-[I 180703 15:59:37 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.50ms
-[I 180703 15:59:38 web:2106] 200 GET /auth.html (127.0.0.1) 21.00ms
-[I 180703 15:59:39 web:2106] 200 GET /static/js/ihome/auth.js (127.0.0.1) 30.50ms
-[W 180703 15:59:39 web:2106] 404 GET /api/profile/auth (127.0.0.1) 2.50ms
-[I 180703 15:59:39 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.50ms
-[I 180703 15:59:41 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
-[I 180703 15:59:42 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.50ms
-[I 180703 15:59:43 web:2106] 200 GET /myhouse.html (127.0.0.1) 26.00ms
-[I 180703 15:59:43 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 86.50ms
-[I 180703 15:59:43 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 5.00ms
-[W 180703 15:59:43 web:2106] 404 GET /api/profile/auth (127.0.0.1) 2.00ms
-[I 180703 15:59:44 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.50ms
-[I 180703 15:59:47 web:2106] 304 GET /api/profile (127.0.0.1) 864.54ms
-[I 180703 15:59:47 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.50ms
-[I 180703 15:59:49 web:2106] 200 GET /lorders.html (127.0.0.1) 31.00ms
-[I 180703 15:59:49 web:2106] 200 GET /static/js/ihome/lorders.js (127.0.0.1) 34.00ms
-[W 180703 15:59:49 web:2106] 404 GET /api/order/my?role=landlord (127.0.0.1) 2.50ms
-[I 180703 15:59:50 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.50ms
-[I 180703 15:59:52 web:2106] 304 GET /api/profile (127.0.0.1) 2.00ms
-[I 180703 15:59:52 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180704 09:16:28 autoreload:196] E:\pytproject\code\handlers\BaseHandler.py modified; restarting server
-[D 180704 09:16:29 selector_events:53] Using selector: SelectSelector
-[D 180706 09:33:01 selector_events:53] Using selector: SelectSelector
-[D 180706 09:33:27 selector_events:53] Using selector: SelectSelector
-[W 180706 09:34:03 web:1618] 400 GET /api/imagecode (127.0.0.1): Missing argument codeid
-[W 180706 09:34:03 web:2106] 400 GET /api/imagecode (127.0.0.1) 3.00ms
-[W 180706 09:35:02 web:1618] 400 GET /api/imagecode (127.0.0.1): Missing argument codeid
-[W 180706 09:35:02 web:2106] 400 GET /api/imagecode (127.0.0.1) 1.00ms
-[D 180706 09:36:15 selector_events:53] Using selector: SelectSelector
-[W 180706 09:36:18 web:1618] 400 GET /api/imagecode (127.0.0.1): Missing argument codeid
-[W 180706 09:36:18 web:2106] 400 GET /api/imagecode (127.0.0.1) 1.00ms
-[D 180706 09:37:24 selector_events:53] Using selector: SelectSelector
-[E 180706 09:37:30 web:1621] Uncaught exception GET /index (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/index', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\ihome\handlers\Passport.py", line 17, in get
-        return self.render("index.html")
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 750, in render
-        html = self.render_string(template_name, **kwargs)
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 888, in render_string
-        t = loader.load(template_name)
-      File "D:\Program Files\Python35\lib\site-packages\tornado\template.py", line 425, in load
-        self.templates[name] = self._create_template(name)
-      File "D:\Program Files\Python35\lib\site-packages\tornado\template.py", line 452, in _create_template
-        with open(path, "rb") as f:
-    FileNotFoundError: [Errno 2] No such file or directory: 'E:\\pytproject\\ihome\\template\\index.html'
-[E 180706 09:37:30 web:2106] 500 GET /index (127.0.0.1) 86.00ms
-[I 180706 09:39:34 web:2106] 200 GET /api/imagecode?codeid=123&pcodeid=456 (127.0.0.1) 386.02ms
-[I 180706 09:40:13 web:2106] 200 GET /api/house/area (127.0.0.1) 53.00ms
-[D 180706 09:41:11 selector_events:53] Using selector: SelectSelector
-[I 180706 09:41:13 web:2106] 200 GET /api/house/area (127.0.0.1) 16.00ms
-[I 180706 09:45:28 autoreload:196] E:\pytproject\ihome\handlers\House.py modified; restarting server
-[D 180706 09:45:29 selector_events:53] Using selector: SelectSelector
-[E 180706 09:45:33 House:35] [Errno 22] Invalid argument
-[I 180706 09:45:33 web:2106] 200 GET /api/house/area (127.0.0.1) 57.00ms
-[D 180706 09:45:51 selector_events:53] Using selector: SelectSelector
-[I 180706 09:46:01 autoreload:196] E:/pytproject/ihome/server.py modified; restarting server
-[D 180706 09:46:02 selector_events:53] Using selector: SelectSelector
-[D 180706 09:46:02 selector_events:53] Using selector: SelectSelector
-[I 180706 09:46:07 web:2106] 200 GET /api/house/area (127.0.0.1) 40.00ms
-[I 180706 09:46:41 web:2106] 200 GET / (127.0.0.1) 503.03ms
-[I 180706 09:46:41 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 79.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 86.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 51.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 45.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 36.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 28.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/css/ihome/index.css (127.0.0.1) 28.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 33.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 56.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 18.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 15.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/js/template.js (127.0.0.1) 10.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 59.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/js/ihome/index.js (127.0.0.1) 40.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 11.00ms
-[I 180706 09:46:43 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 17.00ms
-[I 180706 09:46:43 web:2106] 200 GET /api/check_login (127.0.0.1) 28.00ms
-[W 180706 09:46:43 web:2106] 404 GET /api/house/index (127.0.0.1) 64.00ms
-[I 180706 09:46:43 web:2106] 200 GET /favicon.ico (127.0.0.1) 7.00ms
-[I 180706 09:46:45 web:2106] 200 GET /login.html (127.0.0.1) 40.00ms
-[I 180706 09:46:45 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 9.00ms
-[I 180706 09:46:45 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 3.00ms
-[I 180706 09:46:53 web:2106] 200 GET /search.html?aid=&aname=&sd=&ed= (127.0.0.1) 3.00ms
-[I 180706 09:46:53 web:2106] 200 GET /static/css/ihome/search.css (127.0.0.1) 259.01ms
-[I 180706 09:46:53 web:2106] 200 GET /static/js/ihome/search.js (127.0.0.1) 68.00ms
-[I 180706 09:46:53 web:2106] 200 GET /api/house/area (127.0.0.1) 4.00ms
-[W 180706 09:46:54 web:2106] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 3.00ms
-[W 180706 09:47:12 web:2106] 404 GET /api/house/list2?aid=undefined&sd=&ed=&sk=new&p=1 (127.0.0.1) 1.00ms
-[I 180706 09:47:16 web:2106] 304 GET /api/check_login (127.0.0.1) 4.00ms
-[W 180706 09:47:16 web:2106] 404 GET /api/house/index (127.0.0.1) 1.00ms
-[D 180706 10:01:52 selector_events:53] Using selector: SelectSelector
-[I 180706 10:01:54 web:2106] 200 GET /api/house/area (127.0.0.1) 25.00ms
-[I 180706 10:02:26 web:2106] 200 GET /api/house/area (127.0.0.1) 4.00ms
-[D 180706 10:03:12 selector_events:53] Using selector: SelectSelector
-[I 180706 10:03:14 web:2106] 200 GET /api/house/area (127.0.0.1) 6.00ms
-[D 180706 10:03:39 selector_events:53] Using selector: SelectSelector
-[E 180706 10:03:41 web:1621] Uncaught exception GET /api/house/area (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='GET', uri='/api/house/area', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\ihome\handlers\House.py", line 22, in get
-        print(area_info.encode())
-    AttributeError: 'bytes' object has no attribute 'encode'
-[E 180706 10:03:41 web:2106] 500 GET /api/house/area (127.0.0.1) 6.00ms
-[E 180706 10:03:50 web:1621] Uncaught exception GET /api/house/area (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='GET', uri='/api/house/area', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\ihome\handlers\House.py", line 22, in get
-        print(area_info.encode())
-    AttributeError: 'bytes' object has no attribute 'encode'
-[E 180706 10:03:50 web:2106] 500 GET /api/house/area (127.0.0.1) 2.00ms
-[D 180706 10:04:12 selector_events:53] Using selector: SelectSelector
-[I 180706 10:04:13 web:2106] 200 GET /api/house/area (127.0.0.1) 2.00ms
-[D 180706 10:04:43 selector_events:53] Using selector: SelectSelector
-[I 180706 10:04:43 web:2106] 200 GET /api/house/area (127.0.0.1) 10.00ms
-[D 180706 10:06:38 selector_events:53] Using selector: SelectSelector
-[I 180706 10:06:40 web:2106] 200 GET /api/house/area (127.0.0.1) 34.00ms
-[D 180706 10:07:19 selector_events:53] Using selector: SelectSelector
-[I 180706 10:07:21 web:2106] 200 GET /api/house/area (127.0.0.1) 5.00ms
-[D 180706 10:08:22 selector_events:53] Using selector: SelectSelector
-[I 180706 10:08:25 web:2106] 200 GET /api/house/area (127.0.0.1) 34.00ms
-[W 180706 10:08:26 web:2106] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 9.00ms
-[W 180706 10:08:30 web:2106] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 6.00ms
-[W 180706 10:08:32 web:2106] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
-[I 180706 10:08:36 web:2106] 304 GET /api/check_login (127.0.0.1) 3.00ms
-[W 180706 10:08:36 web:2106] 404 GET /api/house/index (127.0.0.1) 4.00ms
-[I 180706 10:08:39 web:2106] 304 GET /api/house/area (127.0.0.1) 6.00ms
-[W 180706 10:08:41 web:2106] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 5.00ms
-[D 180706 14:30:08 selector_events:53] Using selector: SelectSelector
-[I 180706 14:30:30 web:2106] 200 GET /api/profile (127.0.0.1) 7.00ms
-[W 180706 14:30:40 web:2106] 404 GET /api/profile.html (127.0.0.1) 3.00ms
-[I 180706 14:31:07 web:2106] 304 GET /api/check_login (127.0.0.1) 5.00ms
-[W 180706 14:31:07 web:2106] 404 GET /api/house/index (127.0.0.1) 3.00ms
-[I 180706 14:31:07 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 510.03ms
-[I 180706 14:31:07 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 60.00ms
-[I 180706 14:31:10 web:2106] 200 GET /login.html (127.0.0.1) 2.00ms
-[I 180706 14:31:10 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 6.00ms
-[I 180706 14:31:10 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 5.00ms
-[I 180706 14:31:16 web:2106] 200 POST /api/login (127.0.0.1) 13.00ms
-[I 180706 14:31:17 web:2106] 200 GET /api/check_login (127.0.0.1) 8.00ms
-[W 180706 14:31:17 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
-[I 180706 14:31:18 web:2106] 200 GET /my.html (127.0.0.1) 2.00ms
-[I 180706 14:31:19 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 248.01ms
-[I 180706 14:31:19 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 5.00ms
-[I 180706 14:31:19 web:2106] 200 GET /api/profile (127.0.0.1) 31.00ms
-[I 180706 14:31:22 web:2106] 200 GET /profile.html (127.0.0.1) 2.00ms
-[I 180706 14:31:22 web:2106] 200 GET /static/css/ihome/profile.css (127.0.0.1) 28.00ms
-[I 180706 14:31:22 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 24.00ms
-[I 180706 14:31:22 web:2106] 200 GET /static/js/ihome/profile.js (127.0.0.1) 13.00ms
-[I 180706 14:31:22 web:2106] 304 GET /api/profile (127.0.0.1) 5.00ms
-[I 180706 14:31:24 web:2106] 304 GET /api/profile (127.0.0.1) 7.00ms
-[D 180706 14:43:22 selector_events:53] Using selector: SelectSelector
-[I 180706 14:43:38 web:2106] 200 GET /api/check_login (127.0.0.1) 3.00ms
-[W 180706 14:43:38 web:2106] 404 GET /api/house/index (127.0.0.1) 4.00ms
-[I 180706 14:43:40 web:2106] 200 GET /login.html (127.0.0.1) 448.03ms
-[I 180706 14:43:50 web:2106] 200 POST /api/login (127.0.0.1) 10.00ms
-[I 180706 14:43:50 web:2106] 200 GET /api/check_login (127.0.0.1) 4.00ms
-[W 180706 14:43:50 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
-[I 180706 14:43:53 web:2106] 200 GET /api/profile (127.0.0.1) 6.00ms
-[I 180706 14:43:55 web:2106] 200 GET /api/logout (127.0.0.1) 4.00ms
-[I 180706 14:43:55 web:2106] 304 GET /api/check_login (127.0.0.1) 4.00ms
-[W 180706 14:43:55 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
-[I 180706 14:43:59 web:2106] 304 GET /api/profile (127.0.0.1) 7.00ms
-[I 180706 14:44:01 web:2106] 304 GET /api/logout (127.0.0.1) 3.00ms
-[I 180706 14:44:01 web:2106] 304 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180706 14:44:01 web:2106] 404 GET /api/house/index (127.0.0.1) 3.00ms
-[D 180706 14:45:14 selector_events:53] Using selector: SelectSelector
-[I 180706 14:45:16 web:2106] 200 GET /api/profile (127.0.0.1) 17.00ms
-[I 180706 14:45:18 web:2106] 200 GET /api/logout (127.0.0.1) 5.00ms
-[I 180706 14:45:18 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180706 14:45:18 web:2106] 404 GET /api/house/index (127.0.0.1) 8.00ms
-[W 180706 14:45:22 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
-[I 180706 14:45:22 web:2106] 304 GET /api/check_login (127.0.0.1) 2.00ms
-[I 180706 14:45:24 web:2106] 304 GET /api/profile (127.0.0.1) 2.00ms
-[I 180706 14:45:25 web:2106] 304 GET /api/logout (127.0.0.1) 5.00ms
-[I 180706 14:45:26 web:2106] 304 GET /api/check_login (127.0.0.1) 3.00ms
-[W 180706 14:45:26 web:2106] 404 GET /api/house/index (127.0.0.1) 1.00ms
-[D 180706 14:45:57 selector_events:53] Using selector: SelectSelector
-[I 180706 14:46:00 web:2106] 200 GET /api/profile (127.0.0.1) 17.00ms
-[I 180706 14:46:05 web:2106] 200 GET /api/logout (127.0.0.1) 5.00ms
-[W 180706 14:46:05 web:2106] 404 GET /api/house/index (127.0.0.1) 6.00ms
-[I 180706 14:46:05 web:2106] 200 GET /api/check_login (127.0.0.1) 5.00ms
-[D 180706 14:47:15 selector_events:53] Using selector: SelectSelector
-[I 180706 14:47:20 web:2106] 200 GET /api/profile (127.0.0.1) 7.00ms
-[I 180706 14:47:22 web:2106] 304 GET /api/logout (127.0.0.1) 8.00ms
-[I 180706 14:47:22 web:2106] 304 GET /api/check_login (127.0.0.1) 4.00ms
-[W 180706 14:47:22 web:2106] 404 GET /api/house/index (127.0.0.1) 12.00ms
-[D 180706 14:47:28 selector_events:53] Using selector: SelectSelector
-[I 180706 14:47:35 web:2106] 200 GET /api/profile (127.0.0.1) 13.00ms
-[I 180706 14:47:37 web:2106] 200 GET /api/logout (127.0.0.1) 2.00ms
-[I 180706 14:47:37 web:2106] 200 GET /api/check_login (127.0.0.1) 5.00ms
-[W 180706 14:47:37 web:2106] 404 GET /api/house/index (127.0.0.1) 6.00ms
-[D 180706 14:48:05 selector_events:53] Using selector: SelectSelector
-[I 180706 14:48:06 web:2106] 200 GET /api/profile (127.0.0.1) 6.00ms
-[I 180706 14:48:08 web:2106] 200 GET /api/logout (127.0.0.1) 3.00ms
-[I 180706 14:48:08 web:2106] 200 GET /api/check_login (127.0.0.1) 5.00ms
-[W 180706 14:48:08 web:2106] 404 GET /api/house/index (127.0.0.1) 5.00ms
-[D 180706 14:48:44 selector_events:53] Using selector: SelectSelector
-[I 180706 14:48:45 web:2106] 200 GET /api/profile (127.0.0.1) 43.00ms
-[E 180706 14:48:47 session:55] 'Session' object has no attribute '_request_handler'
-[E 180706 14:48:47 web:1621] Uncaught exception GET /api/logout (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='GET', uri='/api/logout', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\ihome\utils\common.py", line 18, in wapper
-        fun(request_handler_obj, *args, **kwargs)
-      File "E:\pytproject\ihome\handlers\Passport.py", line 155, in get
-        session.clear()
-      File "E:\pytproject\ihome\utils\session.py", line 56, in clear
-        self._request_handler.clear_cookie("session_id")
-    AttributeError: 'Session' object has no attribute '_request_handler'
-[E 180706 14:48:47 web:2106] 500 GET /api/logout (127.0.0.1) 10.00ms
-[E 180706 14:48:50 session:55] 'Session' object has no attribute '_request_handler'
-[E 180706 14:48:50 web:1621] Uncaught exception GET /api/logout (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='GET', uri='/api/logout', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\ihome\utils\common.py", line 18, in wapper
-        fun(request_handler_obj, *args, **kwargs)
-      File "E:\pytproject\ihome\handlers\Passport.py", line 155, in get
-        session.clear()
-      File "E:\pytproject\ihome\utils\session.py", line 56, in clear
-        self._request_handler.clear_cookie("session_id")
-    AttributeError: 'Session' object has no attribute '_request_handler'
-[E 180706 14:48:50 web:2106] 500 GET /api/logout (127.0.0.1) 3.00ms
-[D 180706 14:50:20 selector_events:53] Using selector: SelectSelector
-[I 180706 14:50:24 web:2106] 200 GET /api/logout (127.0.0.1) 6.00ms
-[I 180706 14:50:24 web:2106] 200 GET /api/check_login (127.0.0.1) 7.00ms
-[W 180706 14:50:24 web:2106] 404 GET /api/house/index (127.0.0.1) 5.00ms
-[I 180706 14:50:35 web:2106] 200 POST /api/login (127.0.0.1) 11.00ms
-[I 180706 14:50:36 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180706 14:50:36 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
-[I 180706 14:50:38 web:2106] 200 GET /api/profile (127.0.0.1) 4.00ms
-[I 180706 14:50:39 web:2106] 304 GET /api/logout (127.0.0.1) 19.00ms
-[I 180706 14:50:39 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180706 14:50:39 web:2106] 404 GET /api/house/index (127.0.0.1) 1.00ms
-[D 180706 14:52:28 selector_events:53] Using selector: SelectSelector
-[I 180706 14:52:28 web:2106] 200 POST /api/login (127.0.0.1) 8.00ms
-[I 180706 14:52:29 web:2106] 200 GET /api/check_login (127.0.0.1) 6.00ms
-[W 180706 14:52:29 web:2106] 404 GET /api/house/index (127.0.0.1) 9.00ms
-[I 180706 14:52:31 web:2106] 200 GET /api/profile (127.0.0.1) 2.00ms
-[I 180706 14:52:34 web:2106] 200 GET /orders.html (127.0.0.1) 392.02ms
-[I 180706 14:52:35 web:2106] 200 GET /static/css/ihome/orders.css (127.0.0.1) 103.01ms
-[I 180706 14:52:35 web:2106] 200 GET /static/js/ihome/orders.js (127.0.0.1) 21.00ms
-[W 180706 14:52:35 web:2106] 404 GET /api/order/my?role=custom (127.0.0.1) 3.00ms
-[I 180706 14:52:37 web:2106] 304 GET /api/profile (127.0.0.1) 4.00ms
-[I 180706 14:52:46 web:2106] 200 GET /myhouse.html (127.0.0.1) 6.00ms
-[I 180706 14:52:47 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 54.00ms
-[I 180706 14:52:47 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 91.01ms
-[W 180706 14:52:47 web:2106] 404 GET /api/profile/auth (127.0.0.1) 4.00ms
-[I 180706 14:52:51 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
-[W 180706 14:52:57 web:2106] 404 GET /api/profile/auth (127.0.0.1) 2.00ms
-[I 180706 14:53:00 web:2106] 304 GET /api/profile (127.0.0.1) 12.00ms
-[W 180706 14:53:03 web:2106] 404 GET /api/profile/auth (127.0.0.1) 2.00ms
-[I 180706 14:54:01 web:2106] 304 GET /api/profile (127.0.0.1) 6.00ms
-[W 180706 14:54:30 web:2106] 404 GET /api/profile/auth (127.0.0.1) 1.00ms
-[I 180706 14:54:59 web:2106] 304 GET /api/profile (127.0.0.1) 8.00ms
-[W 180706 14:55:01 web:2106] 404 GET /api/profile/auth (127.0.0.1) 2.00ms
-[D 180706 14:57:40 selector_events:53] Using selector: SelectSelector
-[W 180706 14:57:45 web:2106] 404 GET /api/profile/auth (127.0.0.1) 4.00ms
-[I 180706 14:57:47 web:2106] 200 GET /api/profile (127.0.0.1) 8.00ms
-[W 180706 14:57:49 web:2106] 404 GET /api/profile/auth (127.0.0.1) 2.00ms
-[D 180706 14:58:15 selector_events:53] Using selector: SelectSelector
-[W 180706 14:58:16 web:2106] 404 GET /api/profile/auth (127.0.0.1) 3.00ms
-[I 180706 14:58:18 web:2106] 200 GET /api/profile (127.0.0.1) 32.00ms
-[W 180706 14:58:21 web:2106] 404 GET /api/profile/auth (127.0.0.1) 3.00ms
-[D 180706 14:58:34 selector_events:53] Using selector: SelectSelector
-[I 180706 15:05:55 autoreload:196] E:\pytproject\ihome\handlers\House.py modified; restarting server
-[D 180706 15:05:56 selector_events:53] Using selector: SelectSelector
-[I 180706 15:07:43 web:2106] 200 GET /api/logout (127.0.0.1) 4.00ms
-[D 180706 15:07:59 selector_events:53] Using selector: SelectSelector
-[I 180706 15:08:23 autoreload:196] E:/pytproject/ihome/server.py modified; restarting server
-[D 180706 15:08:24 selector_events:53] Using selector: SelectSelector
-[D 180706 15:08:24 selector_events:53] Using selector: SelectSelector
-[I 180706 15:08:32 web:2106] 200 GET / (127.0.0.1) 421.02ms
-[I 180706 15:08:32 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 5.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 8.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 5.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 3.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 3.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 5.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/css/ihome/index.css (127.0.0.1) 23.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 20.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 13.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 12.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 9.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 23.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/js/template.js (127.0.0.1) 16.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/js/ihome/index.js (127.0.0.1) 14.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 9.00ms
-[I 180706 15:08:32 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 11.00ms
-[I 180706 15:08:32 web:2106] 200 GET /api/check_login (127.0.0.1) 3.00ms
-[W 180706 15:08:32 web:2106] 404 GET /api/house/index (127.0.0.1) 9.00ms
-[I 180706 15:08:32 web:2106] 200 GET /favicon.ico (127.0.0.1) 5.00ms
-[I 180706 15:08:33 web:2106] 200 GET /register.html (127.0.0.1) 30.00ms
-[I 180706 15:08:33 web:2106] 200 GET /static/css/ihome/register.css (127.0.0.1) 42.00ms
-[I 180706 15:08:33 web:2106] 200 GET /static/js/ihome/register.js (127.0.0.1) 18.00ms
-[I 180706 15:08:34 web:2106] 200 GET /api/imagecode?pcodeid=&codeid=267ec7ce-8f35-4cfc-bcff-1584a68f038b (127.0.0.1) 73.00ms
-[I 180706 15:08:47 web:2106] 200 POST /api/smscode (127.0.0.1) 1396.08ms
-[I 180706 15:09:20 web:2106] 200 POST /api/register (127.0.0.1) 4.00ms
-[I 180706 15:09:49 web:2106] 200 GET /api/imagecode?pcodeid=267ec7ce-8f35-4cfc-bcff-1584a68f038b&codeid=2fbc12b1-9c4b-4fc7-9fb9-edf3bd1bf1d0 (127.0.0.1) 14.00ms
-[I 180706 15:09:59 web:2106] 200 POST /api/smscode (127.0.0.1) 502.03ms
-[I 180706 15:10:20 web:2106] 304 GET /api/check_login (127.0.0.1) 4.00ms
-[W 180706 15:10:20 web:2106] 404 GET /api/house/index (127.0.0.1) 1.00ms
-[I 180706 15:10:22 web:2106] 200 GET /login.html (127.0.0.1) 28.00ms
-[I 180706 15:10:22 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 3.00ms
-[I 180706 15:10:22 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 4.00ms
-[I 180706 15:10:32 web:2106] 200 POST /api/login (127.0.0.1) 77.00ms
-[I 180706 15:10:32 web:2106] 200 GET /api/check_login (127.0.0.1) 8.00ms
-[W 180706 15:10:32 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
-[I 180706 15:10:34 web:2106] 200 GET /my.html (127.0.0.1) 3.00ms
-[I 180706 15:10:34 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 3.00ms
-[I 180706 15:10:34 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 7.00ms
-[I 180706 15:10:35 web:2106] 200 GET /api/profile (127.0.0.1) 3.00ms
-[D 180706 15:36:16 selector_events:53] Using selector: SelectSelector
-[E 180706 15:36:49 web:1621] Uncaught exception GET /api/profile/auth (127.0.0.1)
-    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/profile/auth', version='HTTP/1.1', remote_ip='127.0.0.1')
-    Traceback (most recent call last):
-      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
-        result = method(*self.path_args, **self.path_kwargs)
-      File "E:\pytproject\ihome\handlers\Profile.py", line 135, in get
-        user_id = self.session['user_id']
-    AttributeError: 'AuthHandler' object has no attribute 'session'
-[E 180706 15:36:49 web:2106] 500 GET /api/profile/auth (127.0.0.1) 4.00ms
-[D 180706 15:38:19 selector_events:53] Using selector: SelectSelector
-[I 180706 15:38:20 web:2106] 200 GET /api/profile/auth (127.0.0.1) 24.00ms
-[D 180706 15:43:10 selector_events:53] Using selector: SelectSelector
-[I 180706 15:43:17 web:2106] 200 GET /api/profile/auth (127.0.0.1) 6.00ms
-[I 180706 15:59:09 autoreload:196] E:\pytproject\ihome\utils\common.py modified; restarting server
-[D 180706 16:00:16 selector_events:53] Using selector: SelectSelector
-[I 180706 16:00:46 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.00ms
-[I 180706 16:00:46 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 327.02ms
-[I 180706 16:01:16 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 30.00ms
-[I 180706 16:01:23 web:2106] 200 POST /api/login (127.0.0.1) 45.00ms
-[I 180706 16:01:24 web:2106] 200 GET /api/check_login (127.0.0.1) 3.00ms
-[W 180706 16:01:24 web:2106] 404 GET /api/house/index (127.0.0.1) 4.00ms
-[I 180706 16:01:25 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[D 180706 16:04:12 selector_events:53] Using selector: SelectSelector
-[I 180706 16:04:16 web:2106] 200 GET /api/profile/auth (127.0.0.1) 6.00ms
-[D 180706 16:05:56 selector_events:53] Using selector: SelectSelector
-[I 180706 16:06:02 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 419.02ms
-[I 180706 16:06:02 web:2106] 200 GET /api/profile (127.0.0.1) 6.00ms
-[I 180706 16:06:02 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 1.00ms
-[I 180706 16:06:02 web:2106] 200 GET /api/logout (127.0.0.1) 6.00ms
-[I 180706 16:06:03 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180706 16:06:03 web:2106] 404 GET /api/house/index (127.0.0.1) 10.00ms
-[I 180706 16:06:03 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 16:06:05 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 16:06:17 web:2106] 200 POST /api/login (127.0.0.1) 9.00ms
-[D 180706 16:08:54 selector_events:53] Using selector: SelectSelector
-[I 180706 16:08:59 web:2106] 200 POST /api/login (127.0.0.1) 12.00ms
-[D 180706 16:10:02 selector_events:53] Using selector: SelectSelector
-[I 180706 16:10:03 web:2106] 200 POST /api/login (127.0.0.1) 4.00ms
-[D 180706 16:13:27 selector_events:53] Using selector: SelectSelector
-[I 180706 16:13:30 web:2106] 200 GET /api/profile/auth (127.0.0.1) 4.00ms
-[I 180706 16:14:58 web:2106] 200 GET /api/profile/auth (127.0.0.1) 8.00ms
-[I 180706 16:16:33 web:2106] 200 GET /api/profile/auth?Cookie=session_id=qwert (127.0.0.1) 3.00ms
-[D 180706 16:17:18 selector_events:53] Using selector: SelectSelector
-[I 180706 16:17:34 web:2106] 200 GET /api/profile/auth?Cookie=session_id=qwert (127.0.0.1) 5.00ms
-[I 180706 16:19:09 web:2106] 200 GET /api/profile/auth?Cookie=session_id=qwert (127.0.0.1) 4.00ms
-[I 180706 16:21:06 web:2106] 200 GET /api/profile/auth?Cookie=session_id=qwert (127.0.0.1) 3.00ms
-[I 180706 16:23:12 web:2106] 200 GET /api/profile/auth?Cookie=session_id=qwert (127.0.0.1) 3.00ms
-[I 180706 16:23:35 web:2106] 200 GET /api/profile/auth?Cookie=session_id=qwert (127.0.0.1) 5.00ms
-[D 180706 16:30:40 selector_events:53] Using selector: SelectSelector
-[I 180706 16:30:45 web:2106] 200 POST /api/login (127.0.0.1) 2.00ms
-[I 180706 16:30:55 web:2106] 200 POST /api/login (127.0.0.1) 4.00ms
-[I 180706 16:31:01 web:2106] 200 POST /api/login (127.0.0.1) 3.00ms
-[I 180706 16:31:06 web:2106] 200 POST /api/login (127.0.0.1) 11.00ms
-[I 180706 16:31:07 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 446.03ms
-[I 180706 16:31:07 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
-[W 180706 16:31:07 web:2106] 404 GET /api/house/index (127.0.0.1) 4.00ms
-[I 180706 16:31:07 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 5.00ms
-[I 180706 16:31:31 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 4.00ms
-[I 180706 16:31:31 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 6.00ms
-[I 180706 16:31:32 web:2106] 200 GET /api/profile (127.0.0.1) 3.00ms
-[I 180706 16:31:32 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 6.00ms
-[I 180706 16:31:34 web:2106] 200 GET /auth.html (127.0.0.1) 56.00ms
-[I 180706 16:31:34 web:2106] 200 GET /static/js/ihome/auth.js (127.0.0.1) 21.00ms
-[I 180706 16:31:34 web:2106] 200 GET /api/profile/auth (127.0.0.1) 8.00ms
-[I 180706 16:31:35 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[D 180706 16:35:57 selector_events:53] Using selector: SelectSelector
-[I 180706 16:36:08 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 479.03ms
-[I 180706 16:36:08 web:2106] 200 GET /api/profile (127.0.0.1) 5.00ms
-[I 180706 16:36:09 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 16:36:11 web:2106] 304 GET /api/profile/auth (127.0.0.1) 6.00ms
-[I 180706 16:36:11 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[D 180706 16:38:29 selector_events:53] Using selector: SelectSelector
-[I 180706 16:38:34 web:2106] 200 GET /api/profile (127.0.0.1) 34.00ms
-[I 180706 16:38:36 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 331.02ms
-[I 180706 16:38:36 web:2106] 200 GET /api/profile/auth (127.0.0.1) 3.00ms
-[I 180706 16:38:36 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.00ms
-[I 180706 16:38:43 web:2106] 200 GET /api/profile (127.0.0.1) 6.00ms
-[I 180706 16:38:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 16:49:13 autoreload:196] E:\pytproject\ihome\handlers\Profile.py modified; restarting server
-[D 180706 16:49:14 selector_events:53] Using selector: SelectSelector
-[I 180706 16:50:47 autoreload:196] E:\pytproject\ihome\handlers\Profile.py modified; restarting server
-[D 180706 16:50:49 selector_events:53] Using selector: SelectSelector
-[I 180706 16:53:38 autoreload:196] E:\pytproject\ihome\handlers\Profile.py modified; restarting server
-[D 180706 16:53:39 selector_events:53] Using selector: SelectSelector
-[I 180706 16:55:13 autoreload:196] E:\pytproject\ihome\handlers\Profile.py modified; restarting server
-[D 180706 16:55:14 selector_events:53] Using selector: SelectSelector
-[I 180706 16:55:39 autoreload:196] E:\pytproject\ihome\handlers\Profile.py modified; restarting server
-[D 180706 16:55:40 selector_events:53] Using selector: SelectSelector
-[I 180706 16:55:50 autoreload:196] E:\pytproject\ihome\handlers\Profile.py modified; restarting server
-[D 180706 16:58:24 selector_events:53] Using selector: SelectSelector
-[I 180706 16:58:41 web:2106] 200 GET /api/profile (127.0.0.1) 4.00ms
-[I 180706 16:58:41 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.00ms
-[I 180706 16:58:41 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 452.03ms
-[I 180706 16:58:41 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 79.00ms
-[I 180706 16:58:42 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 23.00ms
-[I 180706 16:58:42 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 19.00ms
-[I 180706 16:58:42 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 77.00ms
-[I 180706 16:58:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 16:58:51 web:2106] 200 POST /api/login (127.0.0.1) 54.00ms
-[I 180706 16:58:52 web:2106] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 160.01ms
-[I 180706 16:58:52 web:2106] 200 GET /static/css/ihome/index.css (127.0.0.1) 129.01ms
-[I 180706 16:58:52 web:2106] 200 GET /static/js/template.js (127.0.0.1) 78.00ms
-[I 180706 16:58:52 web:2106] 200 GET /static/js/ihome/index.js (127.0.0.1) 66.00ms
-[I 180706 16:58:52 web:2106] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 8.00ms
-[I 180706 16:58:53 web:2106] 200 GET /api/check_login (127.0.0.1) 3.00ms
-[W 180706 16:58:53 web:2106] 404 GET /api/house/index (127.0.0.1) 8.00ms
-[I 180706 16:58:53 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 16:58:54 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 4.00ms
-[I 180706 16:58:54 web:2106] 200 GET /api/profile (127.0.0.1) 57.00ms
-[I 180706 16:58:55 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 16:58:56 web:2106] 200 GET /auth.html (127.0.0.1) 3.00ms
-[I 180706 16:58:56 web:2106] 200 GET /static/css/ihome/profile.css (127.0.0.1) 13.00ms
-[I 180706 16:58:56 web:2106] 200 GET /static/js/ihome/auth.js (127.0.0.1) 13.00ms
-[I 180706 16:58:56 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 11.00ms
-[I 180706 16:58:56 web:2106] 200 GET /api/profile/auth (127.0.0.1) 3.00ms
-[I 180706 16:58:57 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 6.00ms
-[I 180706 16:59:01 web:2106] 200 GET /api/profile (127.0.0.1) 2.00ms
-[I 180706 16:59:02 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 16:59:24 web:2106] 304 GET /api/profile/auth (127.0.0.1) 5.00ms
-[I 180706 16:59:25 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.00ms
-[I 180706 16:59:30 web:2106] 304 GET /api/profile (127.0.0.1) 6.00ms
-[I 180706 16:59:30 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 16:59:54 web:2106] 304 GET /api/profile/auth (127.0.0.1) 6.00ms
-[I 180706 16:59:54 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 17:00:52 web:2106] 200 GET /my.html (127.0.0.1) 25.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 7.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 11.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 9.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 18.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 7.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 4.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 41.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 21.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 22.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 18.00ms
-[I 180706 17:00:52 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 13.00ms
-[I 180706 17:00:53 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 18.00ms
-[I 180706 17:00:53 web:2106] 200 GET /api/profile (127.0.0.1) 7.00ms
-[I 180706 17:00:54 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 18.00ms
-[I 180706 17:00:54 web:2106] 200 GET /auth.html (127.0.0.1) 3.00ms
-[I 180706 17:00:55 web:2106] 200 GET /static/css/ihome/profile.css (127.0.0.1) 3.00ms
-[I 180706 17:00:55 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 3.00ms
-[I 180706 17:00:55 web:2106] 200 GET /static/js/ihome/auth.js (127.0.0.1) 5.00ms
-[I 180706 17:00:55 web:2106] 200 GET /api/profile/auth (127.0.0.1) 3.00ms
-[I 180706 17:00:56 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[D 180706 17:02:26 selector_events:53] Using selector: SelectSelector
-[I 180706 17:02:30 web:2106] 200 GET /api/profile (127.0.0.1) 10.00ms
-[I 180706 17:02:30 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 332.02ms
-[I 180706 17:02:32 web:2106] 200 GET /api/profile/auth (127.0.0.1) 9.00ms
-[I 180706 17:02:32 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.00ms
-[I 180706 17:02:51 web:2106] 200 POST /api/profile/auth (127.0.0.1) 14.00ms
-[I 180706 17:02:57 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
-[I 180706 17:02:57 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
-[I 180706 17:02:58 web:2106] 200 GET /api/profile/auth (127.0.0.1) 3.00ms
-[I 180706 17:02:58 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
+[D 180709 14:59:56 selector_events:53] Using selector: SelectSelector
+[I 180709 14:59:59 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
+[I 180709 15:00:55 web:2106] 200 GET /api/house/area (127.0.0.1) 8.00ms
+[I 180709 15:03:06 web:2106] 200 GET /api/house/area (127.0.0.1) 6.00ms
+[D 180709 15:04:31 selector_events:53] Using selector: SelectSelector
+[I 180709 15:04:35 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
+[I 180709 15:04:50 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
+[I 180709 15:05:57 autoreload:196] E:\pytproject\ihome\handlers\House.py modified; restarting server
+[D 180709 15:05:58 selector_events:53] Using selector: SelectSelector
+[D 180709 15:05:59 selector_events:53] Using selector: SelectSelector
+[I 180709 15:06:06 autoreload:196] E:/pytproject/ihome/server.py modified; restarting server
+[D 180709 15:06:07 selector_events:53] Using selector: SelectSelector
+[D 180709 15:06:08 selector_events:53] Using selector: SelectSelector
+[I 180709 15:06:20 autoreload:196] E:/pytproject/ihome/server.py modified; restarting server
+[D 180709 15:06:21 selector_events:53] Using selector: SelectSelector
+[D 180709 15:06:22 selector_events:53] Using selector: SelectSelector
+[I 180709 15:06:32 web:2106] 200 GET /api/house/area (127.0.0.1) 10.00ms
+[I 180709 15:06:36 web:2106] 200 GET /api/house/area (127.0.0.1) 6.00ms
+[I 180709 15:06:37 web:2106] 200 GET /api/house/area (127.0.0.1) 2.00ms
+[I 180709 15:06:37 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
+[D 180709 15:10:49 selector_events:53] Using selector: SelectSelector
+[D 180709 15:10:58 selector_events:53] Using selector: SelectSelector
+[I 180709 15:11:12 web:2106] 304 GET /newhouse.html (127.0.0.1) 303.02ms
+[I 180709 15:11:12 web:2106] 304 GET /static/js/ihome/newhouse.js (127.0.0.1) 36.00ms
+[I 180709 15:11:12 web:2106] 200 GET /api/house/area (127.0.0.1) 8.00ms
+[I 180709 15:11:19 web:2106] 304 GET /newhouse.html (127.0.0.1) 4.00ms
+[I 180709 15:11:19 web:2106] 304 GET /api/house/area (127.0.0.1) 8.00ms
+[D 180709 15:11:51 selector_events:53] Using selector: SelectSelector
+[I 180709 15:11:53 web:2106] 304 GET /newhouse.html (127.0.0.1) 287.02ms
+[I 180709 15:11:54 web:2106] 200 GET /api/house/area (127.0.0.1) 4.00ms
+[I 180709 15:11:54 web:2106] 304 GET /static/js/ihome/myhouse.js (127.0.0.1) 61.00ms
+[I 180709 15:11:54 web:2106] 200 GET /api/profile/auth (127.0.0.1) 2.00ms
+[I 180709 15:11:54 web:2106] 200 GET /login.html (127.0.0.1) 19.00ms
+[I 180709 15:11:54 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 87.00ms
+[I 180709 15:11:54 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 57.00ms
+[I 180709 15:11:54 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 38.00ms
+[I 180709 15:12:02 web:2106] 200 POST /api/login (127.0.0.1) 23.00ms
+[I 180709 15:12:02 web:2106] 200 GET / (127.0.0.1) 25.00ms
+[I 180709 15:12:02 web:2106] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 34.00ms
+[I 180709 15:12:02 web:2106] 200 GET /static/css/ihome/index.css (127.0.0.1) 7.00ms
+[I 180709 15:12:02 web:2106] 200 GET /static/js/ihome/index.js (127.0.0.1) 6.00ms
+[I 180709 15:12:02 web:2106] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 13.00ms
+[I 180709 15:12:02 web:2106] 200 GET /api/check_login (127.0.0.1) 5.00ms
+[W 180709 15:12:02 web:2106] 404 GET /api/house/index (127.0.0.1) 119.01ms
+[W 180709 15:12:02 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 3.00ms
+[I 180709 15:12:13 web:2106] 200 GET /search.html?aid=&aname=&sd=&ed= (127.0.0.1) 27.00ms
+[I 180709 15:12:13 web:2106] 200 GET /static/css/ihome/search.css (127.0.0.1) 34.00ms
+[I 180709 15:12:13 web:2106] 200 GET /static/js/ihome/search.js (127.0.0.1) 20.00ms
+[I 180709 15:12:13 web:2106] 304 GET /api/house/area (127.0.0.1) 3.00ms
+[W 180709 15:12:14 web:2106] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
+[W 180709 15:12:18 web:2106] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 4.00ms
+[I 180709 15:12:20 web:2106] 304 GET /api/check_login (127.0.0.1) 3.00ms
+[W 180709 15:12:20 web:2106] 404 GET /api/house/index (127.0.0.1) 3.00ms
+[W 180709 15:12:20 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 5.00ms
+[I 180709 15:12:23 web:2106] 200 GET /my.html (127.0.0.1) 23.00ms
+[I 180709 15:12:23 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 31.00ms
+[I 180709 15:12:23 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 5.00ms
+[I 180709 15:12:23 web:2106] 200 GET /api/profile (127.0.0.1) 3.00ms
+[I 180709 15:12:24 web:2106] 200 GET /lorders.html (127.0.0.1) 3.00ms
+[I 180709 15:12:24 web:2106] 200 GET /static/js/ihome/lorders.js (127.0.0.1) 3.00ms
+[W 180709 15:12:24 web:2106] 404 GET /api/order/my?role=landlord (127.0.0.1) 1.00ms
+[I 180709 15:12:27 web:2106] 304 GET /api/profile (127.0.0.1) 4.00ms
+[I 180709 15:12:28 web:2106] 200 GET /api/profile/auth (127.0.0.1) 3.00ms
+[I 180709 15:12:28 web:2106] 200 GET /api/house/my (127.0.0.1) 82.00ms
+[I 180709 15:12:29 web:2106] 304 GET /api/house/area (127.0.0.1) 5.00ms
+[I 180709 15:17:00 web:2106] 304 GET /newhouse.html (127.0.0.1) 2.00ms
+[I 180709 15:17:00 web:2106] 304 GET /api/house/area (127.0.0.1) 2.00ms
+[I 180709 15:17:19 web:2106] 200 GET /myhouse.html (127.0.0.1) 434.02ms
+[I 180709 15:17:19 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 115.01ms
+[I 180709 15:17:19 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 91.01ms
+[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 88.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 82.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 80.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 38.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 32.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 27.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/js/template.js (127.0.0.1) 12.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 141.01ms
+[I 180709 15:17:19 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 64.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 4.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 18.00ms
+[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 36.00ms
+[I 180709 15:17:19 web:2106] 200 GET /api/profile/auth (127.0.0.1) 3.00ms
+[I 180709 15:17:19 web:2106] 200 GET /api/house/my (127.0.0.1) 4.00ms
+[I 180709 15:17:21 web:2106] 200 GET /newhouse.html (127.0.0.1) 6.00ms
+[I 180709 15:17:21 web:2106] 200 GET /static/css/ihome/newhouse.css (127.0.0.1) 104.01ms
+[I 180709 15:17:21 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 10.00ms
+[I 180709 15:17:21 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 7.00ms
+[I 180709 15:17:21 web:2106] 200 GET /api/house/area (127.0.0.1) 5.00ms
+[I 180709 15:18:39 web:2106] 200 GET /myhouse.html (127.0.0.1) 4.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 22.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 21.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 18.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 34.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 10.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 8.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 22.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 15.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 14.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 22.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/js/template.js (127.0.0.1) 9.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 8.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 2.00ms
+[I 180709 15:18:39 web:2106] 200 GET /api/profile/auth (127.0.0.1) 5.00ms
+[I 180709 15:18:39 web:2106] 200 GET /api/house/my (127.0.0.1) 9.00ms
+[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 203.01ms
+[I 180709 15:18:41 web:2106] 200 GET /newhouse.html (127.0.0.1) 11.00ms
+[I 180709 15:18:41 web:2106] 200 GET /static/css/ihome/newhouse.css (127.0.0.1) 7.00ms
+[I 180709 15:18:41 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 12.00ms
+[I 180709 15:18:41 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 10.00ms
+[I 180709 15:18:41 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
+[I 180709 15:19:09 web:2106] 304 GET /api/profile/auth (127.0.0.1) 4.00ms
+[I 180709 15:19:09 web:2106] 304 GET /api/house/my (127.0.0.1) 4.00ms
+[I 180709 15:19:11 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 2.00ms
+[I 180709 15:19:11 web:2106] 304 GET /api/house/area (127.0.0.1) 4.00ms
+[I 180709 15:19:27 web:2106] 200 GET /myhouse.html (127.0.0.1) 1.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 34.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 22.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 20.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 17.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 15.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 13.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 14.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 10.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 6.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 22.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/js/template.js (127.0.0.1) 10.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 7.00ms
+[I 180709 15:19:27 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 15.00ms
+[I 180709 15:19:27 web:2106] 200 GET /api/profile/auth (127.0.0.1) 14.00ms
+[I 180709 15:19:28 web:2106] 200 GET /api/house/my (127.0.0.1) 4.00ms
+[I 180709 15:19:28 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 369.02ms
+[I 180709 15:19:28 web:2106] 200 GET /newhouse.html (127.0.0.1) 3.00ms
+[I 180709 15:19:28 web:2106] 200 GET /static/css/ihome/newhouse.css (127.0.0.1) 6.00ms
+[I 180709 15:19:28 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 5.00ms
+[I 180709 15:19:28 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 4.00ms
+[I 180709 15:19:28 web:2106] 200 GET /api/house/area (127.0.0.1) 2.00ms
+[D 180709 15:20:39 selector_events:53] Using selector: SelectSelector
+[I 180709 15:20:43 web:2106] 200 GET /api/profile/auth (127.0.0.1) 11.00ms
+[I 180709 15:20:43 web:2106] 200 GET /api/house/my (127.0.0.1) 13.00ms
+[I 180709 15:20:45 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 342.02ms
+[I 180709 15:20:45 web:2106] 200 GET /api/house/area (127.0.0.1) 1.00ms
+[I 180709 15:21:33 web:2106] 200 GET /newhouse.html (127.0.0.1) 5.00ms
+[I 180709 15:21:33 web:2106] 304 GET /static/js/ihome/newhouse.js (127.0.0.1) 1.00ms
+[I 180709 15:21:33 web:2106] 304 GET /api/house/area (127.0.0.1) 6.00ms
+[I 180709 15:21:56 web:2106] 304 GET /api/profile/auth (127.0.0.1) 13.00ms
+[I 180709 15:21:56 web:2106] 304 GET /api/house/my (127.0.0.1) 5.00ms
+[I 180709 15:21:57 web:2106] 200 GET /newhouse.html (127.0.0.1) 9.00ms
+[I 180709 15:21:57 web:2106] 304 GET /static/js/ihome/newhouse.js (127.0.0.1) 4.00ms
+[I 180709 15:21:57 web:2106] 304 GET /api/house/area (127.0.0.1) 2.00ms
+[I 180709 15:22:33 web:2106] 200 GET /newhouse.html (127.0.0.1) 2.00ms
+[I 180709 15:22:33 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 3.00ms
+[I 180709 15:22:33 web:2106] 304 GET /api/house/area (127.0.0.1) 3.00ms
+[I 180709 15:23:55 web:2106] 200 GET /newhouse.html (127.0.0.1) 40.00ms
+[I 180709 15:23:55 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 1.00ms
+[I 180709 15:23:55 web:2106] 304 GET /api/house/area (127.0.0.1) 2.00ms
+[I 180709 15:24:07 web:2106] 200 GET /newhouse.html (127.0.0.1) 2.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 25.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 18.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/css/ihome/newhouse.css (127.0.0.1) 16.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 14.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 12.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 9.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 22.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 21.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 20.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 15.00ms
+[I 180709 15:24:07 web:2106] 200 GET /static/js/template.js (127.0.0.1) 12.00ms
+[I 180709 15:24:08 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 102.01ms
+[I 180709 15:24:08 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 3.00ms
+[I 180709 15:24:08 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 8.00ms
+[I 180709 15:24:08 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 48.00ms
+[I 180709 15:24:08 web:2106] 200 GET /api/house/area (127.0.0.1) 5.00ms
+[D 180709 15:25:16 selector_events:53] Using selector: SelectSelector
+[I 180709 15:25:17 web:2106] 304 GET /newhouse.html (127.0.0.1) 277.02ms
+[I 180709 15:25:17 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 5.00ms
+[D 180709 15:25:38 selector_events:53] Using selector: SelectSelector
+[I 180709 15:25:38 web:2106] 304 GET /newhouse.html (127.0.0.1) 239.01ms
+[I 180709 15:25:38 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 4.00ms
+[I 180709 15:25:38 web:2106] 200 GET /api/house/area (127.0.0.1) 18.00ms
+[D 180709 15:25:50 selector_events:53] Using selector: SelectSelector
+[I 180709 15:25:50 web:2106] 304 GET /newhouse.html (127.0.0.1) 243.01ms
+[I 180709 15:25:50 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 3.00ms
+[I 180709 15:25:50 web:2106] 200 GET /api/house/area (127.0.0.1) 13.00ms
+[I 180709 15:27:03 web:2106] 304 GET /newhouse.html (127.0.0.1) 2.00ms
+[I 180709 15:27:03 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 3.00ms
+[I 180709 15:27:03 web:2106] 304 GET /api/house/area (127.0.0.1) 3.00ms
+[D 180709 15:28:04 selector_events:53] Using selector: SelectSelector
+[W 180709 15:28:30 web:2106] 405 POST /api/house/info (127.0.0.1) 4.00ms
+[I 180709 15:41:50 web:2106] 304 GET /newhouse.html (127.0.0.1) 249.01ms
+[I 180709 15:41:50 web:2106] 304 GET /static/js/ihome/newhouse.js (127.0.0.1) 2.00ms
+[I 180709 15:41:50 web:2106] 200 GET /api/house/area (127.0.0.1) 4.00ms
+[I 180709 15:41:51 web:2106] 200 GET /myhouse.html (127.0.0.1) 2.00ms
+[I 180709 15:41:51 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 3.00ms
+[I 180709 15:41:51 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 2.00ms
+[I 180709 15:41:51 web:2106] 200 GET /api/profile/auth (127.0.0.1) 2.00ms
+[I 180709 15:41:51 web:2106] 200 GET /login.html (127.0.0.1) 2.00ms
+[I 180709 15:41:51 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 7.00ms
+[I 180709 15:41:51 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 6.00ms
+[I 180709 15:41:51 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 4.00ms
+[I 180709 15:41:59 web:2106] 200 POST /api/login (127.0.0.1) 15.00ms
+[I 180709 15:41:59 web:2106] 200 GET / (127.0.0.1) 1.00ms
+[I 180709 15:41:59 web:2106] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 4.00ms
+[I 180709 15:41:59 web:2106] 200 GET /static/css/ihome/index.css (127.0.0.1) 2.00ms
+[I 180709 15:41:59 web:2106] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 5.00ms
+[I 180709 15:41:59 web:2106] 200 GET /static/js/ihome/index.js (127.0.0.1) 2.00ms
+[I 180709 15:41:59 web:2106] 200 GET /api/check_login (127.0.0.1) 5.00ms
+[W 180709 15:41:59 web:2106] 404 GET /api/house/index (127.0.0.1) 3.00ms
+[I 180709 15:42:01 web:2106] 200 GET /my.html (127.0.0.1) 7.00ms
+[I 180709 15:42:01 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 10.00ms
+[I 180709 15:42:01 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 10.00ms
+[I 180709 15:42:01 web:2106] 200 GET /api/profile (127.0.0.1) 6.00ms
+[I 180709 15:42:03 web:2106] 200 GET /api/profile/auth (127.0.0.1) 9.00ms
+[I 180709 15:42:04 web:2106] 200 GET /api/house/my (127.0.0.1) 9.00ms
+[I 180709 15:42:05 web:2106] 304 GET /api/house/area (127.0.0.1) 2.00ms
+[D 180709 16:27:06 selector_events:53] Using selector: SelectSelector
+[D 180709 16:27:35 selector_events:53] Using selector: SelectSelector
+[W 180709 16:28:06 web:2106] 404 GET /api/login.html (127.0.0.1) 6.00ms
+[I 180709 16:28:54 web:2106] 200 POST /api/login (127.0.0.1) 10020.57ms
+[I 180709 16:29:04 web:2106] 200 POST /api/login (127.0.0.1) 10006.57ms
+[I 180709 16:29:14 web:2106] 200 POST /api/login (127.0.0.1) 10015.57ms
+[I 180709 16:29:24 web:2106] 200 POST /api/login (127.0.0.1) 10012.57ms
+[I 180709 16:29:34 web:2106] 200 POST /api/login (127.0.0.1) 10015.57ms
+[W 180709 16:29:34 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
+[I 180709 16:29:44 web:2106] 200 POST /api/login (127.0.0.1) 10026.57ms
+[I 180709 16:29:54 web:2106] 200 POST /api/login (127.0.0.1) 10020.57ms
+[W 180709 16:29:54 web:2106] 404 GET /api/house/index (127.0.0.1) 4.00ms
+[I 180709 16:29:54 web:2106] 200 GET /api/check_login (127.0.0.1) 4.00ms
+[I 180709 16:29:54 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
+[D 180709 16:30:45 selector_events:53] Using selector: SelectSelector
+[I 180709 16:30:56 web:2106] 200 GET /register.html (127.0.0.1) 320.02ms
+[I 180709 16:30:56 web:2106] 200 GET /static/js/ihome/register.js (127.0.0.1) 97.01ms
+[I 180709 16:30:56 web:2106] 200 GET /static/css/ihome/register.css (127.0.0.1) 60.00ms
+[I 180709 16:31:26 web:2106] 200 GET /api/imagecode?pcodeid=&codeid=804b12c5-7760-43c5-b645-9ae8cd39ee70 (127.0.0.1) 30418.74ms
+[I 180709 16:31:26 web:2106] 304 GET /login.html (127.0.0.1) 1.00ms
+[D 180709 16:31:42 selector_events:53] Using selector: SelectSelector
+[I 180709 16:31:42 process:128] Starting 2 processes
+[D 180709 17:23:01 selector_events:53] Using selector: SelectSelector

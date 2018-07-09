@@ -18,6 +18,8 @@ class ImageCodeHandler(BaseHandler):
     def get(self, *args, **kwargs):
         code_id = self.get_argument("codeid")
         pre_code_id = self.get_argument("pcodeid")
+        import time
+        time.sleep(30)
         if pre_code_id:
             try:
                 pre_code_id = "image_code_" + pre_code_id

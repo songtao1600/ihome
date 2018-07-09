@@ -95,7 +95,6 @@ class LoginHandler(BaseHandler):
         #获取参数
         mobile = self.json_args.get("mobile")
         password = self.json_args.get("password")
-
         #判断参数合法性
         if not all((mobile,password)):
             return self.write(dict(errcode=RET.PARAMERR, errmsg="参数错误"))

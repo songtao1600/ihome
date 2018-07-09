@@ -14,7 +14,7 @@ settings = {
     'template_path':os.path.join(os.path.dirname(__file__), 'template'),
     'cookie_secret':'ssdsdfdsiwaeijsdcnjiucdsfjkk',
     'xsrf_cookies':True,
-    'debug':True,
+    'debug':False,
 }
 
 #mysql配置
@@ -30,7 +30,8 @@ mysql_options = {
 #redis配置
 redis_options = {
     'host':'172.20.10.11',
-    'port':6379
+    'port':6379,
+    'socket_timeout':10
 }
 
 log_level = 'debug'
