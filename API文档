@@ -1,0 +1,74 @@
+1.首页
+url:/api/index
+method:get
+传入参数：
+无
+
+返回参数：
+json格式
+{"errcode": 0, "errmsg": "", "houses":{},"areas":{}}
+参数名      参数类型     是否必传    参数说明
+errcode     int         是       返回状态码
+errmsg      string      是       状态描述
+houses      dict        是       房屋数据
+areas       ict        是        区域数据
+
+2. 图片验证码
+url:/api/imagecode
+method:get
+传入参数：
+json格式
+{"codeid":"ccb80acc-b424-4c42-bacb-30d9c0068474", "pcodeid":ccb80acc-b424-4c42-bacb-30d9c0068473}
+参数名      参数类型    是否必须    参数说明
+codeid     string     是          图片id
+pcodeid    string     否          上次图片id
+
+返回参数：
+json格式
+{"errcode": 0, "errmsg": "", "data":{}}
+参数名      参数类型     是否必传    参数说明
+errcode     int         是       返回状态码
+errmsg      string      是       状态描述
+data        dict        是       图片数据
+
+
+
+3. 发送手机短信验证码
+url: /api/smscode
+method: post
+传入参数：
+json格式
+{"mobile":"18516111111", "piccode":"abcd", "piccode_id":"ccb80acc-b424-4c42-bacb-30d9c0068474"}
+参数名      参数类型    是否必须    参数说明
+mobile     string     是          用户手机号
+piccode    string     是          用户填写的图片验证码
+piccode_id string     是          图片验证码编号
+
+
+返回参数：
+json格式
+{"errcode": 0, "errmsg": "", "data":{}}
+参数名      参数类型     是否必传    参数说明
+errcode     int         是       返回状态码
+errmsg      string      是       状态描述
+data        dict        否       附带数据
+
+4. 注册
+url: /api/register
+method: post
+传入参数：
+json格式
+{"mobile":"18516111111", "phonecode":"1234", "password":"111111eeeeeee"}
+参数名      参数类型    是否必须    参数说明
+mobile     string     是          用户手机号
+phonecode  string     是          手机验证码
+password   string     是          用户密码
+
+
+返回参数：
+json格式
+{"errcode": 0, "errmsg": ""}
+参数名      参数类型     是否必传    参数说明
+errcode     int         是       返回状态码
+errmsg      string      是       状态描述
+

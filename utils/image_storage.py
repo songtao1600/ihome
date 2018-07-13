@@ -26,7 +26,7 @@ def storage(image_data):
     # localfile = './sync/bbb.jpg'
 
     ret, info = put_data(token, None, image_data)
-    print(info)
+    # print(info)
     # assert ret['key'] == key
     # assert ret['hash'] == etag(localfile)
     return ret['key']
@@ -36,7 +36,7 @@ if __name__=='__main__':
     file = open(file_name, "rb")
     file_data = file.read()
     key = storage(file_data)
-    print(key)
+    # print(key)
     file.close()
 
 

@@ -12,9 +12,8 @@ $(document).ready(function(){
             // $("#area-id").html(html);
             // console.log(html);
             for (var i=0; i<data.data.length; i++) {
-                console.log(data.data[i].ai_name, data.data[i].ai_area_id)
-                // $("#area-id").append('<option value="'+data.data[i].ai_area_id+'">'+data.data[i].name+'</option>');
-                $("#area-id").append('<option value=data.data[i].ai_area_id>'+data.data[i].ai_name+'</option>');
+                // console.log(data.data[i].name, data.data[i].area_id);
+                $("#area-id").append('<option value="'+data.data[i].area_id+'">'+data.data[i].name+'</option>');
             }
         }
     }, "json")
@@ -30,6 +29,7 @@ $(document).ready(function(){
         }
         var data = {};
         $(this).serializeArray().map(function(x){data[x.name] = x.value;});
+        // console.log(data)
         var facility = []; // 用来保存勾选了的设施编号
         // 通过jquery筛选出勾选了的页面元素
         // 通过each方法遍历元素

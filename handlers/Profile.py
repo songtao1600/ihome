@@ -33,7 +33,7 @@ class ProfileHandler(BaseHandler):
         except Exception as e:
             logging.error("查询数据库错误", e)
             cur.close()
-            self.db.close()
+            #self.db.close()
             return self.write(dict(errcode=RET.DATAERR, errmsg="获取个人信息失败"))
 
         if req['up_avatar']:
@@ -78,10 +78,12 @@ class AvatarHandler(BaseHandler):
         try:
             cur.execute(sql)
             self.db.commit()
-            cur.close()
         except Exception as e:
+            self.db.rollback()
             logging('更新头像失败', e)
             return self.write(dict(errcode=RET.DATAERR, errmsg="上传头像失败"))
+        finally:
+            cur.close()
 
         self.write(dict(errcode=RET.OK, errmsg="上传成功", data="%s%s" % (iamage_base_url, file_name)))
 
@@ -119,9 +121,11 @@ class NameHandler(BaseHandler):
             fet = cur.execute(sql)
             self.db.commit()
         except Exception as e:
-            cur.close()
+            self.db.rollback()
             logging.error('查询数据库失败', e)
             return self.write(dict(errcode=RET.DATAERR, errmsg="更新姓名失败"))
+        finally:
+            cur.close()
 
         self.write({"errcode": RET.OK, "errmsg": "OK"})
 
@@ -172,8 +176,11 @@ class AuthHandler(BaseHandler):
             cur.execute(sql,(real_name, id_card, user_id))
             self.db.commit()
         except Exception as e:
+            self.db.rollback()
             logging.error(e)
             return self.write({"errcode": RET.DBERR, "errmsg": "update failed"})
+        finally:
+            cur.close()
 
         self.write({"errcode": RET.OK, "errmsg": "OK"})
 

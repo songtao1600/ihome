@@ -1,238 +1,492 @@
-[D 180709 14:59:56 selector_events:53] Using selector: SelectSelector
-[I 180709 14:59:59 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
-[I 180709 15:00:55 web:2106] 200 GET /api/house/area (127.0.0.1) 8.00ms
-[I 180709 15:03:06 web:2106] 200 GET /api/house/area (127.0.0.1) 6.00ms
-[D 180709 15:04:31 selector_events:53] Using selector: SelectSelector
-[I 180709 15:04:35 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
-[I 180709 15:04:50 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
-[I 180709 15:05:57 autoreload:196] E:\pytproject\ihome\handlers\House.py modified; restarting server
-[D 180709 15:05:58 selector_events:53] Using selector: SelectSelector
-[D 180709 15:05:59 selector_events:53] Using selector: SelectSelector
-[I 180709 15:06:06 autoreload:196] E:/pytproject/ihome/server.py modified; restarting server
-[D 180709 15:06:07 selector_events:53] Using selector: SelectSelector
-[D 180709 15:06:08 selector_events:53] Using selector: SelectSelector
-[I 180709 15:06:20 autoreload:196] E:/pytproject/ihome/server.py modified; restarting server
-[D 180709 15:06:21 selector_events:53] Using selector: SelectSelector
-[D 180709 15:06:22 selector_events:53] Using selector: SelectSelector
-[I 180709 15:06:32 web:2106] 200 GET /api/house/area (127.0.0.1) 10.00ms
-[I 180709 15:06:36 web:2106] 200 GET /api/house/area (127.0.0.1) 6.00ms
-[I 180709 15:06:37 web:2106] 200 GET /api/house/area (127.0.0.1) 2.00ms
-[I 180709 15:06:37 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
-[D 180709 15:10:49 selector_events:53] Using selector: SelectSelector
-[D 180709 15:10:58 selector_events:53] Using selector: SelectSelector
-[I 180709 15:11:12 web:2106] 304 GET /newhouse.html (127.0.0.1) 303.02ms
-[I 180709 15:11:12 web:2106] 304 GET /static/js/ihome/newhouse.js (127.0.0.1) 36.00ms
-[I 180709 15:11:12 web:2106] 200 GET /api/house/area (127.0.0.1) 8.00ms
-[I 180709 15:11:19 web:2106] 304 GET /newhouse.html (127.0.0.1) 4.00ms
-[I 180709 15:11:19 web:2106] 304 GET /api/house/area (127.0.0.1) 8.00ms
-[D 180709 15:11:51 selector_events:53] Using selector: SelectSelector
-[I 180709 15:11:53 web:2106] 304 GET /newhouse.html (127.0.0.1) 287.02ms
-[I 180709 15:11:54 web:2106] 200 GET /api/house/area (127.0.0.1) 4.00ms
-[I 180709 15:11:54 web:2106] 304 GET /static/js/ihome/myhouse.js (127.0.0.1) 61.00ms
-[I 180709 15:11:54 web:2106] 200 GET /api/profile/auth (127.0.0.1) 2.00ms
-[I 180709 15:11:54 web:2106] 200 GET /login.html (127.0.0.1) 19.00ms
-[I 180709 15:11:54 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 87.00ms
-[I 180709 15:11:54 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 57.00ms
-[I 180709 15:11:54 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 38.00ms
-[I 180709 15:12:02 web:2106] 200 POST /api/login (127.0.0.1) 23.00ms
-[I 180709 15:12:02 web:2106] 200 GET / (127.0.0.1) 25.00ms
-[I 180709 15:12:02 web:2106] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 34.00ms
-[I 180709 15:12:02 web:2106] 200 GET /static/css/ihome/index.css (127.0.0.1) 7.00ms
-[I 180709 15:12:02 web:2106] 200 GET /static/js/ihome/index.js (127.0.0.1) 6.00ms
-[I 180709 15:12:02 web:2106] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 13.00ms
-[I 180709 15:12:02 web:2106] 200 GET /api/check_login (127.0.0.1) 5.00ms
-[W 180709 15:12:02 web:2106] 404 GET /api/house/index (127.0.0.1) 119.01ms
-[W 180709 15:12:02 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 3.00ms
-[I 180709 15:12:13 web:2106] 200 GET /search.html?aid=&aname=&sd=&ed= (127.0.0.1) 27.00ms
-[I 180709 15:12:13 web:2106] 200 GET /static/css/ihome/search.css (127.0.0.1) 34.00ms
-[I 180709 15:12:13 web:2106] 200 GET /static/js/ihome/search.js (127.0.0.1) 20.00ms
-[I 180709 15:12:13 web:2106] 304 GET /api/house/area (127.0.0.1) 3.00ms
-[W 180709 15:12:14 web:2106] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
-[W 180709 15:12:18 web:2106] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 4.00ms
-[I 180709 15:12:20 web:2106] 304 GET /api/check_login (127.0.0.1) 3.00ms
-[W 180709 15:12:20 web:2106] 404 GET /api/house/index (127.0.0.1) 3.00ms
-[W 180709 15:12:20 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 5.00ms
-[I 180709 15:12:23 web:2106] 200 GET /my.html (127.0.0.1) 23.00ms
-[I 180709 15:12:23 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 31.00ms
-[I 180709 15:12:23 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 5.00ms
-[I 180709 15:12:23 web:2106] 200 GET /api/profile (127.0.0.1) 3.00ms
-[I 180709 15:12:24 web:2106] 200 GET /lorders.html (127.0.0.1) 3.00ms
-[I 180709 15:12:24 web:2106] 200 GET /static/js/ihome/lorders.js (127.0.0.1) 3.00ms
-[W 180709 15:12:24 web:2106] 404 GET /api/order/my?role=landlord (127.0.0.1) 1.00ms
-[I 180709 15:12:27 web:2106] 304 GET /api/profile (127.0.0.1) 4.00ms
-[I 180709 15:12:28 web:2106] 200 GET /api/profile/auth (127.0.0.1) 3.00ms
-[I 180709 15:12:28 web:2106] 200 GET /api/house/my (127.0.0.1) 82.00ms
-[I 180709 15:12:29 web:2106] 304 GET /api/house/area (127.0.0.1) 5.00ms
-[I 180709 15:17:00 web:2106] 304 GET /newhouse.html (127.0.0.1) 2.00ms
-[I 180709 15:17:00 web:2106] 304 GET /api/house/area (127.0.0.1) 2.00ms
-[I 180709 15:17:19 web:2106] 200 GET /myhouse.html (127.0.0.1) 434.02ms
-[I 180709 15:17:19 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 115.01ms
-[I 180709 15:17:19 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 91.01ms
-[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 88.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 82.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 80.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 38.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 32.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 27.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/js/template.js (127.0.0.1) 12.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 141.01ms
-[I 180709 15:17:19 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 64.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 4.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 18.00ms
-[I 180709 15:17:19 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 36.00ms
-[I 180709 15:17:19 web:2106] 200 GET /api/profile/auth (127.0.0.1) 3.00ms
-[I 180709 15:17:19 web:2106] 200 GET /api/house/my (127.0.0.1) 4.00ms
-[I 180709 15:17:21 web:2106] 200 GET /newhouse.html (127.0.0.1) 6.00ms
-[I 180709 15:17:21 web:2106] 200 GET /static/css/ihome/newhouse.css (127.0.0.1) 104.01ms
-[I 180709 15:17:21 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 10.00ms
-[I 180709 15:17:21 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 7.00ms
-[I 180709 15:17:21 web:2106] 200 GET /api/house/area (127.0.0.1) 5.00ms
-[I 180709 15:18:39 web:2106] 200 GET /myhouse.html (127.0.0.1) 4.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 22.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 21.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 18.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 34.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 10.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 8.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 22.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 15.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 14.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 22.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/js/template.js (127.0.0.1) 9.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 8.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 2.00ms
-[I 180709 15:18:39 web:2106] 200 GET /api/profile/auth (127.0.0.1) 5.00ms
-[I 180709 15:18:39 web:2106] 200 GET /api/house/my (127.0.0.1) 9.00ms
-[I 180709 15:18:39 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 203.01ms
-[I 180709 15:18:41 web:2106] 200 GET /newhouse.html (127.0.0.1) 11.00ms
-[I 180709 15:18:41 web:2106] 200 GET /static/css/ihome/newhouse.css (127.0.0.1) 7.00ms
-[I 180709 15:18:41 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 12.00ms
-[I 180709 15:18:41 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 10.00ms
-[I 180709 15:18:41 web:2106] 200 GET /api/house/area (127.0.0.1) 3.00ms
-[I 180709 15:19:09 web:2106] 304 GET /api/profile/auth (127.0.0.1) 4.00ms
-[I 180709 15:19:09 web:2106] 304 GET /api/house/my (127.0.0.1) 4.00ms
-[I 180709 15:19:11 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 2.00ms
-[I 180709 15:19:11 web:2106] 304 GET /api/house/area (127.0.0.1) 4.00ms
-[I 180709 15:19:27 web:2106] 200 GET /myhouse.html (127.0.0.1) 1.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 34.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 22.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 20.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 17.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 15.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 13.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 14.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 10.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 6.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 22.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/js/template.js (127.0.0.1) 10.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 7.00ms
-[I 180709 15:19:27 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 15.00ms
-[I 180709 15:19:27 web:2106] 200 GET /api/profile/auth (127.0.0.1) 14.00ms
-[I 180709 15:19:28 web:2106] 200 GET /api/house/my (127.0.0.1) 4.00ms
-[I 180709 15:19:28 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 369.02ms
-[I 180709 15:19:28 web:2106] 200 GET /newhouse.html (127.0.0.1) 3.00ms
-[I 180709 15:19:28 web:2106] 200 GET /static/css/ihome/newhouse.css (127.0.0.1) 6.00ms
-[I 180709 15:19:28 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 5.00ms
-[I 180709 15:19:28 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 4.00ms
-[I 180709 15:19:28 web:2106] 200 GET /api/house/area (127.0.0.1) 2.00ms
-[D 180709 15:20:39 selector_events:53] Using selector: SelectSelector
-[I 180709 15:20:43 web:2106] 200 GET /api/profile/auth (127.0.0.1) 11.00ms
-[I 180709 15:20:43 web:2106] 200 GET /api/house/my (127.0.0.1) 13.00ms
-[I 180709 15:20:45 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 342.02ms
-[I 180709 15:20:45 web:2106] 200 GET /api/house/area (127.0.0.1) 1.00ms
-[I 180709 15:21:33 web:2106] 200 GET /newhouse.html (127.0.0.1) 5.00ms
-[I 180709 15:21:33 web:2106] 304 GET /static/js/ihome/newhouse.js (127.0.0.1) 1.00ms
-[I 180709 15:21:33 web:2106] 304 GET /api/house/area (127.0.0.1) 6.00ms
-[I 180709 15:21:56 web:2106] 304 GET /api/profile/auth (127.0.0.1) 13.00ms
-[I 180709 15:21:56 web:2106] 304 GET /api/house/my (127.0.0.1) 5.00ms
-[I 180709 15:21:57 web:2106] 200 GET /newhouse.html (127.0.0.1) 9.00ms
-[I 180709 15:21:57 web:2106] 304 GET /static/js/ihome/newhouse.js (127.0.0.1) 4.00ms
-[I 180709 15:21:57 web:2106] 304 GET /api/house/area (127.0.0.1) 2.00ms
-[I 180709 15:22:33 web:2106] 200 GET /newhouse.html (127.0.0.1) 2.00ms
-[I 180709 15:22:33 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 3.00ms
-[I 180709 15:22:33 web:2106] 304 GET /api/house/area (127.0.0.1) 3.00ms
-[I 180709 15:23:55 web:2106] 200 GET /newhouse.html (127.0.0.1) 40.00ms
-[I 180709 15:23:55 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 1.00ms
-[I 180709 15:23:55 web:2106] 304 GET /api/house/area (127.0.0.1) 2.00ms
-[I 180709 15:24:07 web:2106] 200 GET /newhouse.html (127.0.0.1) 2.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 25.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 18.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/css/ihome/newhouse.css (127.0.0.1) 16.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 14.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 12.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 9.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 22.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 21.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 20.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 15.00ms
-[I 180709 15:24:07 web:2106] 200 GET /static/js/template.js (127.0.0.1) 12.00ms
-[I 180709 15:24:08 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 102.01ms
-[I 180709 15:24:08 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 3.00ms
-[I 180709 15:24:08 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 8.00ms
-[I 180709 15:24:08 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 48.00ms
-[I 180709 15:24:08 web:2106] 200 GET /api/house/area (127.0.0.1) 5.00ms
-[D 180709 15:25:16 selector_events:53] Using selector: SelectSelector
-[I 180709 15:25:17 web:2106] 304 GET /newhouse.html (127.0.0.1) 277.02ms
-[I 180709 15:25:17 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 5.00ms
-[D 180709 15:25:38 selector_events:53] Using selector: SelectSelector
-[I 180709 15:25:38 web:2106] 304 GET /newhouse.html (127.0.0.1) 239.01ms
-[I 180709 15:25:38 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 4.00ms
-[I 180709 15:25:38 web:2106] 200 GET /api/house/area (127.0.0.1) 18.00ms
-[D 180709 15:25:50 selector_events:53] Using selector: SelectSelector
-[I 180709 15:25:50 web:2106] 304 GET /newhouse.html (127.0.0.1) 243.01ms
-[I 180709 15:25:50 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 3.00ms
-[I 180709 15:25:50 web:2106] 200 GET /api/house/area (127.0.0.1) 13.00ms
-[I 180709 15:27:03 web:2106] 304 GET /newhouse.html (127.0.0.1) 2.00ms
-[I 180709 15:27:03 web:2106] 200 GET /static/js/ihome/newhouse.js (127.0.0.1) 3.00ms
-[I 180709 15:27:03 web:2106] 304 GET /api/house/area (127.0.0.1) 3.00ms
-[D 180709 15:28:04 selector_events:53] Using selector: SelectSelector
-[W 180709 15:28:30 web:2106] 405 POST /api/house/info (127.0.0.1) 4.00ms
-[I 180709 15:41:50 web:2106] 304 GET /newhouse.html (127.0.0.1) 249.01ms
-[I 180709 15:41:50 web:2106] 304 GET /static/js/ihome/newhouse.js (127.0.0.1) 2.00ms
-[I 180709 15:41:50 web:2106] 200 GET /api/house/area (127.0.0.1) 4.00ms
-[I 180709 15:41:51 web:2106] 200 GET /myhouse.html (127.0.0.1) 2.00ms
-[I 180709 15:41:51 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 3.00ms
-[I 180709 15:41:51 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 2.00ms
-[I 180709 15:41:51 web:2106] 200 GET /api/profile/auth (127.0.0.1) 2.00ms
-[I 180709 15:41:51 web:2106] 200 GET /login.html (127.0.0.1) 2.00ms
-[I 180709 15:41:51 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 7.00ms
-[I 180709 15:41:51 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 6.00ms
-[I 180709 15:41:51 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 4.00ms
-[I 180709 15:41:59 web:2106] 200 POST /api/login (127.0.0.1) 15.00ms
-[I 180709 15:41:59 web:2106] 200 GET / (127.0.0.1) 1.00ms
-[I 180709 15:41:59 web:2106] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 4.00ms
-[I 180709 15:41:59 web:2106] 200 GET /static/css/ihome/index.css (127.0.0.1) 2.00ms
-[I 180709 15:41:59 web:2106] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 5.00ms
-[I 180709 15:41:59 web:2106] 200 GET /static/js/ihome/index.js (127.0.0.1) 2.00ms
-[I 180709 15:41:59 web:2106] 200 GET /api/check_login (127.0.0.1) 5.00ms
-[W 180709 15:41:59 web:2106] 404 GET /api/house/index (127.0.0.1) 3.00ms
-[I 180709 15:42:01 web:2106] 200 GET /my.html (127.0.0.1) 7.00ms
-[I 180709 15:42:01 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 10.00ms
-[I 180709 15:42:01 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 10.00ms
-[I 180709 15:42:01 web:2106] 200 GET /api/profile (127.0.0.1) 6.00ms
-[I 180709 15:42:03 web:2106] 200 GET /api/profile/auth (127.0.0.1) 9.00ms
-[I 180709 15:42:04 web:2106] 200 GET /api/house/my (127.0.0.1) 9.00ms
-[I 180709 15:42:05 web:2106] 304 GET /api/house/area (127.0.0.1) 2.00ms
-[D 180709 16:27:06 selector_events:53] Using selector: SelectSelector
-[D 180709 16:27:35 selector_events:53] Using selector: SelectSelector
-[W 180709 16:28:06 web:2106] 404 GET /api/login.html (127.0.0.1) 6.00ms
-[I 180709 16:28:54 web:2106] 200 POST /api/login (127.0.0.1) 10020.57ms
-[I 180709 16:29:04 web:2106] 200 POST /api/login (127.0.0.1) 10006.57ms
-[I 180709 16:29:14 web:2106] 200 POST /api/login (127.0.0.1) 10015.57ms
-[I 180709 16:29:24 web:2106] 200 POST /api/login (127.0.0.1) 10012.57ms
-[I 180709 16:29:34 web:2106] 200 POST /api/login (127.0.0.1) 10015.57ms
-[W 180709 16:29:34 web:2106] 404 GET /api/house/index (127.0.0.1) 2.00ms
-[I 180709 16:29:44 web:2106] 200 POST /api/login (127.0.0.1) 10026.57ms
-[I 180709 16:29:54 web:2106] 200 POST /api/login (127.0.0.1) 10020.57ms
-[W 180709 16:29:54 web:2106] 404 GET /api/house/index (127.0.0.1) 4.00ms
-[I 180709 16:29:54 web:2106] 200 GET /api/check_login (127.0.0.1) 4.00ms
-[I 180709 16:29:54 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
-[D 180709 16:30:45 selector_events:53] Using selector: SelectSelector
-[I 180709 16:30:56 web:2106] 200 GET /register.html (127.0.0.1) 320.02ms
-[I 180709 16:30:56 web:2106] 200 GET /static/js/ihome/register.js (127.0.0.1) 97.01ms
-[I 180709 16:30:56 web:2106] 200 GET /static/css/ihome/register.css (127.0.0.1) 60.00ms
-[I 180709 16:31:26 web:2106] 200 GET /api/imagecode?pcodeid=&codeid=804b12c5-7760-43c5-b645-9ae8cd39ee70 (127.0.0.1) 30418.74ms
-[I 180709 16:31:26 web:2106] 304 GET /login.html (127.0.0.1) 1.00ms
-[D 180709 16:31:42 selector_events:53] Using selector: SelectSelector
-[I 180709 16:31:42 process:128] Starting 2 processes
-[D 180709 17:23:01 selector_events:53] Using selector: SelectSelector
+[D 180713 14:53:05 selector_events:53] Using selector: SelectSelector
+[E 180713 14:53:08 Orders:56] format requires a mapping
+[I 180713 14:53:08 web:2106] 200 POST /api/order (127.0.0.1) 17.50ms
+[D 180713 14:58:22 selector_events:53] Using selector: SelectSelector
+[I 180713 14:58:27 web:2106] 200 POST /api/order (127.0.0.1) 12.50ms
+[D 180713 15:57:48 selector_events:53] Using selector: SelectSelector
+[E 180713 15:57:51 Orders:70] format requires a mapping
+[I 180713 15:57:51 web:2106] 200 POST /api/order (127.0.0.1) 40.00ms
+[D 180713 15:59:20 selector_events:53] Using selector: SelectSelector
+[I 180713 16:00:27 web:2106] 304 GET / (127.0.0.1) 229.01ms
+[I 180713 16:00:27 web:2106] 304 GET /static/js/ihome/index.js (127.0.0.1) 4.00ms
+[I 180713 16:00:27 web:2106] 200 GET /api/check_login (127.0.0.1) 3.00ms
+[I 180713 16:00:27 web:2106] 200 GET /api/index (127.0.0.1) 9.00ms
+[I 180713 16:00:40 web:2106] 200 POST /api/login (127.0.0.1) 11.00ms
+[I 180713 16:00:40 web:2106] 200 GET /api/check_login (127.0.0.1) 4.00ms
+[I 180713 16:00:40 web:2106] 304 GET /api/index (127.0.0.1) 4.00ms
+[I 180713 16:00:52 web:2106] 200 GET /search.html?aid=6&aname=%E6%B5%B7%E6%B7%80%E5%8C%BA&sd=2018-07-13&ed=2018-07-14 (127.0.0.1) 9.00ms
+[I 180713 16:00:52 web:2106] 200 GET /static/js/ihome/search.js (127.0.0.1) 1.00ms
+[I 180713 16:00:53 web:2106] 200 GET /api/house/area (127.0.0.1) 1.00ms
+[D 180713 16:00:53 House:310] 2018-07-13
+[D 180713 16:00:53 House:311] 2018-07-14
+[D 180713 16:00:53 House:312] 6
+[D 180713 16:00:53 House:313] new
+[D 180713 16:00:53 House:314] 1
+[D 180713 16:00:53 House:405] select distinct hi_title as title,hi_house_id as house_id,hi_price as price,hi_room_count as room_count,hi_address as address,hi_order_count as order_count,up_avatar as avatar,hi_index_image_url as image_url, date_format(hi_ctime,'%%Y-%%m-%%d %%H:%%i:%%S') as hi_ctime from ih_house_info inner join ih_user_profile on hi_user_id=up_user_id left join ih_order_info on hi_house_id=oi_house_id where ((oi_begin_date>%(end_date)s or oi_end_date<%(start_date)s) or (oi_begin_date is null and oi_end_date is null)) and hi_area_id=%(area_id)s order by hi_ctime desc limit 10
+[I 180713 16:00:53 web:2106] 200 GET /api/house/list?aid=6&sd=2018-07-13&ed=2018-07-14&sk=new&p=1 (127.0.0.1) 11.00ms
+[I 180713 16:00:56 web:2106] 200 GET /detail.html?id=1 (127.0.0.1) 5.00ms
+[I 180713 16:00:56 web:2106] 200 GET /static/css/ihome/detail.css (127.0.0.1) 4.00ms
+[I 180713 16:00:56 web:2106] 200 GET /static/js/ihome/detail.js (127.0.0.1) 2.00ms
+[I 180713 16:00:56 web:2106] 200 GET /api/house/info?house_id=1 (127.0.0.1) 9.00ms
+[I 180713 16:00:56 web:2106] 200 GET /static/images/houseicon_sprite.png (127.0.0.1) 3.00ms
+[I 180713 16:00:58 web:2106] 200 GET /booking.html?hid=1 (127.0.0.1) 6.00ms
+[I 180713 16:00:58 web:2106] 200 GET /static/css/ihome/booking.css (127.0.0.1) 5.00ms
+[I 180713 16:00:58 web:2106] 200 GET /static/js/ihome/booking.js (127.0.0.1) 4.00ms
+[I 180713 16:00:58 web:2106] 304 GET /api/check_login (127.0.0.1) 4.00ms
+[I 180713 16:00:58 web:2106] 304 GET /api/house/info?house_id=1 (127.0.0.1) 3.00ms
+[E 180713 16:01:06 Orders:70] format requires a mapping
+[I 180713 16:01:06 web:2106] 200 POST /api/order (127.0.0.1) 23.00ms
+[I 180713 16:01:17 web:2106] 200 POST /api/order (127.0.0.1) 11.00ms
+[D 180713 16:02:46 selector_events:53] Using selector: SelectSelector
+[I 180713 16:02:46 web:2106] 200 POST /api/order (127.0.0.1) 19.00ms
+[D 180713 16:03:38 selector_events:53] Using selector: SelectSelector
+[E 180713 16:03:39 Orders:72] format requires a mapping
+[I 180713 16:03:39 web:2106] 200 POST /api/order (127.0.0.1) 18.00ms
+[D 180713 16:05:50 selector_events:53] Using selector: SelectSelector
+[E 180713 16:05:50 Orders:73] strptime() takes exactly 2 arguments (1 given)
+[I 180713 16:05:50 web:2106] 200 POST /api/order (127.0.0.1) 28.00ms
+[D 180713 16:06:58 selector_events:53] Using selector: SelectSelector
+[I 180713 16:07:00 web:2106] 200 POST /api/order (127.0.0.1) 17.00ms
+[W 180713 16:07:00 web:2106] 404 GET /api/order/my?role=custom (127.0.0.1) 2.00ms
+[D 180713 16:07:28 selector_events:53] Using selector: SelectSelector
+[I 180713 16:07:30 web:2106] 200 GET /api/profile (127.0.0.1) 7.00ms
+[I 180713 16:07:34 web:2106] 304 GET /api/profile (127.0.0.1) 4.00ms
+[W 180713 16:07:35 web:2106] 404 GET /api/order/my?role=custom (127.0.0.1) 2.00ms
+[I 180713 16:07:38 web:2106] 200 GET /api/check_login (127.0.0.1) 1.00ms
+[I 180713 16:07:38 web:2106] 200 GET /api/index (127.0.0.1) 9.00ms
+[W 180713 16:07:39 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 180713 16:07:55 web:2106] 200 GET /search.html?aid=6&aname=%E6%B5%B7%E6%B7%80%E5%8C%BA&sd=2018-07-13&ed=2018-07-15 (127.0.0.1) 264.01ms
+[I 180713 16:07:55 web:2106] 200 GET /api/house/area (127.0.0.1) 7.00ms
+[D 180713 16:07:55 House:310] 2018-07-13
+[D 180713 16:07:55 House:311] 2018-07-15
+[D 180713 16:07:55 House:312] 6
+[D 180713 16:07:55 House:313] new
+[D 180713 16:07:55 House:314] 1
+[D 180713 16:07:55 House:405] select distinct hi_title as title,hi_house_id as house_id,hi_price as price,hi_room_count as room_count,hi_address as address,hi_order_count as order_count,up_avatar as avatar,hi_index_image_url as image_url, date_format(hi_ctime,'%%Y-%%m-%%d %%H:%%i:%%S') as hi_ctime from ih_house_info inner join ih_user_profile on hi_user_id=up_user_id left join ih_order_info on hi_house_id=oi_house_id where ((oi_begin_date>%(end_date)s or oi_end_date<%(start_date)s) or (oi_begin_date is null and oi_end_date is null)) and hi_area_id=%(area_id)s order by hi_ctime desc limit 10
+[I 180713 16:07:55 web:2106] 200 GET /api/house/list?aid=6&sd=2018-07-13&ed=2018-07-15&sk=new&p=1 (127.0.0.1) 29.00ms
+[I 180713 16:07:58 web:2106] 200 GET /api/house/info?house_id=1 (127.0.0.1) 6.00ms
+[W 180713 16:07:58 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 3.00ms
+[I 180713 16:08:00 web:2106] 304 GET /api/check_login (127.0.0.1) 5.00ms
+[I 180713 16:08:00 web:2106] 304 GET /api/house/info?house_id=1 (127.0.0.1) 7.00ms
+[I 180713 16:08:07 web:2106] 200 POST /api/order (127.0.0.1) 72.00ms
+[W 180713 16:08:07 web:2106] 404 GET /api/order/my?role=custom (127.0.0.1) 1.00ms
+[D 180713 16:09:08 selector_events:53] Using selector: SelectSelector
+[I 180713 16:09:22 web:2106] 200 POST /api/order (127.0.0.1) 46.00ms
+[W 180713 16:09:22 web:2106] 404 GET /api/order/my?role=custom (127.0.0.1) 2.00ms
+[D 180713 16:10:30 selector_events:53] Using selector: SelectSelector
+[D 180713 16:36:14 selector_events:53] Using selector: SelectSelector
+[I 180713 16:36:17 web:2106] 200 GET /api/profile (127.0.0.1) 12.00ms
+[W 180713 16:36:20 web:2106] 404 GET /api/order/my?role=custom (127.0.0.1) 1.00ms
+[D 180713 16:36:57 selector_events:53] Using selector: SelectSelector
+[I 180713 16:37:04 web:2106] 200 GET /api/profile (127.0.0.1) 8.00ms
+[E 180713 16:37:06 web:1621] Uncaught exception GET /api/order/my?role=custom (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/order/my?role=custom', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "E:\pytproject\ihome\utils\common.py", line 19, in wapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "E:\pytproject\ihome\handlers\Orders.py", line 111, in get
+        order['img_url'] = iamage_base_url + order['hi_index_image_url'] if order['hi_index_image_url'] else ""
+    KeyError: 'hi_index_image_url'
+[E 180713 16:37:06 web:2106] 500 GET /api/order/my?role=custom (127.0.0.1) 18.00ms
+[D 180713 16:37:43 selector_events:53] Using selector: SelectSelector
+[I 180713 16:37:44 web:2106] 200 GET /api/profile (127.0.0.1) 5.00ms
+[I 180713 16:37:46 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 3.00ms
+[D 180713 16:38:48 selector_events:53] Using selector: SelectSelector
+[I 180713 16:38:51 web:2106] 200 GET /api/profile (127.0.0.1) 8.00ms
+[I 180713 16:38:53 web:2106] 304 GET /api/order/my?role=custom (127.0.0.1) 3.00ms
+[D 180713 16:39:17 selector_events:53] Using selector: SelectSelector
+[I 180713 16:39:18 web:2106] 200 GET /api/profile (127.0.0.1) 9.00ms
+[I 180713 16:39:20 web:2106] 304 GET /api/order/my?role=custom (127.0.0.1) 6.00ms
+[D 180713 16:44:29 selector_events:53] Using selector: SelectSelector
+[I 180713 16:44:33 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 18.00ms
+[D 180713 16:44:55 selector_events:53] Using selector: SelectSelector
+[D 180713 17:07:47 selector_events:53] Using selector: SelectSelector
+[I 180713 17:07:51 web:2106] 200 GET /api/profile (127.0.0.1) 6.00ms
+[I 180713 17:07:54 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 5.00ms
+[I 180713 17:07:58 web:2106] 304 GET /api/profile (127.0.0.1) 6.00ms
+[I 180713 17:08:00 web:2106] 200 GET /api/check_login (127.0.0.1) 3.00ms
+[I 180713 17:08:00 web:2106] 200 GET /api/index (127.0.0.1) 7.00ms
+[W 180713 17:08:00 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 180713 17:08:02 web:2106] 304 GET /api/profile (127.0.0.1) 5.00ms
+[I 180713 17:08:03 web:2106] 304 GET /api/logout (127.0.0.1) 12.00ms
+[I 180713 17:08:04 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
+[I 180713 17:08:04 web:2106] 304 GET /api/index (127.0.0.1) 5.00ms
+[W 180713 17:08:04 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.00ms
+[I 180713 17:08:14 web:2106] 200 POST /api/login (127.0.0.1) 16.00ms
+[I 180713 17:08:14 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
+[I 180713 17:08:14 web:2106] 304 GET /api/index (127.0.0.1) 3.00ms
+[W 180713 17:08:14 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 180713 17:08:16 web:2106] 200 GET /api/profile (127.0.0.1) 5.00ms
+[I 180713 17:08:17 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 9.00ms
+[I 180713 17:08:21 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
+[D 180713 17:08:46 selector_events:53] Using selector: SelectSelector
+[D 180713 17:08:47 selector_events:53] Using selector: SelectSelector
+[I 180713 17:08:48 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 12.00ms
+[D 180713 17:09:03 selector_events:53] Using selector: SelectSelector
+[I 180713 17:09:05 web:2106] 200 GET /api/profile (127.0.0.1) 15.00ms
+[I 180713 17:09:07 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 7.00ms
+[D 180713 17:14:09 selector_events:53] Using selector: SelectSelector
+[I 180713 17:14:13 web:2106] 200 GET /api/profile (127.0.0.1) 8.00ms
+[I 180713 17:14:14 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 7.00ms
+[I 180713 17:14:33 web:2106] 304 GET /api/profile (127.0.0.1) 9.00ms
+[I 180713 17:14:40 web:2106] 200 GET /myhouse.html (127.0.0.1) 260.01ms
+[I 180713 17:14:40 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 30.00ms
+[I 180713 17:14:40 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 17.00ms
+[I 180713 17:14:41 web:2106] 200 GET /api/profile/auth (127.0.0.1) 5.00ms
+[I 180713 17:14:41 web:2106] 200 GET /api/house/my (127.0.0.1) 5.00ms
+[I 180713 17:14:44 web:2106] 304 GET /api/profile (127.0.0.1) 6.00ms
+[I 180713 17:14:45 web:2106] 304 GET /api/order/my?role=custom (127.0.0.1) 6.00ms
+[I 180713 17:18:25 web:2106] 304 GET /api/profile (127.0.0.1) 6.00ms
+[I 180713 17:18:28 web:2106] 304 GET /api/order/my?role=custom (127.0.0.1) 5.00ms
+[I 180713 17:19:26 web:2106] 304 GET /api/profile (127.0.0.1) 2.00ms
+[I 180713 17:19:27 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 7.00ms
+[W 180713 17:19:33 web:2106] 405 POST /api/order/accept (127.0.0.1) 2.00ms
+[W 180713 17:20:22 web:2106] 404 GET /api/order/accept (127.0.0.1) 1.00ms
+[D 180713 17:20:49 selector_events:53] Using selector: SelectSelector
+[E 180713 17:20:52 web:1621] Uncaught exception POST /api/order/accept (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/order/accept', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "E:\pytproject\ihome\utils\common.py", line 19, in wapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "E:\pytproject\ihome\handlers\Orders.py", line 126, in post
+        user_id = self.session.data["user_id"]
+    AttributeError: 'dict' object has no attribute 'data'
+[E 180713 17:20:52 web:2106] 500 POST /api/order/accept (127.0.0.1) 17.00ms
+[D 180713 17:22:29 selector_events:53] Using selector: SelectSelector
+[I 180713 17:22:39 web:2106] 200 POST /api/order/accept (127.0.0.1) 8.00ms
+[I 180713 17:23:11 web:2106] 200 GET /api/profile (127.0.0.1) 8.00ms
+[I 180713 17:23:12 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 6.00ms
+[I 180713 17:23:48 web:2106] 304 GET /api/profile (127.0.0.1) 6.00ms
+[I 180713 17:23:50 web:2106] 304 GET /api/order/my?role=landlord (127.0.0.1) 3.00ms
+[I 180713 17:23:55 web:2106] 304 GET /lorders.html (127.0.0.1) 259.01ms
+[I 180713 17:23:55 web:2106] 304 GET /api/order/my?role=landlord (127.0.0.1) 3.00ms
+[I 180713 17:24:05 web:2106] 304 GET /api/logout (127.0.0.1) 6.00ms
+[I 180713 17:24:05 web:2106] 200 GET /api/check_login (127.0.0.1) 1.00ms
+[I 180713 17:24:05 web:2106] 200 GET /api/index (127.0.0.1) 4.00ms
+[W 180713 17:24:05 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.00ms
+[I 180713 17:24:13 web:2106] 200 POST /api/login (127.0.0.1) 10.00ms
+[I 180713 17:24:13 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
+[I 180713 17:24:13 web:2106] 304 GET /api/index (127.0.0.1) 2.00ms
+[W 180713 17:24:13 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 180713 17:24:17 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
+[I 180713 17:24:18 web:2106] 304 GET /api/order/my?role=landlord (127.0.0.1) 3.00ms
+[D 180713 17:32:28 selector_events:53] Using selector: SelectSelector
+[I 180713 17:32:34 web:2106] 200 GET /lorders.html (127.0.0.1) 291.02ms
+[I 180713 17:32:34 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 71.00ms
+[I 180713 17:32:34 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 65.00ms
+[I 180713 17:32:34 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 62.00ms
+[I 180713 17:32:34 web:2106] 200 GET /static/css/ihome/orders.css (127.0.0.1) 57.00ms
+[I 180713 17:32:34 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 106.01ms
+[I 180713 17:32:34 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 13.00ms
+[I 180713 17:32:35 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 69.00ms
+[I 180713 17:32:35 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 39.00ms
+[I 180713 17:32:35 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 30.00ms
+[I 180713 17:32:35 web:2106] 200 GET /static/js/template.js (127.0.0.1) 25.00ms
+[I 180713 17:32:35 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 155.01ms
+[I 180713 17:32:35 web:2106] 200 GET /static/js/ihome/lorders.js (127.0.0.1) 16.00ms
+[I 180713 17:32:35 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 29.00ms
+[I 180713 17:32:35 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 64.00ms
+[I 180713 17:32:35 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 11.00ms
+[I 180713 17:32:35 web:2106] 200 GET /favicon.ico (127.0.0.1) 3.00ms
+[D 180713 17:33:16 selector_events:53] Using selector: SelectSelector
+[D 180713 17:33:34 selector_events:53] Using selector: SelectSelector
+[E 180713 17:34:27 Orders:138] (1205, 'Lock wait timeout exceeded; try restarting transaction')
+[I 180713 17:34:27 web:2106] 200 POST /api/order/accept (127.0.0.1) 51091.92ms
+[W 180713 17:34:27 web:2106] 405 GET /api/order/accept (127.0.0.1) 2.00ms
+[E 180713 17:35:57 Orders:138] (2013, 'Lost connection to MySQL server during query')
+[I 180713 17:35:57 web:2106] 200 POST /api/order/accept (127.0.0.1) 8.00ms
+[I 180713 17:36:19 web:2106] 304 GET /lorders.html (127.0.0.1) 253.01ms
+[E 180713 17:36:19 Orders:103] (0, '')
+[I 180713 17:36:19 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 3.00ms
+[I 180713 17:36:21 web:2106] 200 GET /my.html (127.0.0.1) 51.00ms
+[I 180713 17:36:21 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 43.00ms
+[I 180713 17:36:21 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 12.00ms
+[E 180713 17:36:22 Profile:34] Bad message (TypeError('not all arguments converted during string formatting',)): {'msecs': 80.91926574707031, 'pathname': 'E:\\pytproject\\ihome\\handlers\\Profile.py', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'msecs\': 80.91926574707031, \'pathname\': \'E:\\\\pytproject\\\\ihome\\\\handlers\\\\Profile.py\', \'args\': (InterfaceError("(0, \'\')",),), \'threadName\': \'MainThread\', \'msg\': \'²éÑ¯Êı¾İ¿â´íÎó\', \'exc_info\': None, \'stack_info\': None, \'levelname\': \'ERROR\', \'filename\': \'Profile.py\', \'relativeCreated\': 169116.6729927063, \'funcName\': \'get\', \'processName\': \'MainProcess\', \'created\': 1531474582.0809193, \'name\': \'root\', \'process\': 4336, \'levelno\': 40, \'lineno\': 34, \'module\': \'Profile\', \'exc_text\': None, \'thread\': 4068}', 'args': (InterfaceError("(0, '')",),), 'threadName': 'MainThread', 'asctime': '180713 17:36:22', 'msg': '²éÑ¯Êı¾İ¿â´íÎó', 'exc_info': None, 'stack_info': None, 'levelname': 'ERROR', 'filename': 'Profile.py', 'relativeCreated': 169116.6729927063, 'funcName': 'get', 'processName': 'MainProcess', 'created': 1531474582.0809193, 'end_color': '', 'name': 'root', 'process': 4336, 'levelno': 40, 'lineno': 34, 'color': '', 'module': 'Profile', 'exc_text': None, 'thread': 4068}
+[I 180713 17:36:22 web:2106] 200 GET /api/profile (127.0.0.1) 24.00ms
+[E 180713 17:36:24 Orders:103] (0, '')
+[I 180713 17:36:24 web:2106] 304 GET /api/order/my?role=landlord (127.0.0.1) 8.00ms
+[E 180713 17:36:29 Profile:34] Bad message (TypeError('not all arguments converted during string formatting',)): {'msecs': 87.32008934020996, 'pathname': 'E:\\pytproject\\ihome\\handlers\\Profile.py', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'msecs\': 87.32008934020996, \'pathname\': \'E:\\\\pytproject\\\\ihome\\\\handlers\\\\Profile.py\', \'args\': (InterfaceError("(0, \'\')",),), \'threadName\': \'MainThread\', \'msg\': \'²éÑ¯Êı¾İ¿â´íÎó\', \'exc_info\': None, \'stack_info\': None, \'levelname\': \'ERROR\', \'filename\': \'Profile.py\', \'relativeCreated\': 176123.07381629944, \'funcName\': \'get\', \'processName\': \'MainProcess\', \'created\': 1531474589.08732, \'name\': \'root\', \'process\': 4336, \'levelno\': 40, \'lineno\': 34, \'module\': \'Profile\', \'exc_text\': None, \'thread\': 4068}', 'args': (InterfaceError("(0, '')",),), 'threadName': 'MainThread', 'asctime': '180713 17:36:29', 'msg': '²éÑ¯Êı¾İ¿â´íÎó', 'exc_info': None, 'stack_info': None, 'levelname': 'ERROR', 'filename': 'Profile.py', 'relativeCreated': 176123.07381629944, 'funcName': 'get', 'processName': 'MainProcess', 'created': 1531474589.08732, 'end_color': '', 'name': 'root', 'process': 4336, 'levelno': 40, 'lineno': 34, 'color': '', 'module': 'Profile', 'exc_text': None, 'thread': 4068}
+[E 180713 17:36:29 web:1621] Uncaught exception GET /api/profile (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='GET', uri='/api/profile', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "E:\pytproject\ihome\handlers\Profile.py", line 31, in get
+        cur.execute(sql)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 165, in execute
+        result = self._query(query)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 321, in _query
+        conn.query(q)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 859, in query
+        self._execute_command(COMMAND.COM_QUERY, sql)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 1075, in _execute_command
+        raise err.InterfaceError("(0, '')")
+    pymysql.err.InterfaceError: (0, '')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "E:\pytproject\ihome\utils\common.py", line 19, in wapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "E:\pytproject\ihome\handlers\Profile.py", line 36, in get
+        self.db.close()
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 721, in close
+        raise err.Error("Already closed")
+    pymysql.err.Error: Already closed
+[E 180713 17:36:29 web:2106] 500 GET /api/profile (127.0.0.1) 130.01ms
+[I 180713 17:36:36 web:2106] 200 GET /api/logout (127.0.0.1) 5.00ms
+[I 180713 17:36:36 web:2106] 200 GET / (127.0.0.1) 6.00ms
+[I 180713 17:36:36 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 13.00ms
+[I 180713 17:36:36 web:2106] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 6.00ms
+[I 180713 17:36:36 web:2106] 200 GET /static/css/ihome/index.css (127.0.0.1) 4.00ms
+[I 180713 17:36:36 web:2106] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 13.00ms
+[I 180713 17:36:36 web:2106] 200 GET /static/js/ihome/index.js (127.0.0.1) 2.00ms
+[I 180713 17:36:36 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
+[I 180713 17:36:36 web:2106] 200 GET /api/index (127.0.0.1) 8.00ms
+[W 180713 17:36:37 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.00ms
+[I 180713 17:36:38 web:2106] 200 GET /login.html (127.0.0.1) 47.00ms
+[I 180713 17:36:38 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 5.00ms
+[I 180713 17:36:38 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 8.00ms
+[E 180713 17:36:46 Passport:186] Bad message (TypeError('not all arguments converted during string formatting',)): {'msecs': 78.2918930053711, 'pathname': 'E:\\pytproject\\ihome\\handlers\\Passport.py', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'msecs\': 78.2918930053711, \'pathname\': \'E:\\\\pytproject\\\\ihome\\\\handlers\\\\Passport.py\', \'args\': (InterfaceError("(0, \'\')",),), \'threadName\': \'MainThread\', \'msg\': \'²éÑ¯Êı¾İ¿â´íÎó\', \'exc_info\': None, \'stack_info\': None, \'levelname\': \'ERROR\', \'filename\': \'Passport.py\', \'relativeCreated\': 193114.0456199646, \'funcName\': \'post\', \'processName\': \'MainProcess\', \'created\': 1531474606.078292, \'name\': \'root\', \'process\': 4336, \'levelno\': 40, \'lineno\': 186, \'module\': \'Passport\', \'exc_text\': None, \'thread\': 4068}', 'args': (InterfaceError("(0, '')",),), 'threadName': 'MainThread', 'asctime': '180713 17:36:46', 'msg': '²éÑ¯Êı¾İ¿â´íÎó', 'exc_info': None, 'stack_info': None, 'levelname': 'ERROR', 'filename': 'Passport.py', 'relativeCreated': 193114.0456199646, 'funcName': 'post', 'processName': 'MainProcess', 'created': 1531474606.078292, 'end_color': '', 'name': 'root', 'process': 4336, 'levelno': 40, 'lineno': 186, 'color': '', 'module': 'Passport', 'exc_text': None, 'thread': 4068}
+[E 180713 17:36:46 web:1621] Uncaught exception POST /api/login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/api/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "E:\pytproject\ihome\handlers\Passport.py", line 183, in post
+        cur.execute(sql)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 165, in execute
+        result = self._query(query)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 321, in _query
+        conn.query(q)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 859, in query
+        self._execute_command(COMMAND.COM_QUERY, sql)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 1075, in _execute_command
+        raise err.InterfaceError("(0, '')")
+    pymysql.err.InterfaceError: (0, '')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "E:\pytproject\ihome\handlers\Passport.py", line 188, in post
+        self.db.close()
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 721, in close
+        raise err.Error("Already closed")
+    pymysql.err.Error: Already closed
+[E 180713 17:36:46 web:2106] 500 POST /api/login (127.0.0.1) 69.00ms
+[E 180713 17:37:07 Passport:186] Bad message (TypeError('not all arguments converted during string formatting',)): {'msecs': 189.4993782043457, 'pathname': 'E:\\pytproject\\ihome\\handlers\\Passport.py', 'message': 'Bad message (TypeError(\'not all arguments converted during string formatting\',)): {\'msecs\': 189.4993782043457, \'pathname\': \'E:\\\\pytproject\\\\ihome\\\\handlers\\\\Passport.py\', \'args\': (InterfaceError("(0, \'\')",),), \'threadName\': \'MainThread\', \'msg\': \'²éÑ¯Êı¾İ¿â´íÎó\', \'exc_info\': None, \'stack_info\': None, \'levelname\': \'ERROR\', \'filename\': \'Passport.py\', \'relativeCreated\': 214225.25310516357, \'funcName\': \'post\', \'processName\': \'MainProcess\', \'created\': 1531474627.1894994, \'name\': \'root\', \'process\': 4336, \'levelno\': 40, \'lineno\': 186, \'module\': \'Passport\', \'exc_text\': None, \'thread\': 4068}', 'args': (InterfaceError("(0, '')",),), 'threadName': 'MainThread', 'asctime': '180713 17:37:07', 'msg': '²éÑ¯Êı¾İ¿â´íÎó', 'exc_info': None, 'stack_info': None, 'levelname': 'ERROR', 'filename': 'Passport.py', 'relativeCreated': 214225.25310516357, 'funcName': 'post', 'processName': 'MainProcess', 'created': 1531474627.1894994, 'end_color': '', 'name': 'root', 'process': 4336, 'levelno': 40, 'lineno': 186, 'color': '', 'module': 'Passport', 'exc_text': None, 'thread': 4068}
+[E 180713 17:37:07 web:1621] Uncaught exception POST /api/login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/api/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "E:\pytproject\ihome\handlers\Passport.py", line 183, in post
+        cur.execute(sql)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 165, in execute
+        result = self._query(query)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\cursors.py", line 321, in _query
+        conn.query(q)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 859, in query
+        self._execute_command(COMMAND.COM_QUERY, sql)
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 1075, in _execute_command
+        raise err.InterfaceError("(0, '')")
+    pymysql.err.InterfaceError: (0, '')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "E:\pytproject\ihome\handlers\Passport.py", line 188, in post
+        self.db.close()
+      File "D:\Program Files\Python35\lib\site-packages\pymysql\connections.py", line 721, in close
+        raise err.Error("Already closed")
+    pymysql.err.Error: Already closed
+[E 180713 17:37:07 web:2106] 500 POST /api/login (127.0.0.1) 7.00ms
+[D 180713 17:38:32 selector_events:53] Using selector: SelectSelector
+[I 180713 17:38:32 web:2106] 200 POST /api/login (127.0.0.1) 10.00ms
+[I 180713 17:38:33 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
+[I 180713 17:38:33 web:2106] 200 GET /api/index (127.0.0.1) 3.00ms
+[W 180713 17:38:33 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.00ms
+[I 180713 17:38:36 web:2106] 200 GET /api/profile (127.0.0.1) 5.00ms
+[I 180713 17:38:37 web:2106] 200 GET /myhouse.html (127.0.0.1) 256.01ms
+[I 180713 17:38:38 web:2106] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 8.00ms
+[I 180713 17:38:38 web:2106] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 6.00ms
+[I 180713 17:38:38 web:2106] 200 GET /api/profile/auth (127.0.0.1) 2.00ms
+[I 180713 17:38:38 web:2106] 200 GET /api/house/my (127.0.0.1) 11.00ms
+[I 180713 17:38:39 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
+[I 180713 17:38:40 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 4.00ms
+[I 180713 17:38:46 web:2106] 200 POST /api/order/accept (127.0.0.1) 25.00ms
+[I 180713 17:38:50 web:2106] 304 GET /api/profile (127.0.0.1) 5.00ms
+[I 180713 17:38:52 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 7.00ms
+[I 180713 17:38:55 web:2106] 304 GET /api/profile (127.0.0.1) 8.00ms
+[I 180713 17:39:19 web:2106] 200 GET /profile.html (127.0.0.1) 18.00ms
+[I 180713 17:39:19 web:2106] 200 GET /static/css/ihome/profile.css (127.0.0.1) 69.00ms
+[I 180713 17:39:19 web:2106] 200 GET /static/js/ihome/profile.js (127.0.0.1) 57.00ms
+[I 180713 17:39:19 web:2106] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 31.00ms
+[I 180713 17:39:19 web:2106] 304 GET /api/profile (127.0.0.1) 4.00ms
+[I 180713 17:39:21 web:2106] 304 GET /api/profile (127.0.0.1) 7.00ms
+[I 180713 17:39:23 web:2106] 200 GET /api/logout (127.0.0.1) 10.00ms
+[I 180713 17:39:23 web:2106] 200 GET /api/check_login (127.0.0.1) 3.00ms
+[I 180713 17:39:23 web:2106] 304 GET /api/index (127.0.0.1) 3.00ms
+[W 180713 17:39:23 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 180713 17:39:33 web:2106] 200 POST /api/login (127.0.0.1) 7.00ms
+[I 180713 17:39:33 web:2106] 200 GET /api/check_login (127.0.0.1) 1.00ms
+[I 180713 17:39:33 web:2106] 304 GET /api/index (127.0.0.1) 4.00ms
+[W 180713 17:39:33 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 180713 17:39:35 web:2106] 200 GET /api/profile (127.0.0.1) 4.00ms
+[I 180713 17:39:37 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 5.00ms
+[I 180713 17:39:38 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
+[I 180713 17:39:41 web:2106] 200 GET /orders.html (127.0.0.1) 123.01ms
+[I 180713 17:39:41 web:2106] 200 GET /static/js/ihome/orders.js (127.0.0.1) 5.00ms
+[I 180713 17:39:41 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 4.00ms
+[D 180713 18:03:25 selector_events:53] Using selector: SelectSelector
+[W 180713 18:03:33 web:2106] 405 POST /api/order/comment (127.0.0.1) 2.00ms
+[W 180713 18:03:50 web:2106] 404 GET /api/order/comment (127.0.0.1) 1.00ms
+[D 180713 18:04:28 selector_events:53] Using selector: SelectSelector
+[E 180713 18:04:30 web:1621] Uncaught exception POST /api/order/comment (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/api/order/comment', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Program Files\Python35\lib\site-packages\tornado\web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "E:\pytproject\ihome\utils\common.py", line 19, in wapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "E:\pytproject\ihome\handlers\Orders.py", line 158, in post
+        user_id = self.session.data["user_id"]
+    AttributeError: 'dict' object has no attribute 'data'
+[E 180713 18:04:30 web:2106] 500 POST /api/order/comment (127.0.0.1) 8.00ms
+[D 180713 18:04:54 selector_events:53] Using selector: SelectSelector
+[I 180713 18:04:56 web:2106] 200 POST /api/order/comment (127.0.0.1) 23.00ms
+[D 180713 18:05:26 selector_events:53] Using selector: SelectSelector
+[I 180713 18:05:28 web:2106] 200 GET /api/profile (127.0.0.1) 9.00ms
+[I 180713 18:05:32 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 6.00ms
+[I 180713 18:05:47 web:2106] 200 POST /api/order/comment (127.0.0.1) 24.00ms
+[I 180713 18:05:53 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
+[I 180713 18:05:56 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 5.00ms
+[I 180713 18:06:03 web:2106] 304 GET /api/profile (127.0.0.1) 2.00ms
+[I 180713 18:06:04 web:2106] 304 GET /api/profile (127.0.0.1) 2.00ms
+[I 180713 18:06:06 web:2106] 304 GET /api/profile (127.0.0.1) 6.00ms
+[I 180713 18:06:09 web:2106] 200 GET /api/check_login (127.0.0.1) 5.00ms
+[I 180713 18:06:09 web:2106] 200 GET /api/index (127.0.0.1) 6.00ms
+[W 180713 18:06:09 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 4.00ms
+[I 180713 18:06:10 web:2106] 304 GET /api/profile (127.0.0.1) 7.00ms
+[I 180713 18:06:11 web:2106] 304 GET /api/logout (127.0.0.1) 13.00ms
+[I 180713 18:06:11 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
+[I 180713 18:06:11 web:2106] 304 GET /api/index (127.0.0.1) 6.00ms
+[W 180713 18:06:11 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.00ms
+[I 180713 18:06:18 web:2106] 200 POST /api/login (127.0.0.1) 14.00ms
+[I 180713 18:06:18 web:2106] 200 GET /api/check_login (127.0.0.1) 6.00ms
+[I 180713 18:06:18 web:2106] 304 GET /api/index (127.0.0.1) 3.00ms
+[W 180713 18:06:19 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 180713 18:06:21 web:2106] 200 GET /api/profile (127.0.0.1) 3.00ms
+[I 180713 18:06:22 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 8.00ms
+[I 180713 18:06:26 web:2106] 304 GET /api/profile (127.0.0.1) 11.00ms
+[D 180713 18:34:20 selector_events:53] Using selector: SelectSelector
+[I 180713 18:34:26 web:2106] 200 GET /api/profile (127.0.0.1) 7.00ms
+[I 180713 18:34:27 web:2106] 304 GET /api/profile (127.0.0.1) 4.00ms
+[I 180713 18:34:28 web:2106] 304 GET /api/logout (127.0.0.1) 8.00ms
+[I 180713 18:34:28 web:2106] 200 GET /api/check_login (127.0.0.1) 6.00ms
+[I 180713 18:34:28 web:2106] 200 GET /api/index (127.0.0.1) 5.00ms
+[W 180713 18:34:29 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 3.00ms
+[I 180713 18:34:37 web:2106] 200 POST /api/login (127.0.0.1) 11.00ms
+[I 180713 18:34:37 web:2106] 200 GET /api/check_login (127.0.0.1) 2.00ms
+[I 180713 18:34:37 web:2106] 304 GET /api/index (127.0.0.1) 7.00ms
+[W 180713 18:34:38 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 180713 18:34:48 web:2106] 200 GET /search.html?aid=6&aname=%E6%B5%B7%E6%B7%80%E5%8C%BA&sd=2018-07-13&ed=2018-07-14 (127.0.0.1) 255.01ms
+[I 180713 18:34:49 web:2106] 200 GET /static/css/ihome/search.css (127.0.0.1) 15.00ms
+[I 180713 18:34:49 web:2106] 200 GET /static/js/ihome/search.js (127.0.0.1) 8.00ms
+[I 180713 18:34:49 web:2106] 200 GET /api/house/area (127.0.0.1) 6.00ms
+[D 180713 18:34:49 House:310] 2018-07-13
+[D 180713 18:34:49 House:311] 2018-07-14
+[D 180713 18:34:49 House:312] 6
+[D 180713 18:34:49 House:313] new
+[D 180713 18:34:49 House:314] 1
+[D 180713 18:34:49 House:405] select distinct hi_title as title,hi_house_id as house_id,hi_price as price,hi_room_count as room_count,hi_address as address,hi_order_count as order_count,up_avatar as avatar,hi_index_image_url as image_url, date_format(hi_ctime,'%%Y-%%m-%%d %%H:%%i:%%S') as hi_ctime from ih_house_info inner join ih_user_profile on hi_user_id=up_user_id left join ih_order_info on hi_house_id=oi_house_id where ((oi_begin_date>%(end_date)s or oi_end_date<%(start_date)s) or (oi_begin_date is null and oi_end_date is null)) and hi_area_id=%(area_id)s order by hi_ctime desc limit 10
+[I 180713 18:34:49 web:2106] 200 GET /api/house/list?aid=6&sd=2018-07-13&ed=2018-07-14&sk=new&p=1 (127.0.0.1) 16.00ms
+[D 180713 18:34:59 House:310] 2018-07-20
+[D 180713 18:34:59 House:311] 2018-07-21
+[D 180713 18:34:59 House:312] 6
+[D 180713 18:34:59 House:313] new
+[D 180713 18:34:59 House:314] 1
+[D 180713 18:34:59 House:405] select distinct hi_title as title,hi_house_id as house_id,hi_price as price,hi_room_count as room_count,hi_address as address,hi_order_count as order_count,up_avatar as avatar,hi_index_image_url as image_url, date_format(hi_ctime,'%%Y-%%m-%%d %%H:%%i:%%S') as hi_ctime from ih_house_info inner join ih_user_profile on hi_user_id=up_user_id left join ih_order_info on hi_house_id=oi_house_id where ((oi_begin_date>%(end_date)s or oi_end_date<%(start_date)s) or (oi_begin_date is null and oi_end_date is null)) and hi_area_id=%(area_id)s order by hi_ctime desc limit 10
+[I 180713 18:34:59 web:2106] 200 GET /api/house/list?aid=6&sd=2018-07-20&ed=2018-07-21&sk=new&p=1 (127.0.0.1) 19.00ms
+[I 180713 18:35:01 web:2106] 200 GET /detail.html?id=1 (127.0.0.1) 6.00ms
+[I 180713 18:35:01 web:2106] 200 GET /static/css/ihome/detail.css (127.0.0.1) 2.00ms
+[I 180713 18:35:01 web:2106] 200 GET /static/js/ihome/detail.js (127.0.0.1) 3.00ms
+[W 180713 18:35:01 web:2106] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 3.00ms
+[I 180713 18:35:01 web:2106] 200 GET /api/house/info?house_id=1 (127.0.0.1) 25.00ms
+[I 180713 18:35:01 web:2106] 200 GET /static/images/houseicon_sprite.png (127.0.0.1) 3.00ms
+[I 180713 18:35:03 web:2106] 200 GET /booking.html?hid=1 (127.0.0.1) 5.00ms
+[I 180713 18:35:03 web:2106] 200 GET /static/css/ihome/booking.css (127.0.0.1) 9.00ms
+[I 180713 18:35:03 web:2106] 200 GET /static/js/ihome/booking.js (127.0.0.1) 6.00ms
+[I 180713 18:35:03 web:2106] 304 GET /api/check_login (127.0.0.1) 4.00ms
+[I 180713 18:35:03 web:2106] 200 GET /api/house/info?house_id=1 (127.0.0.1) 2.00ms
+[I 180713 18:35:10 web:2106] 200 POST /api/order (127.0.0.1) 98.01ms
+[I 180713 18:35:11 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 8.00ms
+[I 180713 18:35:37 web:2106] 200 GET / (127.0.0.1) 3.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 4.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 8.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/css/reset.css (127.0.0.1) 5.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 7.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 9.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/css/ihome/main.css (127.0.0.1) 33.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 33.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/css/ihome/index.css (127.0.0.1) 22.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 16.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/js/jquery.min.js (127.0.0.1) 37.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 31.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 28.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/js/template.js (127.0.0.1) 31.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/js/ihome/index.js (127.0.0.1) 29.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/images/logo@128x59.png (127.0.0.1) 19.00ms
+[I 180713 18:35:37 web:2106] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 21.00ms
+[I 180713 18:35:38 web:2106] 200 GET /api/check_login (127.0.0.1) 5.00ms
+[I 180713 18:35:38 web:2106] 200 GET /api/index (127.0.0.1) 3.00ms
+[I 180713 18:35:38 web:2106] 200 GET /favicon.ico (127.0.0.1) 3.00ms
+[I 180713 18:35:39 web:2106] 200 GET /my.html (127.0.0.1) 3.00ms
+[I 180713 18:35:39 web:2106] 200 GET /static/css/ihome/my.css (127.0.0.1) 3.00ms
+[I 180713 18:35:39 web:2106] 200 GET /static/js/ihome/my.js (127.0.0.1) 2.00ms
+[I 180713 18:35:39 web:2106] 200 GET /api/profile (127.0.0.1) 11.00ms
+[I 180713 18:35:44 web:2106] 200 GET /api/logout (127.0.0.1) 5.00ms
+[I 180713 18:35:44 web:2106] 200 GET /api/check_login (127.0.0.1) 9.00ms
+[I 180713 18:35:44 web:2106] 304 GET /api/index (127.0.0.1) 4.00ms
+[I 180713 18:35:46 web:2106] 200 GET /login.html (127.0.0.1) 3.00ms
+[I 180713 18:35:46 web:2106] 200 GET /static/css/ihome/login.css (127.0.0.1) 6.00ms
+[I 180713 18:35:46 web:2106] 200 GET /static/js/ihome/login.js (127.0.0.1) 3.00ms
+[I 180713 18:35:52 web:2106] 200 POST /api/login (127.0.0.1) 8.00ms
+[I 180713 18:35:52 web:2106] 200 GET /api/check_login (127.0.0.1) 7.00ms
+[I 180713 18:35:52 web:2106] 304 GET /api/index (127.0.0.1) 5.00ms
+[I 180713 18:35:56 web:2106] 200 GET /api/profile (127.0.0.1) 5.00ms
+[I 180713 18:35:59 web:2106] 200 GET /lorders.html (127.0.0.1) 3.00ms
+[I 180713 18:35:59 web:2106] 200 GET /static/css/ihome/orders.css (127.0.0.1) 2.00ms
+[I 180713 18:35:59 web:2106] 200 GET /static/js/ihome/lorders.js (127.0.0.1) 4.00ms
+[I 180713 18:35:59 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 17.00ms
+[W 180713 18:36:08 web:2106] 405 POST /api/order/reject (127.0.0.1) 1.00ms
+[I 180713 18:36:16 web:2106] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 23.00ms
+[W 180713 18:36:22 web:2106] 405 POST /api/order/reject (127.0.0.1) 3.00ms
+[D 180713 18:39:01 selector_events:53] Using selector: SelectSelector
+[I 180713 18:39:02 web:2106] 200 POST /api/order/reject (127.0.0.1) 7.00ms
+[D 180713 18:39:33 selector_events:53] Using selector: SelectSelector
+[I 180713 18:39:36 web:2106] 200 GET /api/profile (127.0.0.1) 14.00ms
+[I 180713 18:39:38 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 9.00ms
+[I 180713 18:39:41 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 227.01ms
+[I 180713 18:39:42 web:2106] 200 GET /api/profile (127.0.0.1) 4.00ms
+[I 180713 18:39:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 2.00ms
+[I 180713 18:39:43 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 1.00ms
+[I 180713 18:39:43 web:2106] 200 GET /orders.html (127.0.0.1) 10.00ms
+[I 180713 18:39:43 web:2106] 200 GET /static/js/ihome/orders.js (127.0.0.1) 6.00ms
+[I 180713 18:39:43 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 4.00ms
+[I 180713 18:39:44 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
+[I 180713 18:39:44 web:2106] 200 GET /api/profile (127.0.0.1) 8.00ms
+[I 180713 18:39:45 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.00ms
+[I 180713 18:39:46 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 4.00ms
+[I 180713 18:39:47 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 4.00ms
+[I 180713 18:39:53 web:2106] 200 POST /api/order/reject (127.0.0.1) 34.00ms
+[I 180713 18:39:55 web:2106] 304 GET /api/profile (127.0.0.1) 3.00ms
+[I 180713 18:39:55 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
+[I 180713 18:39:58 web:2106] 200 GET /api/order/my?role=landlord (127.0.0.1) 6.00ms
+[I 180713 18:39:58 web:2106] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.00ms
+[I 180713 18:40:02 web:2106] 200 GET /api/profile (127.0.0.1) 3.00ms
+[I 180713 18:40:04 web:2106] 200 GET /api/order/my?role=custom (127.0.0.1) 7.00ms

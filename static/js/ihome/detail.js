@@ -12,9 +12,11 @@ function decodeQuery(){
 }
 
 $(document).ready(function(){
+    // console.log(document.location.search)
     var house_id = decodeQuery()["id"];
     $.get("/api/house/info?house_id="+house_id, function (data) {
         if ("0" == data.errcode) {
+            // console.log(data)
             $(".swiper-container").html(template("house-image-tmpl", {"img_urls":data.data.images, "price":data.data.price}));
             $(".detail-con").html(template("house-detail-tmpl", {"house":data.data}));
             var mySwiper = new Swiper ('.swiper-container', {

@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e95d91f-e87f-42db-bef1-7efd8ecb7155" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/code.iml" afterPath="$PROJECT_DIR$/.idea/ihome.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/API文档" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/handlers/Orders.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.qiniu_pythonsdk_hostscache.json" afterPath="$PROJECT_DIR$/.qiniu_pythonsdk_hostscache.json" />
       <change beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
+      <change beforePath="$PROJECT_DIR$/constants.py" afterPath="$PROJECT_DIR$/constants.py" />
       <change beforePath="$PROJECT_DIR$/handlers/House.py" afterPath="$PROJECT_DIR$/handlers/House.py" />
       <change beforePath="$PROJECT_DIR$/handlers/Passport.py" afterPath="$PROJECT_DIR$/handlers/Passport.py" />
-      <change beforePath="$PROJECT_DIR$/handlers/VerifyCode.py" afterPath="$PROJECT_DIR$/handlers/VerifyCode.py" />
-      <change beforePath="$PROJECT_DIR$/html/newhouse.html" afterPath="$PROJECT_DIR$/html/newhouse.html" />
+      <change beforePath="$PROJECT_DIR$/handlers/Profile.py" afterPath="$PROJECT_DIR$/handlers/Profile.py" />
       <change beforePath="$PROJECT_DIR$/logs/log" afterPath="$PROJECT_DIR$/logs/log" />
       <change beforePath="$PROJECT_DIR$/server.py" afterPath="$PROJECT_DIR$/server.py" />
+      <change beforePath="$PROJECT_DIR$/static/js/ihome/detail.js" afterPath="$PROJECT_DIR$/static/js/ihome/detail.js" />
+      <change beforePath="$PROJECT_DIR$/static/js/ihome/index.js" afterPath="$PROJECT_DIR$/static/js/ihome/index.js" />
       <change beforePath="$PROJECT_DIR$/static/js/ihome/newhouse.js" afterPath="$PROJECT_DIR$/static/js/ihome/newhouse.js" />
+      <change beforePath="$PROJECT_DIR$/static/js/ihome/search.js" afterPath="$PROJECT_DIR$/static/js/ihome/search.js" />
       <change beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
+      <change beforePath="$PROJECT_DIR$/utils/image_storage.py" afterPath="$PROJECT_DIR$/utils/image_storage.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,50 +35,19 @@
     <SUITE FILE_PATH="coverage/code$image_storage.coverage" NAME="image_storage Coverage Results" MODIFIED="1530179275021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/code$CCP.coverage" NAME="CCP Coverage Results" MODIFIED="1529913065631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/yuntongxun/SDK" />
     <SUITE FILE_PATH="coverage/code$server.coverage" NAME="server Coverage Results" MODIFIED="1530604748163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ihome$server.coverage" NAME="server Coverage Results" MODIFIED="1531128180612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ihome$server.coverage" NAME="server Coverage Results" MODIFIED="1531478372521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ihome" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="House.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handlers/House.py">
+      <file leaf-file-name="API文档" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API文档">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding>
-                <element signature="e#66#80#0" expanded="true" />
-                <element signature="e#294#1282#0" expanded="false" />
-                <element signature="e#1324#2569#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/ihome/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="-562">
+              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Passport.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handlers/Passport.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-              <folding>
-                <element signature="e#431#3069#0" expanded="false" />
-                <element signature="e#431#451#1" expanded="false" />
-                <element signature="e#4742#5127#0" expanded="false" />
-                <marker date="1531125044423" expanded="true" signature="1777:1825" ph="select * fro... ih_user_profile" />
-                <marker date="1531125044423" expanded="true" signature="2376:2455" ph="insert into ih_user_profile... " />
-                <marker date="1531125044423" expanded="true" signature="3774:3849" ph="select up_us... ih_user_profile" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -80,71 +55,40 @@
       <file leaf-file-name="VerifyCode.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handlers/VerifyCode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="95">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding>
-                <element signature="e#67#85#0" expanded="true" />
+                <element signature="e#306#1086#0" expanded="false" />
+                <element signature="e#1127#3047#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="174">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <folding>
+                <element signature="e#45#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/log">
+      <file leaf-file-name="Passport.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/handlers/Passport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3840">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newhouse.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/newhouse.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newhouse.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/ihome/newhouse.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/ihome/register.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="128" column="42" lean-forward="false" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="302">
+              <caret line="86" column="66" lean-forward="false" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="66" />
+              <folding>
+                <marker date="1531474711208" expanded="true" signature="764:959" ph="select hi_ho... ih_house_info" />
+                <marker date="1531474711208" expanded="true" signature="2349:2411" ph="select ai_ar... ih_area_info" />
+                <marker date="1531474711208" expanded="true" signature="4581:4629" ph="select * fro... ih_user_profile" />
+                <marker date="1531474711208" expanded="true" signature="5180:5259" ph="insert into ih_user_profile... " />
+                <marker date="1531474711208" expanded="true" signature="6605:6680" ph="select up_us... ih_user_profile" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,36 +105,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>comm</find>
-      <find>user_id</find>
-      <find>feactone</find>
-      <find>fetch</find>
-      <find>ch</find>
-      <find>su</find>
-      <find>count</find>
-      <find>db</find>
-      <find>request_handler</find>
-      <find>print(sq</find>
-      <find>auth-warn</find>
-      <find>self.session['user_id']</find>
-      <find>json_ar</find>
-      <find>pri</find>
-      <find>get</find>
-      <find>body</find>
-      <find>Request</find>
-      <find>auth</find>
-      <find>get_cookie</find>
-      <find>request</find>
-      <find>self</find>
-      <find>data</find>
-      <find>get_argu</find>
-      <find>get_argument</find>
-      <find>self.request</find>
-      <find>get_secure_cookie</find>
-      <find>unit</find>
-      <find>serializeArray</find>
-      <find>area-tmpl</find>
+      <find>list2</find>
+      <find>page</find>
+      <find>sql_total_count</find>
+      <find>input</find>
+      <find>area-id</find>
+      <find>active</find>
+      <find>filter-area</find>
+      <find>areaId</find>
+      <find>hi_index_image_url</find>
+      <find>hi_ctime</find>
+      <find>action</find>
+      <find>authenticated</find>
       <find>print</find>
+      <find>Order</find>
+      <find>api/order</find>
+      <find>updateHouseData</find>
+      <find>order-amount</find>
+      <find>execute</find>
+      <find>DATAERR</find>
+      <find>start_date</find>
+      <find>end_date</find>
+      <find>cu</find>
+      <find>landlord</find>
+      <find>lo</find>
+      <find>orderId</find>
+      <find>datetime.</find>
+      <find>order-id</find>
+      <find>self.db.close()</find>
+      <find>sto</find>
+      <find>code_id</find>
     </findStrings>
     <replaceStrings>
       <replace>range</replace>
@@ -212,34 +156,39 @@
         <option value="$PROJECT_DIR$/libs/SDK/CCP.py" />
         <option value="$PROJECT_DIR$/bbbb.py" />
         <option value="$PROJECT_DIR$/utils/response_code.py" />
-        <option value="$PROJECT_DIR$/static/js/ihome/index.js" />
         <option value="$PROJECT_DIR$/static/css/ihome/index.css" />
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/static/js/ihome/register.js" />
-        <option value="$PROJECT_DIR$/utils/image_storage.py" />
         <option value="$PROJECT_DIR$/aaaa.py" />
         <option value="$PROJECT_DIR$/libs/yuntongxun/SDK/CCP.py" />
         <option value="$PROJECT_DIR$/utils/captcha/captcha.py" />
         <option value="$PROJECT_DIR$/static/js/ihome/profile.js" />
         <option value="$PROJECT_DIR$/db_create.sql" />
-        <option value="$PROJECT_DIR$/constants.py" />
         <option value="$PROJECT_DIR$/html/myhouse.html" />
         <option value="$PROJECT_DIR$/static/css/ihome/myhouse.css" />
         <option value="$PROJECT_DIR$/libs/yuntongxun/SDK/CCPRestSDK.py" />
-        <option value="$PROJECT_DIR$/handlers/BaseHandler.py" />
         <option value="$PROJECT_DIR$/utils/common.py" />
-        <option value="$PROJECT_DIR$/handlers/Profile.py" />
         <option value="$PROJECT_DIR$/utils/session.py" />
-        <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/static/js/ihome/myhouse.js" />
-        <option value="$PROJECT_DIR$/logs/log" />
-        <option value="$PROJECT_DIR$/html/newhouse.html" />
-        <option value="$PROJECT_DIR$/static/js/ihome/newhouse.js" />
-        <option value="$PROJECT_DIR$/handlers/House.py" />
-        <option value="$PROJECT_DIR$/handlers/Passport.py" />
         <option value="$PROJECT_DIR$/handlers/VerifyCode.py" />
+        <option value="$PROJECT_DIR$/html/newhouse.html" />
+        <option value="$PROJECT_DIR$/utils/image_storage.py" />
+        <option value="$PROJECT_DIR$/handlers/BaseHandler.py" />
+        <option value="$PROJECT_DIR$/static/js/ihome/index.js" />
+        <option value="$PROJECT_DIR$/static/js/ihome/detail.js" />
+        <option value="$PROJECT_DIR$/static/js/ihome/newhouse.js" />
+        <option value="$PROJECT_DIR$/handlers/Profile.py" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/constants.py" />
+        <option value="$PROJECT_DIR$/handlers/House.py" />
+        <option value="$PROJECT_DIR$/static/js/ihome/search.js" />
+        <option value="$PROJECT_DIR$/logs/log" />
         <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/handlers/Passport.py" />
+        <option value="$PROJECT_DIR$/handlers/Orders.py" />
         <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/API文档" />
       </list>
     </option>
   </component>
@@ -250,27 +199,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="15" />
-    <option name="width" value="1378" />
-    <option name="height" value="674" />
+    <option name="y" value="23" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
-      <dailyData date="22-6-2018">
-        <observation name="false" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="false" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
-        <observation name="false" value="260.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="47.0" />
-        <observation name="false" value="254.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="false" value="120.0" />
       </dailyData>
@@ -291,20 +225,23 @@
         <observation name="UNDEFINED" value="14.0" />
         <observation name="false" value="107.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="8.0" />
+        <observation name="false" value="261.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="5.0" />
+        <observation name="false" value="116.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="false" value="119.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="false" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -323,22 +260,20 @@
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
-      <dailyData date="22-6-2018">
-        <observation name="false" value="37.0" />
-        <observation name="true" value="1.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="false" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="false" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="false" value="300.0" />
-        <observation name="true" value="1.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="false" value="119.0" />
         <observation name="true" value="1.0" />
@@ -359,20 +294,22 @@
         <observation name="false" value="120.0" />
         <observation name="true" value="1.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="false" value="267.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="false" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="false" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="false" value="193.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -391,28 +328,20 @@
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="8.0" />
-        <observation name="false" value="17.0" />
-        <observation name="true" value="13.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="35.0" />
-        <observation name="false" value="54.0" />
-        <observation name="true" value="21.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="105.0" />
-        <observation name="false" value="134.0" />
-        <observation name="true" value="51.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="125.0" />
-        <observation name="false" value="118.0" />
-        <observation name="true" value="58.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="38.0" />
         <observation name="false" value="35.0" />
@@ -443,28 +372,28 @@
         <observation name="false" value="41.0" />
         <observation name="true" value="36.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="81.0" />
+        <observation name="false" value="138.0" />
+        <observation name="true" value="50.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="52.0" />
+        <observation name="true" value="34.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="47.0" />
+        <observation name="false" value="53.0" />
+        <observation name="true" value="22.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="60.0" />
+        <observation name="false" value="92.0" />
+        <observation name="true" value="43.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="8.0" />
-        <observation name="false" value="13.0" />
-        <observation name="true" value="17.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="35.0" />
-        <observation name="false" value="27.0" />
-        <observation name="true" value="48.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="105.0" />
-        <observation name="false" value="69.0" />
-        <observation name="true" value="116.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="125.0" />
-        <observation name="false" value="63.0" />
-        <observation name="true" value="113.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="38.0" />
         <observation name="false" value="51.0" />
@@ -495,28 +424,28 @@
         <observation name="false" value="44.0" />
         <observation name="true" value="33.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="81.0" />
+        <observation name="false" value="65.0" />
+        <observation name="true" value="123.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="36.0" />
+        <observation name="true" value="50.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="47.0" />
+        <observation name="false" value="34.0" />
+        <observation name="true" value="41.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="60.0" />
+        <observation name="false" value="56.0" />
+        <observation name="true" value="79.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="8.0" />
-        <observation name="false" value="13.0" />
-        <observation name="true" value="17.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="35.0" />
-        <observation name="false" value="24.0" />
-        <observation name="true" value="51.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="105.0" />
-        <observation name="false" value="75.0" />
-        <observation name="true" value="110.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="125.0" />
-        <observation name="false" value="79.0" />
-        <observation name="true" value="97.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="38.0" />
         <observation name="false" value="50.0" />
@@ -547,24 +476,28 @@
         <observation name="false" value="42.0" />
         <observation name="true" value="35.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="81.0" />
+        <observation name="false" value="61.0" />
+        <observation name="true" value="127.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="37.0" />
+        <observation name="true" value="49.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="47.0" />
+        <observation name="false" value="32.0" />
+        <observation name="true" value="43.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="60.0" />
+        <observation name="false" value="49.0" />
+        <observation name="true" value="86.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="8.0" />
-        <observation name="false" value="30.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="35.0" />
-        <observation name="false" value="75.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="105.0" />
-        <observation name="false" value="185.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="125.0" />
-        <observation name="false" value="176.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="38.0" />
         <observation name="false" value="82.0" />
@@ -589,28 +522,24 @@
         <observation name="UNDEFINED" value="44.0" />
         <observation name="false" value="77.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="81.0" />
+        <observation name="false" value="188.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="86.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="47.0" />
+        <observation name="false" value="75.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="60.0" />
+        <observation name="false" value="135.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="8.0" />
-        <observation name="false" value="17.0" />
-        <observation name="true" value="13.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="35.0" />
-        <observation name="false" value="54.0" />
-        <observation name="true" value="21.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="105.0" />
-        <observation name="false" value="134.0" />
-        <observation name="true" value="51.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="125.0" />
-        <observation name="false" value="118.0" />
-        <observation name="true" value="58.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="38.0" />
         <observation name="false" value="35.0" />
@@ -641,21 +570,28 @@
         <observation name="false" value="41.0" />
         <observation name="true" value="36.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="81.0" />
+        <observation name="false" value="138.0" />
+        <observation name="true" value="50.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="false" value="52.0" />
+        <observation name="true" value="34.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="47.0" />
+        <observation name="false" value="53.0" />
+        <observation name="true" value="22.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="60.0" />
+        <observation name="false" value="92.0" />
+        <observation name="true" value="43.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
-      <dailyData date="22-6-2018">
-        <observation name="false" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="false" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="false" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="false" value="300.0" />
-        <observation name="true" value="1.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="false" value="120.0" />
       </dailyData>
@@ -674,20 +610,20 @@
       <dailyData date="9-7-2018">
         <observation name="false" value="121.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="false" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="false" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="false" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="false" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="categorialFeature:accessible">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -705,21 +641,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:expectedType">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -737,21 +673,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:kind">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -769,21 +705,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:prox_groovyReferenceListWeigher">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -801,21 +737,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:prox_javaInheritance">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -833,21 +769,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:prox_referenceList">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -865,21 +801,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:recursion">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -898,28 +834,20 @@
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="completionFinishedType">
-      <dailyData date="22-6-2018">
-        <observation name="cancelled" value="11.0" />
-        <observation name="explicitSelect" value="22.0" />
-        <observation name="typedSelect" value="16.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="cancelled" value="283.0" />
-        <observation name="explicitSelect" value="86.0" />
-        <observation name="typedSelect" value="24.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="cancelled" value="741.0" />
-        <observation name="explicitSelect" value="211.0" />
-        <observation name="typedSelect" value="79.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="cancelled" value="530.0" />
-        <observation name="explicitSelect" value="240.0" />
-        <observation name="typedSelect" value="61.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="cancelled" value="216.0" />
         <observation name="explicitSelect" value="106.0" />
@@ -950,20 +878,28 @@
         <observation name="explicitSelect" value="109.0" />
         <observation name="typedSelect" value="12.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="cancelled" value="395.0" />
+        <observation name="explicitSelect" value="222.0" />
+        <observation name="typedSelect" value="47.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="cancelled" value="270.0" />
+        <observation name="explicitSelect" value="101.0" />
+        <observation name="typedSelect" value="20.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="cancelled" value="145.0" />
+        <observation name="explicitSelect" value="98.0" />
+        <observation name="typedSelect" value="24.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="cancelled" value="581.0" />
+        <observation name="explicitSelect" value="162.0" />
+        <observation name="typedSelect" value="33.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
-      <dailyData date="22-6-2018">
-        <observation name="BASIC" value="42.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="BASIC" value="164.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="BASIC" value="399.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="BASIC" value="421.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="BASIC" value="150.0" />
       </dailyData>
@@ -982,20 +918,20 @@
       <dailyData date="9-7-2018">
         <observation name="BASIC" value="165.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="BASIC" value="345.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="BASIC" value="178.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="BASIC" value="171.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="BASIC" value="251.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
-      <dailyData date="22-6-2018">
-        <observation name="count" value="49.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="count" value="393.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="count" value="1031.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="count" value="831.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="count" value="336.0" />
       </dailyData>
@@ -1014,38 +950,20 @@
       <dailyData date="9-7-2018">
         <observation name="count" value="318.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="count" value="664.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="count" value="391.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="count" value="267.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="count" value="776.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="75.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="219.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="519.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="47.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="507.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="239.0" />
@@ -1090,38 +1008,39 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="8.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="521.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="5.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="231.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="237.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="75.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="0.018265" />
-        <observation name="count" value="219.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.009332" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="519.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="47.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="507.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="239.0" />
@@ -1166,20 +1085,39 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.005221" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="8.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="521.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="5.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="231.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="237.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:mostUsed">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -1197,21 +1135,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -1230,36 +1168,20 @@
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:position">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="0.106667" />
-        <observation name="count" value="75.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.122356" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="0.173516" />
-        <observation name="count" value="219.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.201117" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="average" value="0.227979" />
-        <observation name="count" value="579.0" />
-        <observation name="max" value="9.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.475766" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="average" value="0.206323" />
-        <observation name="count" value="601.0" />
-        <observation name="max" value="8.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="1.072282" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="0.284519" />
         <observation name="count" value="239.0" />
@@ -1302,36 +1224,36 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.11223" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="average" value="0.27933" />
+        <observation name="count" value="537.0" />
+        <observation name="max" value="4.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.272813" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="average" value="0.248963" />
+        <observation name="count" value="241.0" />
+        <observation name="max" value="3.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.317682" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="average" value="0.238683" />
+        <observation name="count" value="243.0" />
+        <observation name="max" value="10.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="1.74293" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="0.210797" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="3.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.304756" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="-1104.026667" />
-        <observation name="count" value="75.0" />
-        <observation name="max" value="7.0" />
-        <observation name="min" value="-1144.0" />
-        <observation name="variance" value="17243.613704" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="-1082.086758" />
-        <observation name="count" value="219.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-1633.0" />
-        <observation name="variance" value="87392.017338" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="average" value="-1202.811744" />
-        <observation name="count" value="579.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-9334.0" />
-        <observation name="variance" value="476923.359336" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="average" value="-1118.427621" />
-        <observation name="count" value="601.0" />
-        <observation name="max" value="8.0" />
-        <observation name="min" value="-1983.0" />
-        <observation name="variance" value="67110.936437" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="-1154.757322" />
         <observation name="count" value="239.0" />
@@ -1374,36 +1296,36 @@
         <observation name="min" value="-1493.0" />
         <observation name="variance" value="51231.945449" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="average" value="-1120.258845" />
+        <observation name="count" value="537.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-3434.0" />
+        <observation name="variance" value="63775.615744" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="average" value="-1138.112033" />
+        <observation name="count" value="241.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1493.0" />
+        <observation name="variance" value="20538.192008" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="average" value="-1136.563786" />
+        <observation name="count" value="243.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1493.0" />
+        <observation name="variance" value="31549.432268" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="-1102.81491" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="18.0" />
+        <observation name="min" value="-1494.0" />
+        <observation name="variance" value="60908.106599" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="75.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="219.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="average" value="-3.620035" />
-        <observation name="count" value="579.0" />
-        <observation name="max" value="10.0" />
-        <observation name="min" value="-101.0" />
-        <observation name="variance" value="243.161575" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="average" value="-4.69218" />
-        <observation name="count" value="601.0" />
-        <observation name="max" value="50.0" />
-        <observation name="min" value="-101.0" />
-        <observation name="variance" value="581.684495" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="239.0" />
@@ -1446,20 +1368,36 @@
         <observation name="min" value="-101.0" />
         <observation name="variance" value="377.124709" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="average" value="-1.441341" />
+        <observation name="count" value="537.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="-101.0" />
+        <observation name="variance" value="183.686126" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="average" value="-2.240664" />
+        <observation name="count" value="241.0" />
+        <observation name="max" value="10.0" />
+        <observation name="min" value="-101.0" />
+        <observation name="variance" value="175.54997" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="average" value="-1.703704" />
+        <observation name="count" value="243.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-101.0" />
+        <observation name="variance" value="344.83924" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -1477,21 +1415,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -1510,40 +1448,20 @@
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="8.0" />
-        <observation name="average" value="1.152542" />
-        <observation name="count" value="59.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.725489" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="35.0" />
-        <observation name="average" value="1.597315" />
-        <observation name="count" value="149.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.473919" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="105.0" />
-        <observation name="average" value="1.631436" />
-        <observation name="count" value="369.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.582262" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="125.0" />
-        <observation name="average" value="1.498575" />
-        <observation name="count" value="351.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.643323" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="38.0" />
         <observation name="average" value="1.104294" />
@@ -1592,20 +1510,40 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.743437" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="81.0" />
+        <observation name="average" value="1.562667" />
+        <observation name="count" value="375.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.596406" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="35.0" />
+        <observation name="average" value="1.426901" />
+        <observation name="count" value="171.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.714735" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="47.0" />
+        <observation name="average" value="1.47651" />
+        <observation name="count" value="149.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.636496" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="60.0" />
+        <observation name="average" value="1.494424" />
+        <observation name="count" value="269.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.685232" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -1624,36 +1562,20 @@
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="75.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="219.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="579.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="601.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="239.0" />
@@ -1696,36 +1618,36 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="537.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="241.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="243.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:result_length">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="3.506667" />
-        <observation name="count" value="75.0" />
-        <observation name="max" value="7.0" />
-        <observation name="min" value="1.0" />
-        <observation name="variance" value="2.2781" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="5.589041" />
-        <observation name="count" value="219.0" />
-        <observation name="max" value="15.0" />
-        <observation name="min" value="2.0" />
-        <observation name="variance" value="9.053368" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="average" value="5.918826" />
-        <observation name="count" value="579.0" />
-        <observation name="max" value="29.0" />
-        <observation name="min" value="1.0" />
-        <observation name="variance" value="18.807803" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="average" value="5.896839" />
-        <observation name="count" value="601.0" />
-        <observation name="max" value="29.0" />
-        <observation name="min" value="1.0" />
-        <observation name="variance" value="16.353781" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="5.686192" />
         <observation name="count" value="239.0" />
@@ -1768,20 +1690,36 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="9.765968" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="average" value="5.636872" />
+        <observation name="count" value="537.0" />
+        <observation name="max" value="27.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="15.303586" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="average" value="5.746888" />
+        <observation name="count" value="241.0" />
+        <observation name="max" value="26.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="7.946356" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="average" value="7.016461" />
+        <observation name="count" value="243.0" />
+        <observation name="max" value="27.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="19.734125" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="5.028278" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="15.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="6.500643" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -1799,21 +1737,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -1831,21 +1769,21 @@
       </dailyData>
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -1864,36 +1802,20 @@
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="1.0" />
-        <observation name="count" value="75.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="1.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="1.0" />
-        <observation name="count" value="219.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="1.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="average" value="1.0" />
-        <observation name="count" value="579.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="1.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="average" value="1.0" />
-        <observation name="count" value="601.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="1.0" />
-        <observation name="variance" value="0.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="1.0" />
         <observation name="count" value="239.0" />
@@ -1936,20 +1858,36 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="537.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="241.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="243.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
-      <dailyData date="22-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="UNDEFINED" value="110.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="UNDEFINED" value="290.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="UNDEFINED" value="301.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="UNDEFINED" value="120.0" />
       </dailyData>
@@ -1968,36 +1906,20 @@
       <dailyData date="9-7-2018">
         <observation name="UNDEFINED" value="121.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="UNDEFINED" value="269.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="UNDEFINED" value="121.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="UNDEFINED" value="122.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="UNDEFINED" value="195.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="8458.173333" />
-        <observation name="count" value="75.0" />
-        <observation name="max" value="10000.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="8109939.544245" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="6383.552511" />
-        <observation name="count" value="219.0" />
-        <observation name="max" value="10000.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="18789796.97191" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="average" value="6712.253886" />
-        <observation name="count" value="579.0" />
-        <observation name="max" value="10000.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="19777943.951523" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="average" value="8012.519135" />
-        <observation name="count" value="601.0" />
-        <observation name="max" value="10000.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="15735428.841926" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="7728.100418" />
         <observation name="count" value="239.0" />
@@ -2040,33 +1962,36 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="6165734.740094" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="average" value="8251.962756" />
+        <observation name="count" value="537.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="12968376.966905" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="average" value="8636.788382" />
+        <observation name="count" value="241.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="9669975.36234" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="average" value="8657.057613" />
+        <observation name="count" value="243.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="9783824.955022" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="9144.473008" />
+        <observation name="count" value="389.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="6134387.990337" />
+      </dailyData>
     </factor>
     <factor id="itemPosition">
-      <dailyData date="22-6-2018">
-        <observation name="0" value="20.0" />
-        <observation name="2" value="2.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="0" value="72.0" />
-        <observation name="1" value="9.0" />
-        <observation name="2" value="5.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="0" value="171.0" />
-        <observation name="1" value="28.0" />
-        <observation name="2" value="9.0" />
-        <observation name="5" value="1.0" />
-        <observation name="6" value="1.0" />
-        <observation name="9" value="1.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="0" value="202.0" />
-        <observation name="1" value="27.0" />
-        <observation name="2" value="7.0" />
-        <observation name="3" value="1.0" />
-        <observation name="5" value="2.0" />
-        <observation name="8" value="1.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="0" value="85.0" />
         <observation name="1" value="12.0" />
@@ -2102,24 +2027,33 @@
         <observation name="1" value="16.0" />
         <observation name="2" value="1.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="0" value="162.0" />
+        <observation name="1" value="50.0" />
+        <observation name="2" value="6.0" />
+        <observation name="3" value="3.0" />
+        <observation name="4" value="1.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="0" value="78.0" />
+        <observation name="1" value="17.0" />
+        <observation name="2" value="5.0" />
+        <observation name="3" value="1.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="0" value="80.0" />
+        <observation name="1" value="15.0" />
+        <observation name="10" value="1.0" />
+        <observation name="2" value="2.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="0" value="133.0" />
+        <observation name="1" value="19.0" />
+        <observation name="2" value="8.0" />
+        <observation name="3" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
-      <dailyData date="22-6-2018">
-        <observation name="total" value="8.0" />
-        <observation name="withMnemonics" value="0.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="total" value="33.0" />
-        <observation name="withMnemonics" value="0.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="total" value="46.0" />
-        <observation name="withMnemonics" value="0.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="total" value="60.0" />
-        <observation name="withMnemonics" value="1.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="total" value="22.0" />
         <observation name="withMnemonics" value="2.0" />
@@ -2144,38 +2078,24 @@
         <observation name="total" value="28.0" />
         <observation name="withMnemonics" value="1.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="total" value="33.0" />
+        <observation name="withMnemonics" value="4.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="total" value="17.0" />
+        <observation name="withMnemonics" value="1.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="total" value="12.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="total" value="15.0" />
+        <observation name="withMnemonics" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="prefixLength">
-      <dailyData date="22-6-2018">
-        <observation name="1" value="14.0" />
-        <observation name="2" value="7.0" />
-        <observation name="3" value="1.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="0" value="8.0" />
-        <observation name="1" value="45.0" />
-        <observation name="2" value="26.0" />
-        <observation name="3" value="4.0" />
-        <observation name="5" value="1.0" />
-        <observation name="6" value="2.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="0" value="16.0" />
-        <observation name="1" value="149.0" />
-        <observation name="2" value="36.0" />
-        <observation name="3" value="4.0" />
-        <observation name="4" value="4.0" />
-        <observation name="6" value="1.0" />
-        <observation name="8" value="1.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="0" value="10.0" />
-        <observation name="1" value="170.0" />
-        <observation name="2" value="37.0" />
-        <observation name="3" value="16.0" />
-        <observation name="4" value="5.0" />
-        <observation name="5" value="2.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="1" value="84.0" />
         <observation name="2" value="15.0" />
@@ -2217,24 +2137,38 @@
         <observation name="2" value="19.0" />
         <observation name="3" value="9.0" />
       </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="0" value="9.0" />
+        <observation name="1" value="180.0" />
+        <observation name="2" value="23.0" />
+        <observation name="3" value="3.0" />
+        <observation name="4" value="4.0" />
+        <observation name="5" value="2.0" />
+        <observation name="6" value="1.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="0" value="1.0" />
+        <observation name="1" value="83.0" />
+        <observation name="2" value="13.0" />
+        <observation name="3" value="3.0" />
+        <observation name="5" value="1.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="0" value="2.0" />
+        <observation name="1" value="84.0" />
+        <observation name="2" value="8.0" />
+        <observation name="3" value="1.0" />
+        <observation name="5" value="2.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="0" value="6.0" />
+        <observation name="1" value="141.0" />
+        <observation name="2" value="13.0" />
+        <observation name="3" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
-      <dailyData date="22-6-2018">
-        <observation name="average" value="301.681818" />
-        <observation name="count" value="22.0" />
-      </dailyData>
-      <dailyData date="25-6-2018">
-        <observation name="average" value="454.5625" />
-        <observation name="count" value="96.0" />
-      </dailyData>
-      <dailyData date="26-6-2018">
-        <observation name="average" value="745.205714" />
-        <observation name="count" value="175.0" />
-      </dailyData>
-      <dailyData date="27-6-2018">
-        <observation name="average" value="616.516129" />
-        <observation name="count" value="186.0" />
-      </dailyData>
       <dailyData date="28-6-2018">
         <observation name="average" value="942.644068" />
         <observation name="count" value="59.0" />
@@ -2258,6 +2192,22 @@
       <dailyData date="9-7-2018">
         <observation name="average" value="335.775862" />
         <observation name="count" value="58.0" />
+      </dailyData>
+      <dailyData date="10-7-2018">
+        <observation name="average" value="383.395604" />
+        <observation name="count" value="91.0" />
+      </dailyData>
+      <dailyData date="11-7-2018">
+        <observation name="average" value="525.596491" />
+        <observation name="count" value="57.0" />
+      </dailyData>
+      <dailyData date="12-7-2018">
+        <observation name="average" value="328.925" />
+        <observation name="count" value="40.0" />
+      </dailyData>
+      <dailyData date="13-7-2018">
+        <observation name="average" value="484.741176" />
+        <observation name="count" value="85.0" />
       </dailyData>
     </factor>
   </component>
@@ -2294,6 +2244,17 @@
               <item name="ihome" type="b2602c69:ProjectViewProjectNode" />
               <item name="ihome" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ihome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ihome" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ihome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ihome" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="yuntongxun" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ihome" type="b2602c69:ProjectViewProjectNode" />
@@ -2633,14 +2594,15 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30782312" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.49140048" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32312927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.49140048" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2651,32 +2613,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30782312" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -2696,206 +2634,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/ihome/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/gevent/monkey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15067">
-          <caret line="906" column="4" lean-forward="false" selection-start-line="906" selection-start-column="4" selection-end-line="906" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/gevent/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/gevent/greenlet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15751">
-          <caret line="856" column="7" lean-forward="false" selection-start-line="856" selection-start-column="7" selection-end-line="856" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/yuntongxun/SDK/CCP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/celery/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/celery/contrib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/captcha/captcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/image_storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/ihome/orders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="570" column="24" lean-forward="false" selection-start-line="570" selection-start-column="17" selection-end-line="570" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="89" column="16" lean-forward="false" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.qiniu_pythonsdk_hostscache.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="109" lean-forward="false" selection-start-line="0" selection-start-column="109" selection-end-line="0" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaaa.py" />
-    <entry file="file://$PROJECT_DIR$/static/js/ihome/my.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/ihome/myhouse.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="145" column="8" lean-forward="false" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/ihome/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/yuntongxun/SDK/CCPRestSDK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="78" column="8" lean-forward="false" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/auth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="36" column="85" lean-forward="true" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#152#546#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/Profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/701051524/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="5005" column="53" lean-forward="true" selection-start-line="5005" selection-start-column="53" selection-end-line="5005" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/ihome/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/tornado/httputil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="306" column="32" lean-forward="false" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python35/Lib/site-packages/tornado/routing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3895">
-          <caret line="214" column="29" lean-forward="false" selection-start-line="214" selection-start-column="28" selection-end-line="214" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files/Python35/Lib/site-packages/tornado/httpclient.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8512">
@@ -2907,14 +2650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2432">
           <caret line="139" column="8" lean-forward="false" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/BaseHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -2939,14 +2674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files/Python35/Lib/site-packages/redis/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -2955,93 +2682,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/my.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/response_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/myhouse.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/ihome/myhouse.js">
+    <entry file="file://$PROJECT_DIR$/static/css/ihome/newhouse.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/newhouse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/ihome/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="128" column="42" lean-forward="false" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/ihome/newhouse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/House.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="e#66#80#0" expanded="true" />
-            <element signature="e#294#1282#0" expanded="false" />
-            <element signature="e#1324#2569#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="88" column="1" lean-forward="false" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -3053,52 +2704,381 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log">
+    <entry file="file://$PROJECT_DIR$/db_create.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3840">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="97">
+          <caret line="90" column="27" lean-forward="false" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/Passport.py">
+    <entry file="file://D:/Program Files/Python35/Lib/site-packages/qiniu/services/storage/uploader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="2863">
+          <caret line="168" column="22" lean-forward="false" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ihome/myhouse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/ihome/detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="142" column="32" lean-forward="false" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/swiper/js/swiper.jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3762" column="4" lean-forward="false" selection-start-line="3762" selection-start-column="4" selection-end-line="3762" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/newhouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="269" column="45" lean-forward="true" selection-start-line="269" selection-start-column="45" selection-end-line="269" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ihome/newhouse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="94" lean-forward="false" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
           <folding>
-            <element signature="e#431#3069#0" expanded="false" />
-            <element signature="e#431#451#1" expanded="false" />
-            <element signature="e#4742#5127#0" expanded="false" />
-            <marker date="1531125044423" expanded="true" signature="1777:1825" ph="select * fro... ih_user_profile" />
-            <marker date="1531125044423" expanded="true" signature="2376:2455" ph="insert into ih_user_profile... " />
-            <marker date="1531125044423" expanded="true" signature="3774:3849" ph="select up_us... ih_user_profile" />
+            <element signature="e#737#2094#0" expanded="false" />
+            <element signature="e#2141#2785#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/VerifyCode.py">
+    <entry file="file://$PROJECT_DIR$/handlers/Profile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="108">
+          <caret line="79" column="26" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python35/Lib/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python35/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="157" column="77" lean-forward="false" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ihome/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/701051524/math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="78" column="4" lean-forward="false" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="60" lean-forward="false" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ihome/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/booking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ihome/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="97" column="52" lean-forward="false" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ihome/booking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="70" column="27" lean-forward="false" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/BaseHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#1296#1397#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/House.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="278" column="65" lean-forward="false" selection-start-line="278" selection-start-column="65" selection-end-line="278" selection-end-column="65" />
+          <folding>
+            <element signature="e#66#80#0" expanded="false" />
+            <element signature="e#346#1227#0" expanded="false" />
+            <element signature="e#1269#2495#0" expanded="false" />
+            <element signature="e#1355#2495#0" expanded="false" />
+            <element signature="e#6172#9680#0" expanded="false" />
+            <marker date="1531377788278" expanded="true" signature="4344:4608" ph="insert into ih_house_info... " />
+            <marker date="1531377788278" expanded="true" signature="5183:5255" ph="insert into ih_house_facility... " />
+            <marker date="1531377788278" expanded="true" signature="5692:5738" ph="delete from ih_house_info... " />
+            <marker date="1531377788278" expanded="true" signature="12537:12984" ph="select disti... ih_house_info" />
+            <marker date="1531377788278" expanded="true" signature="13014:13207" ph="select count... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ihome/orders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="49" column="65" lean-forward="true" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/lorders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ihome/lorders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-851">
+          <caret line="302" column="23" lean-forward="false" selection-start-line="302" selection-start-column="23" selection-end-line="302" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/Orders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="154" column="12" lean-forward="false" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
           <folding>
-            <element signature="e#67#85#0" expanded="true" />
+            <element signature="e#100#114#0" expanded="true" />
+            <marker date="1531478372378" expanded="true" signature="844:910" ph="select hi_pr... ih_house_info" />
+            <marker date="1531478372378" expanded="true" signature="1782:1949" ph="select count... ih_order_info" />
+            <marker date="1531478372378" expanded="true" signature="2471:2701" ph="insert into ih_order_info... " />
+            <marker date="1531478372378" expanded="true" signature="2918:2995" ph="update ih_house_info... " />
+            <marker date="1531478372378" expanded="true" signature="3578:3922" ph="select oi_or... ih_order_info" />
+            <marker date="1531478372378" expanded="true" signature="3957:4313" ph="select oi_or... ih_order_info" />
+            <marker date="1531478372378" expanded="true" signature="5602:5804" ph="update ih_order_info... " />
+            <marker date="1531478372378" expanded="true" signature="5721:5787" ph="select hi_ho... ih_house_info" />
+            <marker date="1531478372378" expanded="true" signature="6822:7084" ph="update ih_order_info... " />
+            <marker date="1531478372378" expanded="true" signature="6970:7067" ph="select hi_ho... ih_house_info" />
+            <marker date="1531478372378" expanded="true" signature="7953:8105" ph="update ih_order_info... " />
+            <marker date="1531478372378" expanded="true" signature="8454:8512" ph="select oi_ho... ih_order_info" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/yuntongxun/SDK/CCPRestSDK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1074">
+          <caret line="238" column="8" lean-forward="false" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/yuntongxun/SDK/CCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="269">
+          <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/response_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/image_storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ihome/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/Passport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="86" column="66" lean-forward="false" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="66" />
+          <folding>
+            <marker date="1531474711208" expanded="true" signature="764:959" ph="select hi_ho... ih_house_info" />
+            <marker date="1531474711208" expanded="true" signature="2349:2411" ph="select ai_ar... ih_area_info" />
+            <marker date="1531474711208" expanded="true" signature="4581:4629" ph="select * fro... ih_user_profile" />
+            <marker date="1531474711208" expanded="true" signature="5180:5259" ph="insert into ih_user_profile... " />
+            <marker date="1531474711208" expanded="true" signature="6605:6680" ph="select up_us... ih_user_profile" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/VerifyCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#306#1086#0" expanded="false" />
+            <element signature="e#1127#3047#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API文档">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-562">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#45#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -66,7 +66,7 @@ $(document).ready(function(){
             $(".top-bar>.register-login").show();
         }
     }, "json");
-    $.get("/api/house/index", function(data){
+    $.get("/api/index", function(data){
         if ("0" == data.errcode) {
             $(".swiper-wrapper").html(template("swiper-houses-tmpl", {houses:data.houses}));
             $(".area-list").html(template("area-list-tmpl", {areas:data.areas}));

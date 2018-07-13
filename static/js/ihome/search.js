@@ -24,7 +24,7 @@ function updateFilterDateDisplay() {
     }
 }
 
-function updateHouseData(action="append") {
+function updateHouseData(action) {
     var areaId = $(".filter-area>li.active").attr("area-id");
     if (undefined == areaId) areaId = "";
     var startDate = $("#start-date").val();
@@ -37,7 +37,7 @@ function updateHouseData(action="append") {
         sk:sortKey,
         p:next_page
     };
-    $.get("/api/house/list2", params, function(data){
+    $.get("/api/house/list", params, function(data){
         house_data_querying = false;
         if ("0" == data.errcode) {
             if (0 == data.total_page) {
@@ -81,7 +81,7 @@ $(document).ready(function(){
                 }
             } else {
                 for (var i=0; i<data.data.length; i++) {
-                    $(".filter-area").append('<li area-id="'+ data.data[i].area_id+'">'+ data.data[i].name+'</li>');
+                    $(".filter-area").append('<li area-id="'+ data.data[i].ai_area_id+'">'+ data.data[i].ai_name+'</li>');
                 }
             }
             updateHouseData("renew");
@@ -95,7 +95,7 @@ $(document).ready(function(){
                         house_data_querying = true;
                         if(cur_page < total_page) {
                             next_page = cur_page + 1;
-                            updateHouseData();
+                            updateHouseData("append");
                         }
                     }
                 }

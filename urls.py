@@ -4,22 +4,30 @@
 import os
 
 from config import *
-from handlers import Passport, VerifyCode, Profile, House
+from handlers import Passport, VerifyCode, Profile, House, Orders
 from handlers.BaseHandler import StaticFileHandler
 
 handlers=[
-        (r"/index", Passport.IndexHandler), #主页
-        (r"/api/register", Passport.RegisterHandler), #注册
-        (r"/api/login", Passport.LoginHandler), #登录
-        (r"/api/logout", Passport.LogoutHandler), #登录
-        (r"/api/check_login", Passport.CheckLoginHandler), #判断登录状态
-        (r"/api/profile", Profile.ProfileHandler), #个人信息
-        (r"/api/profile/avatar", Profile.AvatarHandler), #上传头像
-        (r"/api/profile/name", Profile.NameHandler), #修改用户名
-        (r"/api/profile/auth", Profile.AuthHandler), #修改用户名
-        (r"/api/house/area", House.AreaInfoHandler), # 城区信息
-        (r"/api/house/my", House.MyHousesHandler), # 城区信息
-        (r"/api/imagecode", VerifyCode.ImageCodeHandler), #随机图片验证码
-        (r"/api/smscode", VerifyCode.SMSCodeHandler), #手机验证码
+        (r"/api/index", Passport.IndexHandler),
+        (r"/api/register", Passport.RegisterHandler),
+        (r"/api/login", Passport.LoginHandler),
+        (r"/api/logout", Passport.LogoutHandler),
+        (r"/api/check_login", Passport.CheckLoginHandler),
+        (r"/api/profile", Profile.ProfileHandler),
+        (r"/api/profile/avatar", Profile.AvatarHandler),
+        (r"/api/profile/name", Profile.NameHandler),
+        (r"/api/profile/auth", Profile.AuthHandler),
+        (r"/api/house/area", House.AreaInfoHandler),
+        (r"/api/house/my", House.MyHousesHandler),
+        (r"/api/house/info", House.HouseInfoHandler),
+        (r"/api/house/image", House.HouseImageHandler),
+        (r"/api/house/list", House.HouseListHandler),
+        (r"/api/order", Orders.OrderHandler),
+        (r"/api/order/my", Orders.MyOrdersHanlder),
+        (r"/api/order/accept", Orders.AcceptOrderHanlder),
+        (r"/api/order/comment", Orders.OrderCommentHandler),
+        (r"/api/order/reject", Orders.RejectOrderHandler),
+        (r"/api/imagecode", VerifyCode.ImageCodeHandler),
+        (r"/api/smscode", VerifyCode.SMSCodeHandler),
         (r"/(.*)",StaticFileHandler, dict(path = os.path.join(BASEPATH,"html"),default_filename = "index.html"))
     ]

@@ -1,0 +1,32 @@
+1.项目说明：
+    1.1 项目名字： ihome（短租网站）
+    1.2 项目描述：
+           本项目提供基本的租住房功能：用户管理、房源管理、订单、评价、接单／拒单、房源筛选等等
+    1.3 项目所用技术：
+            本项目采用torando + mysql + redis + 七牛 + artTemplate.js等开源库
+            tornado作为用户产品后台服务器核心框架
+            redis 保存session数据、短时间房源信息、地域信息等，保存页面缓存数据，提高服务器响应速度
+            采用前后端完全分离架构，用json数据传输，使后端接口可以复用
+            *使用template.js 渲染前端页面
+            使用七牛存储网页的图片资源
+            云通讯发送短信
+2.使用说明：
+    2.1云通讯短信验证码
+        libs/yuntongxun/SDK/CPP.py下面的这3个id值改为自己的
+            _accountSid = '8a216da863f8e6c2016434703a231f2b'
+            _accountToken = 'a69cbc83987c461897871620ed975246'
+            _appId = '8a216da863f8e6c2016434703a811f32'
+    2.2七牛存储：
+        安装七牛：apt-get install qiniu
+        config.py中iamage_base_url改为自己的七牛url
+        utlis/image_storage中这2个id改为自己的
+            access_key = 's-5_NpYiAMNzVgNYWZ7byUsyG100Ss4mL1M3-hLN'
+            secret_key = 'gppG6C31qPFmmOnVtQQw9rPGeLMt2dFUXTTNMZmw'
+3.API接口
+    见API文档
+
+4.数据库建表语句
+    见db_create.sql
+
+
+
